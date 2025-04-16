@@ -1,13 +1,13 @@
 import os
-import request
+import requests
 
 # Where to save the files
 download_dir = "power_data_bulk"
 os.makedirs(download_dir, exist_ok=True)
 
 # Define files by category
-datasets = {
-    "EIA_Form_861": [
+datasets = { 
+ "EIA_Form_861": [
         "https://www.eia.gov/electricity/data/eia861/zip/f8612023.zip",
         "https://www.eia.gov/electricity/data/eia861/archive/zip/f8612022.zip",
         "https://www.eia.gov/electricity/data/eia861/archive/zip/f8612021.zip",
@@ -227,7 +227,42 @@ datasets = {
         "https://www.epa.gov/system/files/other-files/2024-10/l_o_freq_request_data.xlsx",
         "https://www.epa.gov/system/files/other-files/2024-10/e_s_cems_bb_cc_ll_full_data_set.xlsx",
         "https://www.epa.gov/system/files/other-files/2024-10/i_freq_request_data.xlsx"
-    ]
+    ],
+    "EPA_NEEDS": [
+        "https://www.epa.gov/system/files/documents/2024-08/needs-rev-06-06-2024.xlsx"
+    ],
+    # EIA Form 860 for the last 10 years
+    "EIA_Form_860": [
+        f"https://www.eia.gov/electricity/data/eia860/zip/eia860{year}.zip"
+        for year in range(2015, 2025)
+    ],
+    "EIA_Form_923": [
+        f"https://www.eia.gov/electricity/data/eia923/zip/eia923{year}.zip"
+        for year in range(2015, 2025)
+    ],
+    "EPA_eGRID": [
+        "https://www.epa.gov/system/files/documents/2025-01/egrid2023_data_rev1.xlsx",
+        "https://www.epa.gov/system/files/documents/2024-01/egrid2022_data.xlsx",
+        "https://www.epa.gov/system/files/documents/2023-01/eGRID2021_data.xlsx",
+        "https://www.epa.gov/system/files/documents/2022-09/eGRID2020_Data_v2.xlsx",
+        "https://www.epa.gov/sites/default/files/2021-02/egrid2019_data.xlsx",
+        "https://www.epa.gov/sites/default/files/2020-03/egrid2018_data_v2.xlsx",
+        "https://www.epa.gov/system/files/other-files/2023-01/egrid_historical_files_1996-2016.zip",
+    ],
+    "EPA_AVERT_Emission_Rates": [
+        "https://www.epa.gov/system/files/documents/2024-04/avert_emission_rates_04-11-24_0.xlsx",
+        "https://www.epa.gov/system/files/other-files/2021-09/avert_emission_rates_05-30-19.xlsx"
+    ],
+    "EIA_CO2_State_Data": [
+    "https://www.eia.gov/environment/emissions/state/excel/table1.xlsx",  # Total emissions by year and state
+    "https://www.eia.gov/environment/emissions/state/excel/table2.xlsx",  # By fuel type
+    "https://www.eia.gov/environment/emissions/state/excel/table3.xlsx",  # By sector
+    "https://www.eia.gov/environment/emissions/state/excel/table4.xlsx",  # Electric power sector
+    "https://www.eia.gov/environment/emissions/state/excel/table5.xlsx",  # Commercial sector
+    "https://www.eia.gov/environment/emissions/state/excel/table6.xlsx",  # Industrial sector
+    "https://www.eia.gov/environment/emissions/state/excel/table7.xlsx",  # Residential sector
+    "https://www.eia.gov/environment/emissions/state/excel/table8.xlsx"   # Transportation sector
+]
 }
 
 # Download files
@@ -235,6 +270,7 @@ for category, urls in datasets.items():
     print(f"\nDownloading: {category}")
     category_dir = os.path.join(download_dir, category)
     os.makedirs(category_dir, exist_ok=True)
+    
     for url in urls:
         filename = os.path.join(category_dir, os.path.basename(url))
         try:
