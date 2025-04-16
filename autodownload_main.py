@@ -1,5 +1,5 @@
 import os
-import requests
+import request
 
 # Where to save the files
 download_dir = "power_data_bulk"
