@@ -262,7 +262,13 @@ datasets = {
     "https://www.eia.gov/environment/emissions/state/excel/table6.xlsx",  # Industrial sector
     "https://www.eia.gov/environment/emissions/state/excel/table7.xlsx",  # Residential sector
     "https://www.eia.gov/environment/emissions/state/excel/table8.xlsx"   # Transportation sector
-]
+],
+ "Global_Power_Plant_DB": [
+    "https://datasets.wri.org/private-admin/dataset/53623dfd-3df6-4f15-a091-67457cdb571f/resource/66bcdacc-3d0e-46ad-9271-a5a76b1853d2/download/globalpowerplantdatabasev130.zip"
+    ],
+    "LBL_Utility_Scale_Solar": [
+    "https://emp.lbl.gov/sites/default/files/2024-10/Utility-Scale%20Solar%202024%20Edition%20Data%20File.xlsx"
+ ]
 }
 
 # Download files
