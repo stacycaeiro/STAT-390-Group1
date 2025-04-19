@@ -7,7 +7,7 @@ os.makedirs(download_dir, exist_ok=True)
 
 # Define files by category
 datasets = { 
- "EIA_Form_861": [
+    "EIA_Form_861": [
         "https://www.eia.gov/electricity/data/eia861/zip/f8612023.zip",
         "https://www.eia.gov/electricity/data/eia861/archive/zip/f8612022.zip",
         "https://www.eia.gov/electricity/data/eia861/archive/zip/f8612021.zip",
@@ -204,8 +204,7 @@ datasets = {
         "https://www.ferc.gov/sites/default/files/2020-09/1993-SPP1.zip",
         "https://www.ferc.gov/sites/default/files/2020-09/1993-SPP2.zip",
         "https://www.ferc.gov/sites/default/files/2020-09/1993-NPCC.zip",
-        "https://www.ferc.gov/sites/default/files/2020-09/1993-WSCC1.zip",
-        
+        "https://www.ferc.gov/sites/default/files/2020-09/1993-WSCC1.zip"
     ],
     "EIA_SEDS": [
         "https://www.eia.gov/state/seds/sep_use/total/csv/use_US.csv",
@@ -254,27 +253,38 @@ datasets = {
         "https://www.epa.gov/system/files/other-files/2021-09/avert_emission_rates_05-30-19.xlsx"
     ],
     "EIA_CO2_State_Data": [
-    "https://www.eia.gov/environment/emissions/state/excel/table1.xlsx",  # Total emissions by year and state
-    "https://www.eia.gov/environment/emissions/state/excel/table2.xlsx",  # By fuel type
-    "https://www.eia.gov/environment/emissions/state/excel/table3.xlsx",  # By sector
-    "https://www.eia.gov/environment/emissions/state/excel/table4.xlsx",  # Electric power sector
-    "https://www.eia.gov/environment/emissions/state/excel/table5.xlsx",  # Commercial sector
-    "https://www.eia.gov/environment/emissions/state/excel/table6.xlsx",  # Industrial sector
-    "https://www.eia.gov/environment/emissions/state/excel/table7.xlsx",  # Residential sector
-    "https://www.eia.gov/environment/emissions/state/excel/table8.xlsx"   # Transportation sector
-],
- "Global_Power_Plant_DB": [
-    "https://datasets.wri.org/private-admin/dataset/53623dfd-3df6-4f15-a091-67457cdb571f/resource/66bcdacc-3d0e-46ad-9271-a5a76b1853d2/download/globalpowerplantdatabasev130.zip"
+        "https://www.eia.gov/environment/emissions/state/excel/table1.xlsx",  # Total emissions by year and state
+        "https://www.eia.gov/environment/emissions/state/excel/table2.xlsx",  # By fuel type
+        "https://www.eia.gov/environment/emissions/state/excel/table3.xlsx",  # By sector
+        "https://www.eia.gov/environment/emissions/state/excel/table4.xlsx",  # Electric power sector
+        "https://www.eia.gov/environment/emissions/state/excel/table5.xlsx",  # Commercial sector
+        "https://www.eia.gov/environment/emissions/state/excel/table6.xlsx",  # Industrial sector
+        "https://www.eia.gov/environment/emissions/state/excel/table7.xlsx",  # Residential sector
+        "https://www.eia.gov/environment/emissions/state/excel/table8.xlsx"   # Transportation sector
+    ],
+    "Global_Power_Plant_DB": [
+        "https://datasets.wri.org/private-admin/dataset/53623dfd-3df6-4f15-a091-67457cdb571f/resource/66bcdacc-3d0e-46ad-9271-a5a76b1853d2/download/globalpowerplantdatabasev130.zip"
     ],
     "LBL_Utility_Scale_Solar": [
-    "https://emp.lbl.gov/sites/default/files/2024-10/Utility-Scale%20Solar%202024%20Edition%20Data%20File.xlsx"
- ],
- "EPA_EIA_Crosswalk": [
-    "https://github.com/USEPA/camd-eia-crosswalk/releases/download/v0.3/epa_eia_crosswalk.csv"
-],
-"RMI_Utility_Transition_Hub": [
-    "https://utilitytransitionhub.rmi.org/static/data_download/data_download_all.zip"
-]
+        "https://emp.lbl.gov/sites/default/files/2024-10/Utility-Scale%20Solar%202024%20Edition%20Data%20File.xlsx"
+    ],
+     "EPA_EIA_Crosswalk": [
+        "https://github.com/USEPA/camd-eia-crosswalk/releases/download/v0.3/epa_eia_crosswalk.csv"
+    ],
+    "RMI_Utility_Transition_Hub": [
+        "https://utilitytransitionhub.rmi.org/static/data_download/data_download_all.zip"
+    ],
+    "EIA_Hourly_Electric_Grid":[
+        "https://www.eia.gov/opendata/browser/electricity/rto/region-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
+        "https://www.eia.gov/opendata/browser/electricity/rto/fuel-type-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
+        "https://www.eia.gov/opendata/browser/electricity/rto/region-sub-ba-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
+        "https://www.eia.gov/opendata/browser/electricity/rto/interchange-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
+        "https://www.eia.gov/opendata/browser/electricity/rto/daily-region-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
+        "https://www.eia.gov/opendata/browser/electricity/rto/daily-region-sub-ba-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
+        "https://www.eia.gov/opendata/browser/electricity/rto/daily-fuel-type-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
+        "https://www.eia.gov/opendata/browser/electricity/rto/daily-interchange-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
+        "https://www.eia.gov/opendata/bulk/EBA-pre2019.zip"
+    ]
 }
 
 # Download files
