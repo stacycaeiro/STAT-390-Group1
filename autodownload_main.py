@@ -268,7 +268,10 @@ datasets = {
     ],
     "LBL_Utility_Scale_Solar": [
     "https://emp.lbl.gov/sites/default/files/2024-10/Utility-Scale%20Solar%202024%20Edition%20Data%20File.xlsx"
- ]
+ ],
+ "EPA_EIA_Crosswalk": [
+    "https://github.com/USEPA/camd-eia-crosswalk/releases/download/v0.3/epa_eia_crosswalk.csv"
+]
 }
 
 # Download files
