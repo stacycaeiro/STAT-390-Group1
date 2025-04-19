@@ -290,6 +290,9 @@ datasets = {
     ],
     "IMF_data_all":[
         "https://www.arcgis.com/sharing/rest/content/items/74a9db2b716d46f2b25c2ec53c0ed1ce/data"
+    ],
+    "NERC_2024_ESD":[
+        "https://www.nerc.com/pa/RAPA/ESD/Documents/2024_ESD.xlsx"
     ]
 }
 
