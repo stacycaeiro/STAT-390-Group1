@@ -6,7 +6,6 @@ import json
 
 API_KEY = 'lwbBNDlSx1Oyq67BZ7kYd5M0J4RzitNJezCX4XIj'
 
-# Create folder to store CSVs
 output_dir = 'usurdb_data'
 os.makedirs(output_dir, exist_ok=True)
 
@@ -20,9 +19,6 @@ states = [
 
 base_url = 'https://api.openei.org/utility_rates'
 
-# Nested fields to flatten
-nested_fields = ['energyratestructure', 'energyweekdayschedule', 'energyweekendschedule', 'demandratestructure']
-
 for state in states:
     params = {
         'version': 'latest',
@@ -33,7 +29,7 @@ for state in states:
         'limit': 1000
     }
 
-    print(f"Fetching data for {state}...")
+    print(f"Fetching {state}...")
 
     try:
         response = requests.get(base_url, params=params)
@@ -41,23 +37,43 @@ for state in states:
         data = response.json()
 
         if 'items' in data and data['items']:
-            records = []
+            flat_rows = []
             for item in data['items']:
-                flat = item.copy()
-                for key in nested_fields:
-                    if key in flat:
-                        flat[key] = json.dumps(flat[key])  # Convert nested lists/dicts to string
-                records.append(flat)
+                base_info = {
+                    'utility_name': item.get('utility', ''),
+                    'rate_name': item.get('name', ''),
+                    'sector': item.get('sector', ''),
+                    'startdate': item.get('startdate', ''),
+                    'enddate': item.get('enddate', ''),
+                    'state': state,
+                    'eiaid': item.get('eiaid', ''),
+                    'rate_id': item.get('uri', '')
+                }
 
-            df = pd.DataFrame(records)
-            filename = os.path.join(output_dir, f'usurdb_{state}_rates.csv')
-            df.to_csv(filename, index=False)
-            print(f"Saved: {filename}")
+                # Flatten each tier in energyratestructure
+                ers = item.get('energyratestructure', [])
+                for rate_index, tier_group in enumerate(ers):
+                    for tier_index, tier in enumerate(tier_group):
+                        row = base_info.copy()
+                        row.update({
+                            'rate_index': rate_index,
+                            'tier_index': tier_index,
+                            'rate': tier.get('rate', None),
+                            'unit': tier.get('unit', None),
+                            'max': tier.get('max', None),
+                            'min': tier.get('min', None),
+                            'adjustment': tier.get('adjustment', None),
+                            'sell': tier.get('sell', None)
+                        })
+                        flat_rows.append(row)
 
+            df = pd.DataFrame(flat_rows)
+            df.to_csv(os.path.join(output_dir, f'usurdb_{state}_energyratestructure_flat.csv'), index=False)
+            print(f"Saved: usurdb_{state}_energyratestructure_flat.csv")
         else:
             print(f"No data for {state}.")
 
     except Exception as e:
-        print(f"Error fetching data for {state}: {e}")
+        print(f"Error in {state}: {e}")
 
     time.sleep(1)
