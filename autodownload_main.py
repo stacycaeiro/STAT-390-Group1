@@ -285,9 +285,6 @@ datasets = {
         "https://www.eia.gov/opendata/browser/electricity/rto/daily-interchange-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
         "https://www.eia.gov/opendata/bulk/EBA-pre2019.zip"
     ],
-    "UN_Energy_Statistics":[
-        "https://data.un.org/ws/rest/data/UNSD,DF_UNDATA_ENERGY,1.2/.840../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD&format=csv"
-    ],
     "IMF_data_all":[
         "https://www.arcgis.com/sharing/rest/content/items/74a9db2b716d46f2b25c2ec53c0ed1ce/data"
     ],
