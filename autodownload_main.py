@@ -275,14 +275,6 @@ datasets = {
         "https://utilitytransitionhub.rmi.org/static/data_download/data_download_all.zip"
     ],
     "EIA_Hourly_Electric_Grid":[
-        "https://www.eia.gov/opendata/browser/electricity/rto/region-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
-        "https://www.eia.gov/opendata/browser/electricity/rto/fuel-type-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
-        "https://www.eia.gov/opendata/browser/electricity/rto/region-sub-ba-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
-        "https://www.eia.gov/opendata/browser/electricity/rto/interchange-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
-        "https://www.eia.gov/opendata/browser/electricity/rto/daily-region-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
-        "https://www.eia.gov/opendata/browser/electricity/rto/daily-region-sub-ba-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
-        "https://www.eia.gov/opendata/browser/electricity/rto/daily-fuel-type-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
-        "https://www.eia.gov/opendata/browser/electricity/rto/daily-interchange-data?api_key=3zjKYxV86AqtJWSRoAECir1wQFscVu6lxXnRVKG8",
         "https://www.eia.gov/opendata/bulk/EBA-pre2019.zip"
     ],
     "IMF_data_all":[
