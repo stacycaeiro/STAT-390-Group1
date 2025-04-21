@@ -234,10 +234,7 @@ datasets = {
     "EIA_Form_860": [
         f"https://www.eia.gov/electricity/data/eia860/zip/eia860{year}.zip"
         for year in range(2015, 2025)
-    ],
-    "EIA_Form_923": [
-        f"https://www.eia.gov/electricity/data/eia923/zip/eia923{year}.zip"
-        for year in range(2015, 2025)
+    ]
     ],
     "EPA_eGRID": [
         "https://www.epa.gov/system/files/documents/2025-01/egrid2023_data_rev1.xlsx",
