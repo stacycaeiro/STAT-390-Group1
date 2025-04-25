@@ -1,5 +1,5 @@
 import pandas as pd
-from build_wide_dataframe_full import normalize_file
+from 2a_build_wide_dataframe_full import normalize_file
 from pathlib import Path
 import os
 
