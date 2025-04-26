@@ -2,11 +2,6 @@
 import os
 import pandas as pd
 
-# Set working directory if needed
-if not os.getcwd().endswith("STAT-390-Group1"):
-    os.chdir("STAT-390-Group1")
-print(f"📂 Working directory: {os.getcwd()}")
-
 # --- LOAD DATASETS ---
 print("\n📥 Loading datasets...")
 # ❗ FIX: load main dataset from power_data_bulk, not merged_output_chunks
@@ -46,10 +41,3 @@ output_path = os.path.join(output_dir, "merged_main_with_aeo.parquet")
 merged.to_parquet(output_path)
 print(f"\n💾 Saved final merged dataset to: {output_path}")
 
-# --- QUICK CHECKS ---
-print("\n📊 Quick checks on final merged dataframe:")
-print("- Columns:", merged.shape[1])
-print("- Rows:", merged.shape[0])
-print("- Sample columns:\n", merged.columns[:10].tolist())
-print("- Sample object_ids:", merged['object_id'].dropna().unique()[:5])
-print("- Sample years:", merged['year'].dropna().unique()[:5])
