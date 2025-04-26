@@ -1,21 +1,34 @@
 import os
 import requests
+import zipfile
+from io import BytesIO
 
-# Change this to your desired save directory
-SAVE_DIR = "eia_923_data"
-os.makedirs(SAVE_DIR, exist_ok=True)
+# Base directory to save files
+base_dir = "eia_923_bulk_data"
+os.makedirs(base_dir, exist_ok=True)
 
-# Download from 2001 to latest available year
-BASE_URL = "https://www.eia.gov/electricity/data/eia923/xls/f923_{year}.zip"
-YEARS = range(2001, 2024 + 1)  # update '2024' as new years are added
+# Years to download
+years = range(2008, 2026)
 
-for year in YEARS:
-    url = BASE_URL.format(year=year)
-    response = requests.get(url)
-    
-    if response.status_code == 200:
-        with open(os.path.join(SAVE_DIR, f"eia923_{year}.zip"), "wb") as f:
-            f.write(response.content)
-        print(f"Downloaded {year}")
-    else:
-        print(f"Data for {year} not found or not yet published.")
+for year in years:
+    print(f"📁 Downloading year: {year}")
+    try:
+        # Adjust URL based on year
+        if year == 2025:
+            url = f"https://www.eia.gov/electricity/data/eia923/xls/f923_{year}.zip"
+        else:
+            url = f"https://www.eia.gov/electricity/data/eia923/archive/xls/f923_{year}.zip"
+        
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+
+        # Save and unzip in memory
+        with zipfile.ZipFile(BytesIO(response.content)) as z:
+            year_folder = os.path.join(base_dir, str(year))
+            os.makedirs(year_folder, exist_ok=True)
+            z.extractall(year_folder)
+
+        print(f"✅ Success: {year}")
+
+    except Exception as e:
+        print(f"❌ Failed for {year}: {e}")
