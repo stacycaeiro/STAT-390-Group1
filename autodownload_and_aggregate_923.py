@@ -5,7 +5,7 @@ from io import BytesIO
 import pandas as pd
 
 # Base directory to save files
-base_dir = "eia_923_bulk_data"
+base_dir = "power_data_bulk/923"
 os.makedirs(base_dir, exist_ok=True)
 
 # Years to download (2001 to 2025)
