@@ -2,10 +2,15 @@
 import os
 import pandas as pd
 
+# Set working directory if needed
+if not os.getcwd().endswith("STAT-390-Group1"):
+    os.chdir("STAT-390-Group1")
+print(f"📂 Working directory: {os.getcwd()}")
 
 # --- LOAD DATASETS ---
 print("\n📥 Loading datasets...")
-df_main = pd.read_parquet("merged_output_chunks/merged_all_chunks.parquet")
+# ❗ FIX: load main dataset from power_data_bulk, not merged_output_chunks
+df_main = pd.read_parquet("all_data_raw_merged_with_chunk6.parquet")
 df_aeo = pd.read_parquet("melted_aeo_data_fixed/all_aeo_data_combined.parquet")
 print("✅ Datasets loaded.")
 print("- Main dataset shape:", df_main.shape)
@@ -34,6 +39,17 @@ print("✅ Merge completed.")
 print("- Final merged dataset shape:", merged.shape)
 
 # --- SAVE ---
-output_path = "merged_output_chunks/merged_main_with_aeo.parquet"
+output_dir = "merged_output_chunks"
+os.makedirs(output_dir, exist_ok=True)
+
+output_path = os.path.join(output_dir, "merged_main_with_aeo.parquet")
 merged.to_parquet(output_path)
 print(f"\n💾 Saved final merged dataset to: {output_path}")
+
+# --- QUICK CHECKS ---
+print("\n📊 Quick checks on final merged dataframe:")
+print("- Columns:", merged.shape[1])
+print("- Rows:", merged.shape[0])
+print("- Sample columns:\n", merged.columns[:10].tolist())
+print("- Sample object_ids:", merged['object_id'].dropna().unique()[:5])
+print("- Sample years:", merged['year'].dropna().unique()[:5])
