@@ -21,9 +21,9 @@ Order to run the files:
    - Merges the file created in script #6 with the big parquet file that script #5 created
    - Written by Emma
    - Most up to date file at this point is called `merged_main_with_aeo.parquet`\
-   - This should be accessible from a folder that's called merged_output_chunks
+      - This should be accessible from a folder that's called merged_output_chunks
 8. merge3_GHG_with_main.py
    - Merges the GHG ClimateWatch data with the file that script #7 created
    - Written by Emma
    - Most up to date file at this point is called `merged_main_with_aeo_and_ghg.parquet`
-   - This should be accessible from a folder that's called merged_output_chunks
+      - This should be accessible from a folder that's called merged_output_chunks
