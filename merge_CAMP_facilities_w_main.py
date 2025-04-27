@@ -11,7 +11,7 @@ def load_csv_file(filepath):
     try:
         df = pd.read_csv(filepath)
         if df is not None:
-            df['year'] = extract_year_from_filename(filepath)
+            df['Year'] = extract_year_from_filename(filepath)
             df['source_file'] = Path(filepath).name
         return df
     except Exception as e:
@@ -63,8 +63,8 @@ def merge_with_main(facility_df):
         facility_df[facility_id_col] = facility_df[facility_id_col].astype(str).str.strip()
         main_df['EPA_EIA_Crosswalk_epa_eia_crosswalk_EIA_PLANT_ID'] = main_df['EPA_EIA_Crosswalk_epa_eia_crosswalk_EIA_PLANT_ID'].astype(str).str.strip()
 
-        print(f"📊 Grouping facility data by [year, {facility_id_col}] and averaging numeric columns...")
-        facility_grouped = facility_df.groupby(['year', facility_id_col]).mean(numeric_only=True).reset_index()
+        print(f"📊 Grouping facility data by [Year, {facility_id_col}] and averaging numeric columns...")
+        facility_grouped = facility_df.groupby(['Year', facility_id_col]).mean(numeric_only=True).reset_index()
 
         print("🪄 Splitting main_df into chunks...")
         chunk_size = 50000
@@ -78,8 +78,8 @@ def merge_with_main(facility_df):
             merged_chunk = pd.merge(
                 chunk,
                 facility_grouped,
-                left_on=['year', 'EPA_EIA_Crosswalk_epa_eia_crosswalk_EIA_PLANT_ID'],
-                right_on=['year', facility_id_col],
+                left_on=['Year', 'EPA_EIA_Crosswalk_epa_eia_crosswalk_EIA_PLANT_ID'],
+                right_on=['Year', facility_id_col],
                 how='left'
             )
             merged_chunks.append(merged_chunk)
@@ -89,7 +89,7 @@ def merge_with_main(facility_df):
         print(f"✅ Final merged dataframe shape: {merged_df.shape}")
 
         # Calculate match statistics
-        matches = merged_df[facility_grouped.columns.difference(['year', facility_id_col])].notnull().any(axis=1).sum()
+        matches = merged_df[facility_grouped.columns.difference(['Year', facility_id_col])].notnull().any(axis=1).sum()
         total = merged_df.shape[0]
         print(f"🔎 Matches found: {matches}/{total} ({matches/total:.2%})")
 
