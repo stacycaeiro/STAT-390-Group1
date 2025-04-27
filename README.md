@@ -27,3 +27,7 @@ Order to run the files:
    - Written by Emma
    - Most up to date file at this point is called `merged_main_with_aeo_and_ghg.parquet`
       - This should be accessible from a folder that's called merged_output_chunks
+9. merge_eia923_w_main.py
+   - Merges the EIA 923 data with `merged_main_with_aeo_and_ghg.parquet`
+   - Written by Sam Sword
+   - Most up to date file at this point is called merged_main_with_aeo_and_ghg_with_923.parquet
