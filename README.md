@@ -2,7 +2,7 @@
 STAT 390 Final Project 
 
 Order to run the files:
-1. autdownload_*.py 
+1. autodownload_*.py 
    - Downloads all the data either into power_data_bulk folder or a separate folder
 2. build_wide_dataframe_full.py
    - Merges all the data in the power_data_bulk folder
