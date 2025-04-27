@@ -106,9 +106,8 @@ merged_reduced.columns = ['object_id', 'rate_name', 'sector', 'state', 'eiaid', 
        'year', 'energy_rate', 'demand_rate']
 
 
-final_combined = pd.merge(
+final_combined = pd.merge(main_big,
     merged_reduced,
-    main_big,
     how='left',  # or 'inner' if you only want matched years
     on=['year', 'object_id']
 )
