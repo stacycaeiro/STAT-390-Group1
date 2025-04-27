@@ -31,3 +31,11 @@ Order to run the files:
    - Merges the EIA 923 data with `merged_main_with_aeo_and_ghg.parquet`
    - Written by Sam Sword
    - Most up to date file at this point is called merged_main_with_aeo_and_ghg_with_923.parquet
+9. usurdb_merge_test.py
+    - Merges USURDB with merged_main_with_aeo_and_ghg_with_923.parquet
+    - Written by Isabel Knight
+    - Most up to date file at this point is: merged_main_data_with_usurdb.parquet
+10. merge_CAMP_facilities_w_main.py
+    - Merges CAMP facilities data with merged_main_data_with_usurdb.parquet
+    - Written by Sam Sword
+    - Most up to date file at this point is: merged_main_camp.parquet
