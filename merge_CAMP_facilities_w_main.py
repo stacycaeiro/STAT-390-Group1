@@ -4,10 +4,9 @@ from pathlib import Path
 
 # Paths
 FACILITY_DATA_ROOT = "facility_data_simple"
-MAIN_PARQUET = "merged_main_data_with_usurb.parquet"
+MAIN_PARQUET = "merged_main_data_with_usurdb.parquet"
 OUTPUT_PARQUET = "merged_main_camp.parquet"
 
-# Helper to load each CSV
 def load_csv_file(filepath):
     try:
         df = pd.read_csv(filepath)
@@ -19,15 +18,12 @@ def load_csv_file(filepath):
         print(f"❌ Failed to load {filepath}: {e}")
         return None
 
-# Helper to guess year from filename
 def extract_year_from_filename(filepath):
     filename = Path(filepath).stem
     for part in filename.split('_'):
         if part.isdigit() and len(part) == 4:
             return part
     return None
-
-# Step 1-3: Load all facility CSVs
 
 def load_all_facility_data():
     all_dfs = []
@@ -38,17 +34,13 @@ def load_all_facility_data():
                 df = load_csv_file(filepath)
                 if df is not None:
                     all_dfs.append(df)
-
     if not all_dfs:
         print("⚠️ No CSV files loaded!")
         return None
-
     print(f"✅ Loaded {len(all_dfs)} files")
     combined_df = pd.concat(all_dfs, ignore_index=True)
     print(f"✅ Combined facility data shape: {combined_df.shape}")
     return combined_df
-
-# Step 4-5: Merge with main parquet
 
 def merge_with_main(facility_df):
     print("📂 Loading main parquet...")
@@ -58,16 +50,21 @@ def merge_with_main(facility_df):
     print("\nFacility Columns:\n", facility_df.columns.tolist())
     print("\nMain Parquet Columns:\n", main_df.columns.tolist())
 
-    # Example join condition: Matching on ['year', 'Facility ID']
-    if 'Facility ID' in facility_df.columns and 'EPA_EIA_Crosswalk_epa_eia_crosswalk_EIA_PLANT_ID' in main_df.columns:
-        print("🔎 Found good facility ID columns in both datasets.")
+    # Auto-detect facility ID column
+    facility_id_col = None
+    for candidate in ['Facility ID', 'Facility Id']:
+        if candidate in facility_df.columns:
+            facility_id_col = candidate
+            break
 
-        # Fix types
-        facility_df['Facility ID'] = facility_df['Facility ID'].astype(str).str.strip()
+    if facility_id_col and 'EPA_EIA_Crosswalk_epa_eia_crosswalk_EIA_PLANT_ID' in main_df.columns:
+        print(f"🔎 Using facility ID column: {facility_id_col}")
+
+        facility_df[facility_id_col] = facility_df[facility_id_col].astype(str).str.strip()
         main_df['EPA_EIA_Crosswalk_epa_eia_crosswalk_EIA_PLANT_ID'] = main_df['EPA_EIA_Crosswalk_epa_eia_crosswalk_EIA_PLANT_ID'].astype(str).str.strip()
 
-        print("📊 Grouping facility data by [year, Facility ID] and averaging numeric columns...")
-        facility_grouped = facility_df.groupby(['year', 'Facility ID']).mean(numeric_only=True).reset_index()
+        print(f"📊 Grouping facility data by [year, {facility_id_col}] and averaging numeric columns...")
+        facility_grouped = facility_df.groupby(['year', facility_id_col]).mean(numeric_only=True).reset_index()
 
         print("🪄 Splitting main_df into chunks...")
         chunk_size = 50000
@@ -82,7 +79,7 @@ def merge_with_main(facility_df):
                 chunk,
                 facility_grouped,
                 left_on=['year', 'EPA_EIA_Crosswalk_epa_eia_crosswalk_EIA_PLANT_ID'],
-                right_on=['year', 'Facility ID'],
+                right_on=['year', facility_id_col],
                 how='left'
             )
             merged_chunks.append(merged_chunk)
@@ -91,10 +88,14 @@ def merge_with_main(facility_df):
         merged_df = pd.concat(merged_chunks, ignore_index=True)
         print(f"✅ Final merged dataframe shape: {merged_df.shape}")
 
+        # Calculate match statistics
+        matches = merged_df[facility_grouped.columns.difference(['year', facility_id_col])].notnull().any(axis=1).sum()
+        total = merged_df.shape[0]
+        print(f"🔎 Matches found: {matches}/{total} ({matches/total:.2%})")
+
         print(f"💾 Saving merged dataframe to {OUTPUT_PARQUET}...")
         merged_df.to_parquet(OUTPUT_PARQUET)
         print("✅ Done.")
-
     else:
         print("⚠️ Could not find matching facility ID columns in both datasets.")
 
