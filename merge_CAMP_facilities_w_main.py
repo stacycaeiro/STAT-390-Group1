@@ -4,8 +4,8 @@ from pathlib import Path
 
 # Paths
 FACILITY_DATA_ROOT = "facility_data_simple"
-MAIN_PARQUET = "merged_main_with_aeo_and_ghg_with_923.parquet"
-OUTPUT_PARQUET = "merged_main_with_aeo_and_ghg_with_923_and_camp.parquet"
+MAIN_PARQUET = "merged_main_data_with_usurb.parquet"
+OUTPUT_PARQUET = "merged_main_camp.parquet"
 
 # Helper to load each CSV
 def load_csv_file(filepath):
