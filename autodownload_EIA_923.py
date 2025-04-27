@@ -185,7 +185,7 @@ else:
 
 
 merged_df = pd.concat(merged_data, ignore_index=True)
-merged_df.to_csv(os.path.join(output_dir, "aggregate_eia923.csv"), index=False)
+merged_df.to_csv(os.path.join(base_dir, "aggregate_eia923.csv"), index=False)
 
 print("\n✅ Merged file saved: aggregate_eia923.csv")
 print(f"✅ Shape: {merged_df.shape[0]} rows × {merged_df.shape[1]} columns")
