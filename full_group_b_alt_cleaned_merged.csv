@@ -1,0 +1,4174 @@
+Year,Energy_Source,Net_Generation_MWh
+2013,Wind,167840.0
+2014,Wind,181655.0
+2015,Wind,190719.0
+2016,Wind,226993.0
+2017,Wind,254303.0
+2018,Wind,272667.0
+2019,Wind,295882.0
+2020,Wind,337938.0
+2021,Wind,378197.0
+2022,Wind,434297.0
+2023,Wind,421141.0
+2013,"Solar
+Photovoltaic",8121.0
+2014,"Solar
+Photovoltaic",15250.0
+2015,"Solar
+Photovoltaic",21666.0
+2016,"Solar
+Photovoltaic",32670.0
+2017,"Solar
+Photovoltaic",50018.0
+2018,"Solar
+Photovoltaic",60234.0
+2019,"Solar
+Photovoltaic",68719.0
+2020,"Solar
+Photovoltaic",86066.0
+2021,"Solar
+Photovoltaic",112335.0
+2022,"Solar
+Photovoltaic",140793.0
+2023,"Solar
+Photovoltaic",162683.0
+2013,"Solar
+Thermal",915.0
+2014,"Solar
+Thermal",2441.0
+2015,"Solar
+Thermal",3227.0
+2016,"Solar
+Thermal",3384.0
+2017,"Solar
+Thermal",3269.0
+2018,"Solar
+Thermal",3592.0
+2019,"Solar
+Thermal",3218.0
+2020,"Solar
+Thermal",3133.0
+2021,"Solar
+Thermal",2924.0
+2022,"Solar
+Thermal",2999.0
+2023,"Solar
+Thermal",2847.0
+2013,"Wood and
+Wood-Derived
+Fuels",40028.0
+2014,"Wood and
+Wood-Derived
+Fuels",42340.0
+2015,"Wood and
+Wood-Derived
+Fuels",41929.0
+2016,"Wood and
+Wood-Derived
+Fuels",40947.0
+2017,"Wood and
+Wood-Derived
+Fuels",41124.0
+2018,"Wood and
+Wood-Derived
+Fuels",40936.0
+2019,"Wood and
+Wood-Derived
+Fuels",38543.0
+2020,"Wood and
+Wood-Derived
+Fuels",36219.0
+2021,"Wood and
+Wood-Derived
+Fuels",36463.0
+2022,"Wood and
+Wood-Derived
+Fuels",35466.0
+2023,"Wood and
+Wood-Derived
+Fuels",31615.0
+2013,"Landfill
+Gas",10658.0
+2014,"Landfill
+Gas",11220.0
+2015,"Landfill
+Gas",11291.0
+2016,"Landfill
+Gas",11218.0
+2017,"Landfill
+Gas",11543.0
+2018,"Landfill
+Gas",11036.0
+2019,"Landfill
+Gas",10468.0
+2020,"Landfill
+Gas",10212.0
+2021,"Landfill
+Gas",9421.0
+2022,"Landfill
+Gas",8535.0
+2023,"Landfill
+Gas",7935.0
+2013,"Biogenic
+Municipal
+Solid Waste",7186.0
+2014,"Biogenic
+Municipal
+Solid Waste",7228.0
+2015,"Biogenic
+Municipal
+Solid Waste",7211.0
+2016,"Biogenic
+Municipal
+Solid Waste",7265.0
+2017,"Biogenic
+Municipal
+Solid Waste",6951.0
+2018,"Biogenic
+Municipal
+Solid Waste",7136.0
+2019,"Biogenic
+Municipal
+Solid Waste",6093.0
+2020,"Biogenic
+Municipal
+Solid Waste",6080.0
+2021,"Biogenic
+Municipal
+Solid Waste",6101.0
+2022,"Biogenic
+Municipal
+Solid Waste",5776.0
+2023,"Biogenic
+Municipal
+Solid Waste",5568.0
+2013,Other Waste Biomass,2986.0
+2014,Other Waste Biomass,3202.0
+2015,Other Waste Biomass,3201.0
+2016,Other Waste Biomass,3331.0
+2017,Other Waste Biomass,3115.0
+2018,Other Waste Biomass,2724.0
+2019,Other Waste Biomass,2402.0
+2020,Other Waste Biomass,2201.0
+2021,Other Waste Biomass,2267.0
+2022,Other Waste Biomass,2073.0
+2023,Other Waste Biomass,2082.0
+2013,Geothermal,15775.0
+2014,Geothermal,15877.0
+2015,Geothermal,15918.0
+2016,Geothermal,15826.0
+2017,Geothermal,15927.0
+2018,Geothermal,15967.0
+2019,Geothermal,15473.0
+2020,Geothermal,15890.0
+2021,Geothermal,15975.0
+2022,Geothermal,16087.0
+2023,Geothermal,16367.0
+2013,"Conventional
+Hydroelectric",268565.0
+2014,"Conventional
+Hydroelectric",259367.0
+2015,"Conventional
+Hydroelectric",249080.0
+2016,"Conventional
+Hydroelectric",267812.0
+2017,"Conventional
+Hydroelectric",300333.0
+2018,"Conventional
+Hydroelectric",292524.0
+2019,"Conventional
+Hydroelectric",287874.0
+2020,"Conventional
+Hydroelectric",285274.0
+2021,"Conventional
+Hydroelectric",251585.0
+2022,"Conventional
+Hydroelectric",254789.0
+2023,"Conventional
+Hydroelectric",245002.0
+2013,Total Renewable Generation at Utility Scale Facilities,522073.0
+2014,Total Renewable Generation at Utility Scale Facilities,538579.0
+2015,Total Renewable Generation at Utility Scale Facilities,544241.0
+2016,Total Renewable Generation at Utility Scale Facilities,609445.0
+2017,Total Renewable Generation at Utility Scale Facilities,686583.0
+2018,Total Renewable Generation at Utility Scale Facilities,706816.0
+2019,Total Renewable Generation at Utility Scale Facilities,728673.0
+2020,Total Renewable Generation at Utility Scale Facilities,783012.0
+2021,Total Renewable Generation at Utility Scale Facilities,815267.0
+2022,Total Renewable Generation at Utility Scale Facilities,900814.0
+2023,Total Renewable Generation at Utility Scale Facilities,895241.0
+2013,Estimated Solar Photovoltaic,
+2014,Estimated Solar Photovoltaic,11233.0
+2015,Estimated Solar Photovoltaic,14139.0
+2016,Estimated Solar Photovoltaic,18812.0
+2017,Estimated Solar Photovoltaic,23990.0
+2018,Estimated Solar Photovoltaic,29539.0
+2019,Estimated Solar Photovoltaic,34957.0
+2020,Estimated Solar Photovoltaic,41522.0
+2021,Estimated Solar Photovoltaic,49164.0
+2022,Estimated Solar Photovoltaic,61282.0
+2023,Estimated Solar Photovoltaic,73406.0
+2013,Estimated Total Solar Photovoltaic,
+2014,Estimated Total Solar Photovoltaic,26482.0
+2015,Estimated Total Solar Photovoltaic,35805.0
+2016,Estimated Total Solar Photovoltaic,51483.0
+2017,Estimated Total Solar Photovoltaic,74008.0
+2018,Estimated Total Solar Photovoltaic,89773.0
+2019,Estimated Total Solar Photovoltaic,103676.0
+2020,Estimated Total Solar Photovoltaic,127588.0
+2021,Estimated Total Solar Photovoltaic,161499.0
+2022,Estimated Total Solar Photovoltaic,202075.0
+2023,Estimated Total Solar Photovoltaic,236090.0
+2013,Estimated Total Solar,
+2014,Estimated Total Solar,28924.0
+2015,Estimated Total Solar,39032.0
+2016,Estimated Total Solar,54866.0
+2017,Estimated Total Solar,77277.0
+2018,Estimated Total Solar,93365.0
+2019,Estimated Total Solar,106894.0
+2020,Estimated Total Solar,130721.0
+2021,Estimated Total Solar,164422.0
+2022,Estimated Total Solar,205074.0
+2023,Estimated Total Solar,238937.0
+2013,Coal,1188452.0
+2014,Coal,1173073.0
+2015,Coal,998385.0
+2016,Coal,922399.0
+2017,Coal,893639.0
+2018,Coal,863505.0
+2019,Coal,722885.0
+2020,Coal,582374.0
+2021,Coal,674804.0
+2022,Coal,621853.0
+2023,Coal,518330.0
+2013,"Petroleum
+Liquids",9446.0
+2014,"Petroleum
+Liquids",10696.0
+2015,"Petroleum
+Liquids",10386.0
+2016,"Petroleum
+Liquids",9069.0
+2017,"Petroleum
+Liquids",8567.0
+2018,"Petroleum
+Liquids",10108.0
+2019,"Petroleum
+Liquids",8313.0
+2020,"Petroleum
+Liquids",7182.0
+2021,"Petroleum
+Liquids",8791.0
+2022,"Petroleum
+Liquids",9356.0
+2023,"Petroleum
+Liquids",8254.0
+2013,"Petroleum
+Coke",9522.0
+2014,"Petroleum
+Coke",9147.0
+2015,"Petroleum
+Coke",8278.0
+2016,"Petroleum
+Coke",8881.0
+2017,"Petroleum
+Coke",6711.0
+2018,"Petroleum
+Coke",6817.0
+2019,"Petroleum
+Coke",5112.0
+2020,"Petroleum
+Coke",5663.0
+2021,"Petroleum
+Coke",5728.0
+2022,"Petroleum
+Coke",5383.0
+2023,"Petroleum
+Coke",3146.0
+2013,"Natural
+Gas",501427.0
+2014,"Natural
+Gas",501440.0
+2015,"Natural
+Gas",619003.0
+2016,"Natural
+Gas",655744.0
+2017,"Natural
+Gas",625094.0
+2018,"Natural
+Gas",722916.0
+2019,"Natural
+Gas",787745.0
+2020,"Natural
+Gas",815414.0
+2021,"Natural
+Gas",777057.0
+2022,"Natural
+Gas",832421.0
+2023,"Natural
+Gas",895910.0
+2013,"Other
+Fossil
+Gas",798.0
+2014,"Other
+Fossil
+Gas",112.0
+2015,"Other
+Fossil
+Gas",199.0
+2016,"Other
+Fossil
+Gas",154.0
+2017,"Other
+Fossil
+Gas",149.0
+2018,"Other
+Fossil
+Gas",151.0
+2019,"Other
+Fossil
+Gas",154.0
+2020,"Other
+Fossil
+Gas",45.0
+2021,"Other
+Fossil
+Gas",12.0
+2022,"Other
+Fossil
+Gas",0.0
+2023,"Other
+Fossil
+Gas",0.0
+2013,Nuclear,406114.0
+2014,Nuclear,419871.0
+2015,Nuclear,416680.0
+2016,Nuclear,424400.0
+2017,Nuclear,424485.0
+2018,Nuclear,424251.0
+2019,Nuclear,430672.0
+2020,Nuclear,428953.0
+2021,Nuclear,430683.0
+2022,Nuclear,427933.0
+2023,Nuclear,441391.0
+2013,"Hydroelectric
+Conventional",243040.0
+2014,"Hydroelectric
+Conventional",238185.0
+2015,"Hydroelectric
+Conventional",229640.0
+2016,"Hydroelectric
+Conventional",247787.0
+2017,"Hydroelectric
+Conventional",275677.0
+2018,"Hydroelectric
+Conventional",267336.0
+2019,"Hydroelectric
+Conventional",262364.0
+2020,"Hydroelectric
+Conventional",264650.0
+2021,"Hydroelectric
+Conventional",228689.0
+2022,"Hydroelectric
+Conventional",232953.0
+2023,"Hydroelectric
+Conventional",220003.0
+2013,Solar,943.0
+2014,Solar,1218.0
+2015,Solar,1494.0
+2016,Solar,1995.0
+2017,Solar,3348.0
+2018,Solar,4916.0
+2019,Solar,6785.0
+2020,Solar,9945.0
+2021,Solar,13911.0
+2022,Solar,17692.0
+2023,Solar,22230.0
+2013,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",31474.0
+2014,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",33278.0
+2015,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",35992.0
+2016,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",40666.0
+2017,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",42763.0
+2018,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",44184.0
+2019,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",48403.0
+2020,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",59797.0
+2021,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",75338.0
+2022,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",86233.0
+2023,"Renewable
+Sources
+Excluding
+Hydroelectric
+and Solar",84313.0
+2013,"Hydroelectric
+Pumped
+Storage",-3773.0
+2014,"Hydroelectric
+Pumped
+Storage",-5144.0
+2015,"Hydroelectric
+Pumped
+Storage",-4105.0
+2016,"Hydroelectric
+Pumped
+Storage",-5629.0
+2017,"Hydroelectric
+Pumped
+Storage",-5448.0
+2018,"Hydroelectric
+Pumped
+Storage",-4785.0
+2019,"Hydroelectric
+Pumped
+Storage",-4261.0
+2020,"Hydroelectric
+Pumped
+Storage",-4326.0
+2021,"Hydroelectric
+Pumped
+Storage",-3876.0
+2022,"Hydroelectric
+Pumped
+Storage",-4752.0
+2023,"Hydroelectric
+Pumped
+Storage",-4545.0
+2013,Other,615.0
+2014,Other,622.0
+2015,Other,558.0
+2016,Other,421.0
+2017,Other,553.0
+2018,Other,561.0
+2019,Other,551.0
+2020,Other,618.0
+2021,Other,508.0
+2022,Other,534.0
+2023,Other,580.0
+2013,Total,2388058.0
+2014,Total,2382500.0
+2015,Total,2316508.0
+2016,Total,2305887.0
+2017,Total,2275539.0
+2018,Total,2339960.0
+2019,Total,2268723.0
+2020,Total,2170316.0
+2021,Total,2211643.0
+2022,Total,2229605.0
+2023,Total,2189615.0
+2013,Wind,26436.0
+2014,Wind,27671.0
+2015,Wind,30412.0
+2016,Wind,35070.0
+2017,Wind,37068.0
+2018,Wind,38466.0
+2019,Wind,43636.0
+2020,Wind,55554.0
+2021,Wind,70338.0
+2022,Wind,80962.0
+2023,Wind,80120.0
+2013,"Solar
+Photovoltaic",841.0
+2014,"Solar
+Photovoltaic",1094.0
+2015,"Solar
+Photovoltaic",1388.0
+2016,"Solar
+Photovoltaic",1920.0
+2017,"Solar
+Photovoltaic",3326.0
+2018,"Solar
+Photovoltaic",4865.0
+2019,"Solar
+Photovoltaic",6757.0
+2020,"Solar
+Photovoltaic",9915.0
+2021,"Solar
+Photovoltaic",13883.0
+2022,"Solar
+Photovoltaic",17664.0
+2023,"Solar
+Photovoltaic",22230.0
+2013,"Solar
+Thermal",102.0
+2014,"Solar
+Thermal",124.0
+2015,"Solar
+Thermal",106.0
+2016,"Solar
+Thermal",75.0
+2017,"Solar
+Thermal",22.0
+2018,"Solar
+Thermal",51.0
+2019,"Solar
+Thermal",28.0
+2020,"Solar
+Thermal",30.0
+2021,"Solar
+Thermal",29.0
+2022,"Solar
+Thermal",28.0
+2023,"Solar
+Thermal",0.0
+2013,"Wood and
+Wood-Derived
+Fuels",2534.0
+2014,"Wood and
+Wood-Derived
+Fuels",3050.0
+2015,"Wood and
+Wood-Derived
+Fuels",3018.0
+2016,"Wood and
+Wood-Derived
+Fuels",3038.0
+2017,"Wood and
+Wood-Derived
+Fuels",3226.0
+2018,"Wood and
+Wood-Derived
+Fuels",3364.0
+2019,"Wood and
+Wood-Derived
+Fuels",2784.0
+2020,"Wood and
+Wood-Derived
+Fuels",2077.0
+2021,"Wood and
+Wood-Derived
+Fuels",2796.0
+2022,"Wood and
+Wood-Derived
+Fuels",3263.0
+2023,"Wood and
+Wood-Derived
+Fuels",2549.0
+2013,"Landfill
+Gas",1114.0
+2014,"Landfill
+Gas",1068.0
+2015,"Landfill
+Gas",1061.0
+2016,"Landfill
+Gas",1040.0
+2017,"Landfill
+Gas",1103.0
+2018,"Landfill
+Gas",1004.0
+2019,"Landfill
+Gas",964.0
+2020,"Landfill
+Gas",1006.0
+2021,"Landfill
+Gas",973.0
+2022,"Landfill
+Gas",813.0
+2023,"Landfill
+Gas",653.0
+2013,"Biogenic
+Municipal
+Solid Waste",197.0
+2014,"Biogenic
+Municipal
+Solid Waste",191.0
+2015,"Biogenic
+Municipal
+Solid Waste",195.0
+2016,"Biogenic
+Municipal
+Solid Waste",201.0
+2017,"Biogenic
+Municipal
+Solid Waste",184.0
+2018,"Biogenic
+Municipal
+Solid Waste",203.0
+2019,"Biogenic
+Municipal
+Solid Waste",122.0
+2020,"Biogenic
+Municipal
+Solid Waste",126.0
+2021,"Biogenic
+Municipal
+Solid Waste",108.0
+2022,"Biogenic
+Municipal
+Solid Waste",111.0
+2023,"Biogenic
+Municipal
+Solid Waste",115.0
+2013,Other Waste Biomass,188.0
+2014,Other Waste Biomass,182.0
+2015,Other Waste Biomass,218.0
+2016,Other Waste Biomass,237.0
+2017,Other Waste Biomass,161.0
+2018,Other Waste Biomass,138.0
+2019,Other Waste Biomass,126.0
+2020,Other Waste Biomass,120.0
+2021,Other Waste Biomass,116.0
+2022,Other Waste Biomass,58.0
+2023,Other Waste Biomass,94.0
+2013,Geothermal,1005.0
+2014,Geothermal,1116.0
+2015,Geothermal,1089.0
+2016,Geothermal,1080.0
+2017,Geothermal,1022.0
+2018,Geothermal,1009.0
+2019,Geothermal,771.0
+2020,Geothermal,915.0
+2021,Geothermal,1007.0
+2022,Geothermal,1026.0
+2023,Geothermal,782.0
+2013,"Conventional
+Hydroelectric",243040.0
+2014,"Conventional
+Hydroelectric",238185.0
+2015,"Conventional
+Hydroelectric",229640.0
+2016,"Conventional
+Hydroelectric",247787.0
+2017,"Conventional
+Hydroelectric",275677.0
+2018,"Conventional
+Hydroelectric",267336.0
+2019,"Conventional
+Hydroelectric",262364.0
+2020,"Conventional
+Hydroelectric",264650.0
+2021,"Conventional
+Hydroelectric",228689.0
+2022,"Conventional
+Hydroelectric",232953.0
+2023,"Conventional
+Hydroelectric",220003.0
+2013,Total Renewable Generation at Utility Scale Facilities,275457.0
+2014,Total Renewable Generation at Utility Scale Facilities,272681.0
+2015,Total Renewable Generation at Utility Scale Facilities,267125.0
+2016,Total Renewable Generation at Utility Scale Facilities,290448.0
+2017,Total Renewable Generation at Utility Scale Facilities,321788.0
+2018,Total Renewable Generation at Utility Scale Facilities,316436.0
+2019,Total Renewable Generation at Utility Scale Facilities,317552.0
+2020,Total Renewable Generation at Utility Scale Facilities,334392.0
+2021,Total Renewable Generation at Utility Scale Facilities,317938.0
+2022,Total Renewable Generation at Utility Scale Facilities,336878.0
+2023,Total Renewable Generation at Utility Scale Facilities,326546.0
+2013,Estimated Solar Photovoltaic,
+2014,Estimated Solar Photovoltaic,0.0
+2015,Estimated Solar Photovoltaic,0.0
+2016,Estimated Solar Photovoltaic,0.0
+2017,Estimated Solar Photovoltaic,0.0
+2018,Estimated Solar Photovoltaic,0.0
+2019,Estimated Solar Photovoltaic,0.0
+2020,Estimated Solar Photovoltaic,0.0
+2021,Estimated Solar Photovoltaic,0.0
+2022,Estimated Solar Photovoltaic,0.0
+2023,Estimated Solar Photovoltaic,0.0
+2013,Estimated Total Solar Photovoltaic,
+2014,Estimated Total Solar Photovoltaic,1094.0
+2015,Estimated Total Solar Photovoltaic,1388.0
+2016,Estimated Total Solar Photovoltaic,1920.0
+2017,Estimated Total Solar Photovoltaic,3326.0
+2018,Estimated Total Solar Photovoltaic,4865.0
+2019,Estimated Total Solar Photovoltaic,6757.0
+2020,Estimated Total Solar Photovoltaic,9915.0
+2021,Estimated Total Solar Photovoltaic,13883.0
+2022,Estimated Total Solar Photovoltaic,17664.0
+2023,Estimated Total Solar Photovoltaic,22230.0
+2013,Estimated Total Solar,
+2014,Estimated Total Solar,1218.0
+2015,Estimated Total Solar,1494.0
+2016,Estimated Total Solar,1995.0
+2017,Estimated Total Solar,3348.0
+2018,Estimated Total Solar,4916.0
+2019,Estimated Total Solar,6785.0
+2020,Estimated Total Solar,9945.0
+2021,Estimated Total Solar,13911.0
+2022,Estimated Total Solar,17692.0
+2023,Estimated Total Solar,22230.0
+2013,Coal,839.0
+2014,Coal,595.0
+2015,Coal,509.0
+2016,Coal,383.0
+2017,Coal,329.0
+2018,Coal,303.0
+2019,Coal,268.0
+2020,Coal,240.0
+2021,Coal,280.0
+2022,Coal,287.0
+2023,Coal,220.0
+2013,"Petroleum
+Liquids",118.0
+2014,"Petroleum
+Liquids",247.0
+2015,"Petroleum
+Liquids",183.0
+2016,"Petroleum
+Liquids",77.0
+2017,"Petroleum
+Liquids",103.0
+2018,"Petroleum
+Liquids",132.0
+2019,"Petroleum
+Liquids",116.0
+2020,"Petroleum
+Liquids",97.0
+2021,"Petroleum
+Liquids",94.0
+2022,"Petroleum
+Liquids",101.0
+2023,"Petroleum
+Liquids",76.0
+2013,"Petroleum
+Coke",5.0
+2014,"Petroleum
+Coke",9.0
+2015,"Petroleum
+Coke",8.0
+2016,"Petroleum
+Coke",6.0
+2017,"Petroleum
+Coke",8.0
+2018,"Petroleum
+Coke",7.0
+2019,"Petroleum
+Coke",5.0
+2020,"Petroleum
+Coke",2.0
+2021,"Petroleum
+Coke",4.0
+2022,"Petroleum
+Coke",10.0
+2023,"Petroleum
+Coke",2.0
+2013,"Natural
+Gas",7154.0
+2014,"Natural
+Gas",7227.0
+2015,"Natural
+Gas",7471.0
+2016,"Natural
+Gas",7730.0
+2017,"Natural
+Gas",8042.0
+2018,"Natural
+Gas",8419.0
+2019,"Natural
+Gas",8610.0
+2020,"Natural
+Gas",8110.0
+2021,"Natural
+Gas",7346.0
+2022,"Natural
+Gas",7830.0
+2023,"Natural
+Gas",7744.0
+2013,"Other
+Fossil
+Gas",0.0
+2014,"Other
+Fossil
+Gas",0.0
+2015,"Other
+Fossil
+Gas",0.0
+2016,"Other
+Fossil
+Gas",0.0
+2017,"Other
+Fossil
+Gas",0.0
+2018,"Other
+Fossil
+Gas",0.0
+2019,"Other
+Fossil
+Gas",0.0
+2020,"Other
+Fossil
+Gas",0.0
+2021,"Other
+Fossil
+Gas",0.0
+2022,"Other
+Fossil
+Gas",0.0
+2023,"Other
+Fossil
+Gas",0.0
+2013,Nuclear,0.0
+2014,Nuclear,0.0
+2015,Nuclear,0.0
+2016,Nuclear,0.0
+2017,Nuclear,0.0
+2018,Nuclear,0.0
+2019,Nuclear,0.0
+2020,Nuclear,0.0
+2021,Nuclear,0.0
+2022,Nuclear,0.0
+2023,Nuclear,0.0
+2013,"Hydroelectric
+Conventional",44.0
+2014,"Hydroelectric
+Conventional",38.0
+2015,"Hydroelectric
+Conventional",35.0
+2016,"Hydroelectric
+Conventional",217.0
+2017,"Hydroelectric
+Conventional",240.0
+2018,"Hydroelectric
+Conventional",227.0
+2019,"Hydroelectric
+Conventional",188.0
+2020,"Hydroelectric
+Conventional",214.0
+2021,"Hydroelectric
+Conventional",258.0
+2022,"Hydroelectric
+Conventional",263.0
+2023,"Hydroelectric
+Conventional",293.0
+2013,Solar,294.0
+2014,Solar,371.0
+2015,Solar,416.0
+2016,Solar,529.0
+2017,Solar,521.0
+2018,Solar,525.0
+2019,Solar,587.0
+2020,Solar,586.0
+2021,Solar,598.0
+2022,Solar,669.0
+2023,Solar,615.0
+2013,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",2662.0
+2014,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",2862.0
+2015,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",2803.0
+2016,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",2697.0
+2017,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",2729.0
+2018,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",2688.0
+2019,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",2840.0
+2020,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",2761.0
+2021,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",2978.0
+2022,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",4185.0
+2023,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",3930.0
+2013,"Hydroelectric
+Pumped
+Storage",0.0
+2014,"Hydroelectric
+Pumped
+Storage",0.0
+2015,"Hydroelectric
+Pumped
+Storage",0.0
+2016,"Hydroelectric
+Pumped
+Storage",0.0
+2017,"Hydroelectric
+Pumped
+Storage",0.0
+2018,"Hydroelectric
+Pumped
+Storage",0.0
+2019,"Hydroelectric
+Pumped
+Storage",0.0
+2020,"Hydroelectric
+Pumped
+Storage",0.0
+2021,"Hydroelectric
+Pumped
+Storage",0.0
+2022,"Hydroelectric
+Pumped
+Storage",0.0
+2023,"Hydroelectric
+Pumped
+Storage",0.0
+2013,Other,1118.0
+2014,Other,1171.0
+2015,Other,1170.0
+2016,Other,1068.0
+2017,Other,1088.0
+2018,Other,1010.0
+2019,Other,1076.0
+2020,Other,1035.0
+2021,Other,1209.0
+2022,Other,3391.0
+2023,Other,3185.0
+2013,Total Generation at Utility Scale Facilities,12234.0
+2014,Total Generation at Utility Scale Facilities,12520.0
+2015,Total Generation at Utility Scale Facilities,12595.0
+2016,Total Generation at Utility Scale Facilities,12706.0
+2017,Total Generation at Utility Scale Facilities,13060.0
+2018,Total Generation at Utility Scale Facilities,13312.0
+2019,Total Generation at Utility Scale Facilities,13689.0
+2020,Total Generation at Utility Scale Facilities,13046.0
+2021,Total Generation at Utility Scale Facilities,12768.0
+2022,Total Generation at Utility Scale Facilities,16737.0
+2023,Total Generation at Utility Scale Facilities,16066.0
+2013,Estimated Solar Photovoltaic,
+2014,Estimated Solar Photovoltaic,5146.0
+2015,Estimated Solar Photovoltaic,5689.0
+2016,Estimated Solar Photovoltaic,6158.0
+2017,Estimated Solar Photovoltaic,7685.0
+2018,Estimated Solar Photovoltaic,9798.0
+2019,Estimated Solar Photovoltaic,11002.0
+2020,Estimated Solar Photovoltaic,12859.0
+2021,Estimated Solar Photovoltaic,15124.0
+2022,Estimated Solar Photovoltaic,17724.0
+2023,Estimated Solar Photovoltaic,19751.0
+2013,Estimated Total Solar Photovoltaic,
+2014,Estimated Total Solar Photovoltaic,5516.0
+2015,Estimated Total Solar Photovoltaic,6106.0
+2016,Estimated Total Solar Photovoltaic,6687.0
+2017,Estimated Total Solar Photovoltaic,8206.0
+2018,Estimated Total Solar Photovoltaic,10324.0
+2019,Estimated Total Solar Photovoltaic,11588.0
+2020,Estimated Total Solar Photovoltaic,13445.0
+2021,Estimated Total Solar Photovoltaic,15722.0
+2022,Estimated Total Solar Photovoltaic,18393.0
+2023,Estimated Total Solar Photovoltaic,20366.0
+2013,Estimated Total Solar,
+2014,Estimated Total Solar,5516.0
+2015,Estimated Total Solar,6106.0
+2016,Estimated Total Solar,6687.0
+2017,Estimated Total Solar,8206.0
+2018,Estimated Total Solar,10324.0
+2019,Estimated Total Solar,11588.0
+2020,Estimated Total Solar,13445.0
+2021,Estimated Total Solar,15722.0
+2022,Estimated Total Solar,18393.0
+2023,Estimated Total Solar,20366.0
+2013,Wind,61.0
+2014,Wind,107.0
+2015,Wind,118.0
+2016,Wind,131.0
+2017,Wind,144.0
+2018,Wind,174.0
+2019,Wind,179.0
+2020,Wind,168.0
+2021,Wind,168.0
+2022,Wind,173.0
+2023,Wind,130.0
+2013,"Solar
+Photovoltaic",294.0
+2014,"Solar
+Photovoltaic",371.0
+2015,"Solar
+Photovoltaic",416.0
+2016,"Solar
+Photovoltaic",529.0
+2017,"Solar
+Photovoltaic",521.0
+2018,"Solar
+Photovoltaic",525.0
+2019,"Solar
+Photovoltaic",587.0
+2020,"Solar
+Photovoltaic",586.0
+2021,"Solar
+Photovoltaic",598.0
+2022,"Solar
+Photovoltaic",669.0
+2023,"Solar
+Photovoltaic",615.0
+2013,"Solar
+Thermal",0.0
+2014,"Solar
+Thermal",0.0
+2015,"Solar
+Thermal",0.0
+2016,"Solar
+Thermal",0.0
+2017,"Solar
+Thermal",0.0
+2018,"Solar
+Thermal",0.0
+2019,"Solar
+Thermal",0.0
+2020,"Solar
+Thermal",0.0
+2021,"Solar
+Thermal",0.0
+2022,"Solar
+Thermal",0.0
+2023,"Solar
+Thermal",0.0
+2013,"Wood and
+Wood-Derived
+Fuels",34.0
+2014,"Wood and
+Wood-Derived
+Fuels",74.0
+2015,"Wood and
+Wood-Derived
+Fuels",48.0
+2016,"Wood and
+Wood-Derived
+Fuels",69.0
+2017,"Wood and
+Wood-Derived
+Fuels",70.0
+2018,"Wood and
+Wood-Derived
+Fuels",77.0
+2019,"Wood and
+Wood-Derived
+Fuels",90.0
+2020,"Wood and
+Wood-Derived
+Fuels",91.0
+2021,"Wood and
+Wood-Derived
+Fuels",153.0
+2022,"Wood and
+Wood-Derived
+Fuels",175.0
+2023,"Wood and
+Wood-Derived
+Fuels",107.0
+2013,"Landfill
+Gas",925.0
+2014,"Landfill
+Gas",905.0
+2015,"Landfill
+Gas",847.0
+2016,"Landfill
+Gas",753.0
+2017,"Landfill
+Gas",753.0
+2018,"Landfill
+Gas",703.0
+2019,"Landfill
+Gas",626.0
+2020,"Landfill
+Gas",657.0
+2021,"Landfill
+Gas",612.0
+2022,"Landfill
+Gas",517.0
+2023,"Landfill
+Gas",509.0
+2013,"Biogenic
+Municipal
+Solid Waste",1149.0
+2014,"Biogenic
+Municipal
+Solid Waste",1202.0
+2015,"Biogenic
+Municipal
+Solid Waste",1199.0
+2016,"Biogenic
+Municipal
+Solid Waste",1093.0
+2017,"Biogenic
+Municipal
+Solid Waste",1114.0
+2018,"Biogenic
+Municipal
+Solid Waste",1038.0
+2019,"Biogenic
+Municipal
+Solid Waste",869.0
+2020,"Biogenic
+Municipal
+Solid Waste",832.0
+2021,"Biogenic
+Municipal
+Solid Waste",973.0
+2022,"Biogenic
+Municipal
+Solid Waste",2761.0
+2023,"Biogenic
+Municipal
+Solid Waste",2595.0
+2013,Other Waste Biomass,493.0
+2014,Other Waste Biomass,575.0
+2015,Other Waste Biomass,592.0
+2016,Other Waste Biomass,649.0
+2017,Other Waste Biomass,648.0
+2018,Other Waste Biomass,664.0
+2019,Other Waste Biomass,634.0
+2020,Other Waste Biomass,565.0
+2021,Other Waste Biomass,571.0
+2022,Other Waste Biomass,560.0
+2023,Other Waste Biomass,589.0
+2013,Geothermal,0.0
+2014,Geothermal,0.0
+2015,Geothermal,0.0
+2016,Geothermal,0.0
+2017,Geothermal,0.0
+2018,Geothermal,33.0
+2019,Geothermal,442.0
+2020,Geothermal,449.0
+2021,Geothermal,502.0
+2022,Geothermal,0.0
+2023,Geothermal,0.0
+2013,"Conventional
+Hydroelectric",44.0
+2014,"Conventional
+Hydroelectric",38.0
+2015,"Conventional
+Hydroelectric",35.0
+2016,"Conventional
+Hydroelectric",217.0
+2017,"Conventional
+Hydroelectric",240.0
+2018,"Conventional
+Hydroelectric",227.0
+2019,"Conventional
+Hydroelectric",188.0
+2020,"Conventional
+Hydroelectric",214.0
+2021,"Conventional
+Hydroelectric",258.0
+2022,"Conventional
+Hydroelectric",263.0
+2023,"Conventional
+Hydroelectric",293.0
+2013,Total Renewable Generation at Utility Scale Facilities,3000.0
+2014,Total Renewable Generation at Utility Scale Facilities,3271.0
+2015,Total Renewable Generation at Utility Scale Facilities,3255.0
+2016,Total Renewable Generation at Utility Scale Facilities,3443.0
+2017,Total Renewable Generation at Utility Scale Facilities,3490.0
+2018,Total Renewable Generation at Utility Scale Facilities,3441.0
+2019,Total Renewable Generation at Utility Scale Facilities,3615.0
+2020,Total Renewable Generation at Utility Scale Facilities,3561.0
+2021,Total Renewable Generation at Utility Scale Facilities,3834.0
+2022,Total Renewable Generation at Utility Scale Facilities,5118.0
+2023,Total Renewable Generation at Utility Scale Facilities,4838.0
+2013,Estimated Solar Photovoltaic,
+2014,Estimated Solar Photovoltaic,5146.0
+2015,Estimated Solar Photovoltaic,5689.0
+2016,Estimated Solar Photovoltaic,6158.0
+2017,Estimated Solar Photovoltaic,7685.0
+2018,Estimated Solar Photovoltaic,9798.0
+2019,Estimated Solar Photovoltaic,11002.0
+2020,Estimated Solar Photovoltaic,12859.0
+2021,Estimated Solar Photovoltaic,15124.0
+2022,Estimated Solar Photovoltaic,17724.0
+2023,Estimated Solar Photovoltaic,19751.0
+2013,Estimated Total Solar Photovoltaic,
+2014,Estimated Total Solar Photovoltaic,5516.0
+2015,Estimated Total Solar Photovoltaic,6106.0
+2016,Estimated Total Solar Photovoltaic,6687.0
+2017,Estimated Total Solar Photovoltaic,8206.0
+2018,Estimated Total Solar Photovoltaic,10324.0
+2019,Estimated Total Solar Photovoltaic,11588.0
+2020,Estimated Total Solar Photovoltaic,13445.0
+2021,Estimated Total Solar Photovoltaic,15722.0
+2022,Estimated Total Solar Photovoltaic,18393.0
+2023,Estimated Total Solar Photovoltaic,20366.0
+2013,Estimated Total Solar,
+2014,Estimated Total Solar,5516.0
+2015,Estimated Total Solar,6106.0
+2016,Estimated Total Solar,6687.0
+2017,Estimated Total Solar,8206.0
+2018,Estimated Total Solar,10324.0
+2019,Estimated Total Solar,11588.0
+2020,Estimated Total Solar,13445.0
+2021,Estimated Total Solar,15722.0
+2022,Estimated Total Solar,18393.0
+2023,Estimated Total Solar,20366.0
+2013,Coal,12554.0
+2014,Coal,12341.0
+2015,Coal,10896.0
+2016,Coal,9103.0
+2017,Coal,7669.0
+2018,Coal,7011.0
+2019,Coal,5957.0
+2020,Coal,5451.0
+2021,Coal,5278.0
+2022,Coal,5128.0
+2023,Coal,4327.0
+2013,"Petroleum
+Liquids",495.0
+2014,"Petroleum
+Liquids",544.0
+2015,"Petroleum
+Liquids",563.0
+2016,"Petroleum
+Liquids",503.0
+2017,"Petroleum
+Liquids",463.0
+2018,"Petroleum
+Liquids",517.0
+2019,"Petroleum
+Liquids",424.0
+2020,"Petroleum
+Liquids",398.0
+2021,"Petroleum
+Liquids",400.0
+2022,"Petroleum
+Liquids",614.0
+2023,"Petroleum
+Liquids",494.0
+2013,"Petroleum
+Coke",2036.0
+2014,"Petroleum
+Coke",1389.0
+2015,"Petroleum
+Coke",990.0
+2016,"Petroleum
+Coke",909.0
+2017,"Petroleum
+Coke",776.0
+2018,"Petroleum
+Coke",640.0
+2019,"Petroleum
+Coke",576.0
+2020,"Petroleum
+Coke",510.0
+2021,"Petroleum
+Coke",367.0
+2022,"Petroleum
+Coke",379.0
+2023,"Petroleum
+Coke",273.0
+2013,"Natural
+Gas",88733.0
+2014,"Natural
+Gas",86209.0
+2015,"Natural
+Gas",88355.0
+2016,"Natural
+Gas",91197.0
+2017,"Natural
+Gas",91647.0
+2018,"Natural
+Gas",94892.0
+2019,"Natural
+Gas",100065.0
+2020,"Natural
+Gas",96381.0
+2021,"Natural
+Gas",95240.0
+2022,"Natural
+Gas",96548.0
+2023,"Natural
+Gas",98463.0
+2013,"Other
+Fossil
+Gas",8531.0
+2014,"Other
+Fossil
+Gas",8664.0
+2015,"Other
+Fossil
+Gas",9401.0
+2016,"Other
+Fossil
+Gas",8895.0
+2017,"Other
+Fossil
+Gas",8343.0
+2018,"Other
+Fossil
+Gas",9377.0
+2019,"Other
+Fossil
+Gas",8554.0
+2020,"Other
+Fossil
+Gas",8644.0
+2021,"Other
+Fossil
+Gas",8093.0
+2022,"Other
+Fossil
+Gas",8271.0
+2023,"Other
+Fossil
+Gas",8438.0
+2013,Nuclear,0.0
+2014,Nuclear,0.0
+2015,Nuclear,0.0
+2016,Nuclear,0.0
+2017,Nuclear,0.0
+2018,Nuclear,0.0
+2019,Nuclear,0.0
+2020,Nuclear,0.0
+2021,Nuclear,0.0
+2022,Nuclear,0.0
+2023,Nuclear,0.0
+2013,"Hydroelectric
+Conventional",3463.0
+2014,"Hydroelectric
+Conventional",1282.0
+2015,"Hydroelectric
+Conventional",1410.0
+2016,"Hydroelectric
+Conventional",1269.0
+2017,"Hydroelectric
+Conventional",1382.0
+2018,"Hydroelectric
+Conventional",1149.0
+2019,"Hydroelectric
+Conventional",1033.0
+2020,"Hydroelectric
+Conventional",1001.0
+2021,"Hydroelectric
+Conventional",936.0
+2022,"Hydroelectric
+Conventional",899.0
+2023,"Hydroelectric
+Conventional",844.0
+2013,Solar,17.0
+2014,Solar,16.0
+2015,Solar,21.0
+2016,Solar,27.0
+2017,Solar,42.0
+2018,Solar,47.0
+2019,Solar,85.0
+2020,Solar,101.0
+2021,Solar,137.0
+2022,Solar,276.0
+2023,Solar,326.0
+2013,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",29074.0
+2014,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",28659.0
+2015,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",28614.0
+2016,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",28663.0
+2017,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",28508.0
+2018,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",28440.0
+2019,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",27276.0
+2020,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",26348.0
+2021,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",25324.0
+2022,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",24226.0
+2023,"Renewable
+Sources
+Excluding
+Hydroelectric and Solar",22130.0
+2013,"Hydroelectric
+Pumped
+Storage",0.0
+2014,"Hydroelectric
+Pumped
+Storage",0.0
+2015,"Hydroelectric
+Pumped
+Storage",0.0
+2016,"Hydroelectric
+Pumped
+Storage",0.0
+2017,"Hydroelectric
+Pumped
+Storage",0.0
+2018,"Hydroelectric
+Pumped
+Storage",0.0
+2019,"Hydroelectric
+Pumped
+Storage",0.0
+2020,"Hydroelectric
+Pumped
+Storage",0.0
+2021,"Hydroelectric
+Pumped
+Storage",0.0
+2022,"Hydroelectric
+Pumped
+Storage",0.0
+2023,"Hydroelectric
+Pumped
+Storage",0.0
+2013,Other,5113.0
+2014,Other,4978.0
+2015,Other,5462.0
+2016,Other,5324.0
+2017,Other,4928.0
+2018,Other,4725.0
+2019,Other,4567.0
+2020,Other,4231.0
+2021,Other,3975.0
+2022,Other,3702.0
+2023,Other,3369.0
+2013,Total Generation at Utility Scale Facilities,150015.0
+2014,Total Generation at Utility Scale Facilities,144083.0
+2015,Total Generation at Utility Scale Facilities,145712.0
+2016,Total Generation at Utility Scale Facilities,145890.0
+2017,Total Generation at Utility Scale Facilities,143758.0
+2018,Total Generation at Utility Scale Facilities,146798.0
+2019,Total Generation at Utility Scale Facilities,148537.0
+2020,Total Generation at Utility Scale Facilities,143064.0
+2021,Total Generation at Utility Scale Facilities,139750.0
+2022,Total Generation at Utility Scale Facilities,140043.0
+2023,Total Generation at Utility Scale Facilities,138664.0
+2013,Estimated Solar Photovoltaic,
+2014,Estimated Solar Photovoltaic,1139.0
+2015,Estimated Solar Photovoltaic,1451.0
+2016,Estimated Solar Photovoltaic,2060.0
+2017,Estimated Solar Photovoltaic,2364.0
+2018,Estimated Solar Photovoltaic,2636.0
+2019,Estimated Solar Photovoltaic,3041.0
+2020,Estimated Solar Photovoltaic,3484.0
+2021,Estimated Solar Photovoltaic,3858.0
+2022,Estimated Solar Photovoltaic,4048.0
+2023,Estimated Solar Photovoltaic,4382.0
+2013,Estimated Total Solar Photovoltaic,
+2014,Estimated Total Solar Photovoltaic,1156.0
+2015,Estimated Total Solar Photovoltaic,1472.0
+2016,Estimated Total Solar Photovoltaic,2087.0
+2017,Estimated Total Solar Photovoltaic,2406.0
+2018,Estimated Total Solar Photovoltaic,2683.0
+2019,Estimated Total Solar Photovoltaic,3127.0
+2020,Estimated Total Solar Photovoltaic,3586.0
+2021,Estimated Total Solar Photovoltaic,3994.0
+2022,Estimated Total Solar Photovoltaic,4324.0
+2023,Estimated Total Solar Photovoltaic,4708.0
+2013,Estimated Total Solar,
+2014,Estimated Total Solar,1156.0
+2015,Estimated Total Solar,1472.0
+2016,Estimated Total Solar,2087.0
+2017,Estimated Total Solar,2406.0
+2018,Estimated Total Solar,2683.0
+2019,Estimated Total Solar,3127.0
+2020,Estimated Total Solar,3586.0
+2021,Estimated Total Solar,3994.0
+2022,Estimated Total Solar,4324.0
+2023,Estimated Total Solar,4708.0
+2013,Wind,37.0
+2014,Wind,53.0
+2015,Wind,53.0
+2016,Wind,71.0
+2017,Wind,84.0
+2018,Wind,97.0
+2019,Wind,100.0
+2020,Wind,617.0
+2021,Wind,112.0
+2022,Wind,130.0
+2023,Wind,112.0
+2013,"Solar
+Photovoltaic",17.0
+2014,"Solar
+Photovoltaic",16.0
+2015,"Solar
+Photovoltaic",21.0
+2016,"Solar
+Photovoltaic",27.0
+2017,"Solar
+Photovoltaic",42.0
+2018,"Solar
+Photovoltaic",47.0
+2019,"Solar
+Photovoltaic",85.0
+2020,"Solar
+Photovoltaic",101.0
+2021,"Solar
+Photovoltaic",137.0
+2022,"Solar
+Photovoltaic",276.0
+2023,"Solar
+Photovoltaic",326.0
+2013,"Solar
+Thermal",0.0
+2014,"Solar
+Thermal",0.0
+2015,"Solar
+Thermal",0.0
+2016,"Solar
+Thermal",0.0
+2017,"Solar
+Thermal",0.0
+2018,"Solar
+Thermal",0.0
+2019,"Solar
+Thermal",0.0
+2020,"Solar
+Thermal",0.0
+2021,"Solar
+Thermal",0.0
+2022,"Solar
+Thermal",0.0
+2023,"Solar
+Thermal",0.0
+2013,"Wood and
+Wood-Derived
+Fuels",27691.0
+2014,"Wood and
+Wood-Derived
+Fuels",27239.0
+2015,"Wood and
+Wood-Derived
+Fuels",27318.0
+2016,"Wood and
+Wood-Derived
+Fuels",27458.0
+2017,"Wood and
+Wood-Derived
+Fuels",27412.0
+2018,"Wood and
+Wood-Derived
+Fuels",27475.0
+2019,"Wood and
+Wood-Derived
+Fuels",26433.0
+2020,"Wood and
+Wood-Derived
+Fuels",24916.0
+2021,"Wood and
+Wood-Derived
+Fuels",24413.0
+2022,"Wood and
+Wood-Derived
+Fuels",23289.0
+2023,"Wood and
+Wood-Derived
+Fuels",21320.0
+2013,"Landfill
+Gas",178.0
+2014,"Landfill
+Gas",185.0
+2015,"Landfill
+Gas",182.0
+2016,"Landfill
+Gas",170.0
+2017,"Landfill
+Gas",183.0
+2018,"Landfill
+Gas",168.0
+2019,"Landfill
+Gas",139.0
+2020,"Landfill
+Gas",133.0
+2021,"Landfill
+Gas",119.0
+2022,"Landfill
+Gas",128.0
+2023,"Landfill
+Gas",127.0
+2013,"Biogenic
+Municipal
+Solid Waste",2.0
+2014,"Biogenic
+Municipal
+Solid Waste",-2.0
+2015,"Biogenic
+Municipal
+Solid Waste",12.0
+2016,"Biogenic
+Municipal
+Solid Waste",6.0
+2017,"Biogenic
+Municipal
+Solid Waste",1.0
+2018,"Biogenic
+Municipal
+Solid Waste",4.0
+2019,"Biogenic
+Municipal
+Solid Waste",5.0
+2020,"Biogenic
+Municipal
+Solid Waste",5.0
+2021,"Biogenic
+Municipal
+Solid Waste",1.0
+2022,"Biogenic
+Municipal
+Solid Waste",0.0
+2023,"Biogenic
+Municipal
+Solid Waste",0.0
+2013,Other Waste Biomass,1166.0
+2014,Other Waste Biomass,1185.0
+2015,Other Waste Biomass,1049.0
+2016,Other Waste Biomass,959.0
+2017,Other Waste Biomass,827.0
+2018,Other Waste Biomass,697.0
+2019,Other Waste Biomass,598.0
+2020,Other Waste Biomass,676.0
+2021,Other Waste Biomass,680.0
+2022,Other Waste Biomass,678.0
+2023,Other Waste Biomass,571.0
+2013,Geothermal,0.0
+2014,Geothermal,0.0
+2015,Geothermal,0.0
+2016,Geothermal,0.0
+2017,Geothermal,0.0
+2018,Geothermal,0.0
+2019,Geothermal,0.0
+2020,Geothermal,0.0
+2021,Geothermal,0.0
+2022,Geothermal,0.0
+2023,Geothermal,0.0
+2013,"Conventional
+Hydroelectric",3463.0
+2014,"Conventional
+Hydroelectric",1282.0
+2015,"Conventional
+Hydroelectric",1410.0
+2016,"Conventional
+Hydroelectric",1269.0
+2017,"Conventional
+Hydroelectric",1382.0
+2018,"Conventional
+Hydroelectric",1149.0
+2019,"Conventional
+Hydroelectric",1033.0
+2020,"Conventional
+Hydroelectric",1001.0
+2021,"Conventional
+Hydroelectric",936.0
+2022,"Conventional
+Hydroelectric",899.0
+2023,"Conventional
+Hydroelectric",844.0
+2013,Total Renewable Generation at Utility Scale Facilities,32554.0
+2014,Total Renewable Generation at Utility Scale Facilities,29957.0
+2015,Total Renewable Generation at Utility Scale Facilities,30045.0
+2016,Total Renewable Generation at Utility Scale Facilities,29960.0
+2017,Total Renewable Generation at Utility Scale Facilities,29932.0
+2018,Total Renewable Generation at Utility Scale Facilities,29636.0
+2019,Total Renewable Generation at Utility Scale Facilities,28395.0
+2020,Total Renewable Generation at Utility Scale Facilities,27450.0
+2021,Total Renewable Generation at Utility Scale Facilities,26397.0
+2022,Total Renewable Generation at Utility Scale Facilities,25401.0
+2023,Total Renewable Generation at Utility Scale Facilities,23300.0
+2013,Estimated Solar Photovoltaic,
+2014,Estimated Solar Photovoltaic,1139.0
+2015,Estimated Solar Photovoltaic,1451.0
+2016,Estimated Solar Photovoltaic,2060.0
+2017,Estimated Solar Photovoltaic,2364.0
+2018,Estimated Solar Photovoltaic,2636.0
+2019,Estimated Solar Photovoltaic,3041.0
+2020,Estimated Solar Photovoltaic,3484.0
+2021,Estimated Solar Photovoltaic,3858.0
+2022,Estimated Solar Photovoltaic,4048.0
+2023,Estimated Solar Photovoltaic,4382.0
+2013,Estimated Total Solar Photovoltaic,
+2014,Estimated Total Solar Photovoltaic,1156.0
+2015,Estimated Total Solar Photovoltaic,1472.0
+2016,Estimated Total Solar Photovoltaic,2087.0
+2017,Estimated Total Solar Photovoltaic,2406.0
+2018,Estimated Total Solar Photovoltaic,2683.0
+2019,Estimated Total Solar Photovoltaic,3127.0
+2020,Estimated Total Solar Photovoltaic,3586.0
+2021,Estimated Total Solar Photovoltaic,3994.0
+2022,Estimated Total Solar Photovoltaic,4324.0
+2023,Estimated Total Solar Photovoltaic,4708.0
+2013,Estimated Total Solar,
+2014,Estimated Total Solar,1156.0
+2015,Estimated Total Solar,1472.0
+2016,Estimated Total Solar,2087.0
+2017,Estimated Total Solar,2406.0
+2018,Estimated Total Solar,2683.0
+2019,Estimated Total Solar,3127.0
+2020,Estimated Total Solar,3586.0
+2021,Estimated Total Solar,3994.0
+2022,Estimated Total Solar,4324.0
+2023,Estimated Total Solar,4708.0
+2013,Total (all sectors),18350.0
+2014,Total (all sectors),18107.0
+2015,Total (all sectors),16632.0
+2016,Total (all sectors),16586.0
+2017,Total (all sectors),14667.0
+2018,Total (all sectors),13813.0
+2019,Total (all sectors),12397.0
+2020,Total (all sectors),10402.0
+2021,Total (all sectors),11301.0
+2022,Total (all sectors),11356.0
+2023,Total (all sectors),9363.0
+2013,Electric Utilities,0.0
+2014,Electric Utilities,978.0
+2015,Electric Utilities,1032.0
+2016,Electric Utilities,2979.0
+2017,Electric Utilities,2802.0
+2018,Electric Utilities,2268.0
+2019,Electric Utilities,2062.0
+2020,Electric Utilities,1635.0
+2021,Electric Utilities,2153.0
+2022,Electric Utilities,2269.0
+2023,Electric Utilities,1580.0
+2013,"Independent
+Power Producers",2416.0
+2014,"Independent
+Power Producers",1821.0
+2015,"Independent
+Power Producers",1980.0
+2016,"Independent
+Power Producers",1336.0
+2017,"Independent
+Power Producers",1158.0
+2018,"Independent
+Power Producers",1356.0
+2019,"Independent
+Power Producers",1161.0
+2020,"Independent
+Power Producers",715.0
+2021,"Independent
+Power Producers",667.0
+2022,"Independent
+Power Producers",731.0
+2023,"Independent
+Power Producers",527.0
+2013,"Commercial
+Sector",843.0
+2014,"Commercial
+Sector",861.0
+2015,"Commercial
+Sector",635.0
+2016,"Commercial
+Sector",572.0
+2017,"Commercial
+Sector",515.0
+2018,"Commercial
+Sector",490.0
+2019,"Commercial
+Sector",443.0
+2020,"Commercial
+Sector",401.0
+2021,"Commercial
+Sector",447.0
+2022,"Commercial
+Sector",448.0
+2023,"Commercial
+Sector",331.0
+2013,"Industrial
+Sector",15090.0
+2014,"Industrial
+Sector",14448.0
+2015,"Industrial
+Sector",12985.0
+2016,"Industrial
+Sector",11700.0
+2017,"Industrial
+Sector",10192.0
+2018,"Industrial
+Sector",9700.0
+2019,"Industrial
+Sector",8731.0
+2020,"Industrial
+Sector",7651.0
+2021,"Industrial
+Sector",8034.0
+2022,"Industrial
+Sector",7908.0
+2023,"Industrial
+Sector",6925.0
+2013,Total (all sectors),23231.0
+2014,Total (all sectors),31531.0
+2015,Total (all sectors),28925.0
+2016,Total (all sectors),22405.0
+2017,Total (all sectors),21696.0
+2018,Total (all sectors),28614.0
+2019,Total (all sectors),20836.0
+2020,Total (all sectors),18008.0
+2021,Total (all sectors),21633.0
+2022,Total (all sectors),28760.0
+2023,Total (all sectors),21336.0
+2013,Electric Utilities,16827.0
+2014,Electric Utilities,19652.0
+2015,Electric Utilities,18562.0
+2016,Electric Utilities,16137.0
+2017,Electric Utilities,15567.0
+2018,Electric Utilities,18345.0
+2019,Electric Utilities,15677.0
+2020,Electric Utilities,13913.0
+2021,Electric Utilities,16850.0
+2022,Electric Utilities,18375.0
+2023,Electric Utilities,16366.0
+2013,"Independent
+Power Producers",5494.0
+2014,"Independent
+Power Producers",10689.0
+2015,"Independent
+Power Producers",9473.0
+2016,"Independent
+Power Producers",5624.0
+2017,"Independent
+Power Producers",5461.0
+2018,"Independent
+Power Producers",9467.0
+2019,"Independent
+Power Producers",4464.0
+2020,"Independent
+Power Producers",3447.0
+2021,"Independent
+Power Producers",4102.0
+2022,"Independent
+Power Producers",9474.0
+2023,"Independent
+Power Producers",4253.0
+2013,"Commercial
+Sector",328.0
+2014,"Commercial
+Sector",451.0
+2015,"Commercial
+Sector",249.0
+2016,"Commercial
+Sector",108.0
+2017,"Commercial
+Sector",191.0
+2018,"Commercial
+Sector",269.0
+2019,"Commercial
+Sector",251.0
+2020,"Commercial
+Sector",238.0
+2021,"Commercial
+Sector",250.0
+2022,"Commercial
+Sector",254.0
+2023,"Commercial
+Sector",200.0
+2013,"Industrial
+Sector",582.0
+2014,"Industrial
+Sector",739.0
+2015,"Industrial
+Sector",641.0
+2016,"Industrial
+Sector",536.0
+2017,"Industrial
+Sector",476.0
+2018,"Industrial
+Sector",534.0
+2019,"Industrial
+Sector",444.0
+2020,"Industrial
+Sector",410.0
+2021,"Industrial
+Sector",432.0
+2022,"Industrial
+Sector",657.0
+2023,"Industrial
+Sector",517.0
+2015,491.0,427.0
+2016,491.0,381.0
+2017,491.0,359.0
+2018,491.0,336.0
+2019,491.0,308.0
+2020,491.0,284.0
+2021,491.0,269.0
+2022,491.0,242.0
+2023,491.0,227.0
+2013,491.0,300.0
+2014,491.0,286.0
+2015,491.0,256.0
+2016,491.0,230.0
+2017,491.0,219.0
+2018,491.0,206.0
+2019,491.0,194.0
+2020,491.0,181.0
+2021,491.0,169.0
+2022,491.0,157.0
+2023,491.0,148.0
+2013,491.0,86.0
+2014,491.0,87.0
+2015,491.0,80.0
+2016,491.0,75.0
+2017,491.0,71.0
+2018,491.0,65.0
+2019,491.0,59.0
+2020,491.0,56.0
+2021,491.0,56.0
+2022,491.0,46.0
+2023,491.0,43.0
+2013,491.0,35.0
+2014,491.0,30.0
+2015,491.0,27.0
+2016,491.0,24.0
+2017,491.0,22.0
+2018,491.0,19.0
+2019,491.0,14.0
+2020,491.0,12.0
+2021,491.0,11.0
+2022,491.0,8.0
+2023,491.0,8.0
+2013,491.0,19.0
+2014,491.0,17.0
+2015,491.0,12.0
+2016,491.0,9.0
+2017,491.0,9.0
+2018,491.0,7.0
+2019,491.0,6.0
+2020,491.0,4.0
+2021,491.0,4.0
+2022,491.0,3.0
+2023,491.0,3.0
+2013,491.0,78.0
+2014,491.0,71.0
+2015,491.0,52.0
+2016,491.0,43.0
+2017,491.0,38.0
+2018,491.0,39.0
+2019,491.0,35.0
+2020,491.0,31.0
+2021,491.0,29.0
+2022,491.0,28.0
+2023,491.0,25.0
+2015,1082.0,1082.0
+2016,1082.0,1076.0
+2017,1082.0,1080.0
+2018,1082.0,1087.0
+2019,1082.0,1090.0
+2020,1082.0,1091.0
+2021,1082.0,1104.0
+2022,1082.0,1084.0
+2023,1082.0,1075.0
+2013,1082.0,795.0
+2014,1082.0,780.0
+2015,1082.0,782.0
+2016,1082.0,771.0
+2017,1082.0,765.0
+2018,1082.0,751.0
+2019,1082.0,743.0
+2020,1082.0,743.0
+2021,1082.0,739.0
+2022,1082.0,726.0
+2023,1082.0,721.0
+2013,1082.0,147.0
+2014,1082.0,148.0
+2015,1082.0,143.0
+2016,1082.0,142.0
+2017,1082.0,145.0
+2018,1082.0,140.0
+2019,1082.0,141.0
+2020,1082.0,135.0
+2021,1082.0,150.0
+2022,1082.0,139.0
+2023,1082.0,135.0
+2013,1082.0,11.0
+2014,1082.0,9.0
+2015,1082.0,8.0
+2016,1082.0,7.0
+2017,1082.0,7.0
+2018,1082.0,8.0
+2019,1082.0,6.0
+2020,1082.0,7.0
+2021,1082.0,8.0
+2022,1082.0,7.0
+2023,1082.0,7.0
+2013,1082.0,92.0
+2014,1082.0,93.0
+2015,1082.0,94.0
+2016,1082.0,101.0
+2017,1082.0,112.0
+2018,1082.0,139.0
+2019,1082.0,152.0
+2020,1082.0,156.0
+2021,1082.0,160.0
+2022,1082.0,161.0
+2023,1082.0,163.0
+2013,1082.0,56.0
+2014,1082.0,52.0
+2015,1082.0,55.0
+2016,1082.0,55.0
+2017,1082.0,51.0
+2018,1082.0,49.0
+2019,1082.0,48.0
+2020,1082.0,50.0
+2021,1082.0,47.0
+2022,1082.0,51.0
+2023,1082.0,49.0
+2015,1749.0,1779.0
+2016,1749.0,1801.0
+2017,1749.0,1820.0
+2018,1749.0,1854.0
+2019,1749.0,1899.0
+2020,1749.0,1926.0
+2021,1749.0,2020.0
+2022,1749.0,2073.0
+2023,1749.0,2084.0
+2013,1749.0,787.0
+2014,1749.0,803.0
+2015,1749.0,816.0
+2016,1749.0,819.0
+2017,1749.0,820.0
+2018,1749.0,819.0
+2019,1749.0,818.0
+2020,1749.0,820.0
+2021,1749.0,813.0
+2022,1749.0,835.0
+2023,1749.0,837.0
+2013,1749.0,384.0
+2014,1749.0,395.0
+2015,1749.0,397.0
+2016,1749.0,406.0
+2017,1749.0,415.0
+2018,1749.0,450.0
+2019,1749.0,476.0
+2020,1749.0,491.0
+2021,1749.0,521.0
+2022,1749.0,548.0
+2023,1749.0,562.0
+2013,1749.0,152.0
+2014,1749.0,145.0
+2015,1749.0,143.0
+2016,1749.0,143.0
+2017,1749.0,138.0
+2018,1749.0,133.0
+2019,1749.0,128.0
+2020,1749.0,121.0
+2021,1749.0,122.0
+2022,1749.0,119.0
+2023,1749.0,118.0
+2013,1749.0,164.0
+2014,1749.0,169.0
+2015,1749.0,176.0
+2016,1749.0,181.0
+2017,1749.0,189.0
+2018,1749.0,192.0
+2019,1749.0,203.0
+2020,1749.0,220.0
+2021,1749.0,281.0
+2022,1749.0,287.0
+2023,1749.0,285.0
+2013,1749.0,238.0
+2014,1749.0,237.0
+2015,1749.0,247.0
+2016,1749.0,252.0
+2017,1749.0,258.0
+2018,1749.0,260.0
+2019,1749.0,274.0
+2020,1749.0,274.0
+2021,1749.0,283.0
+2022,1749.0,284.0
+2023,1749.0,282.0
+2015,43.0,45
+2016,43.0,45
+2017,43.0,44
+2018,43.0,46
+2019,43.0,43
+2020,43.0,42
+2021,43.0,37
+2022,43.0,33
+2023,43.0,35
+2013,43.0,1
+2014,43.0,1
+2015,43.0,1
+2016,43.0,1
+2017,43.0,1
+2018,43.0,1
+2019,43.0,1
+2020,43.0,1
+2021,43.0,1
+2022,43.0,1
+2023,43.0,1
+2013,43.0,1
+2014,43.0,1
+2015,43.0,--
+2016,43.0,--
+2017,43.0,--
+2018,43.0,--
+2019,43.0,--
+2020,43.0,--
+2021,43.0,--
+2022,43.0,--
+2023,43.0,--
+2013,43.0,2
+2014,43.0,2
+2015,43.0,3
+2016,43.0,3
+2017,43.0,3
+2018,43.0,3
+2019,43.0,3
+2020,43.0,3
+2021,43.0,3
+2022,43.0,3
+2023,43.0,3
+2013,43.0,--
+2014,43.0,--
+2015,43.0,--
+2016,43.0,--
+2017,43.0,--
+2018,43.0,--
+2019,43.0,--
+2020,43.0,--
+2021,43.0,--
+2022,43.0,--
+2023,43.0,--
+2013,43.0,40
+2014,43.0,39
+2015,43.0,41
+2016,43.0,41
+2017,43.0,40
+2018,43.0,42
+2019,43.0,39
+2020,43.0,38
+2021,43.0,33
+2022,43.0,29
+2023,43.0,31
+2015,62.0,62
+2016,62.0,61
+2017,62.0,61
+2018,62.0,60
+2019,62.0,58
+2020,62.0,56
+2021,62.0,55
+2022,62.0,54
+2023,62.0,54
+2013,62.0,32
+2014,62.0,32
+2015,62.0,32
+2016,62.0,31
+2017,62.0,31
+2018,62.0,31
+2019,62.0,31
+2020,62.0,31
+2021,62.0,31
+2022,62.0,31
+2023,62.0,31
+2013,62.0,31
+2014,62.0,30
+2015,62.0,30
+2016,62.0,30
+2017,62.0,30
+2018,62.0,29
+2019,62.0,27
+2020,62.0,25
+2021,62.0,24
+2022,62.0,23
+2023,62.0,23
+2013,62.0,--
+2014,62.0,--
+2015,62.0,--
+2016,62.0,--
+2017,62.0,--
+2018,62.0,--
+2019,62.0,--
+2020,62.0,--
+2021,62.0,--
+2022,62.0,--
+2023,62.0,--
+2013,62.0,--
+2014,62.0,--
+2015,62.0,--
+2016,62.0,--
+2017,62.0,--
+2018,62.0,--
+2019,62.0,--
+2020,62.0,--
+2021,62.0,--
+2022,62.0,--
+2023,62.0,--
+2013,62.0,--
+2014,62.0,--
+2015,62.0,--
+2016,62.0,--
+2017,62.0,--
+2018,62.0,--
+2019,62.0,--
+2020,62.0,--
+2021,62.0,--
+2022,62.0,--
+2023,62.0,--
+2015,1441.0,1440
+2016,1441.0,1451
+2017,1441.0,1458
+2018,1441.0,1458
+2019,1441.0,1452
+2020,1441.0,1446
+2021,1441.0,1449
+2022,1441.0,1445
+2023,1441.0,1441
+2013,1441.0,873
+2014,1441.0,889
+2015,1441.0,890
+2016,1441.0,893
+2017,1441.0,894
+2018,1441.0,896
+2019,1441.0,898
+2020,1441.0,892
+2021,1441.0,879
+2022,1441.0,875
+2023,1441.0,873
+2013,1441.0,505
+2014,1441.0,499
+2015,1441.0,497
+2016,1441.0,500
+2017,1441.0,505
+2018,1441.0,514
+2019,1441.0,506
+2020,1441.0,506
+2021,1441.0,521
+2022,1441.0,521
+2023,1441.0,520
+2013,1441.0,1
+2014,1441.0,--
+2015,1441.0,--
+2016,1441.0,--
+2017,1441.0,--
+2018,1441.0,--
+2019,1441.0,--
+2020,1441.0,--
+2021,1441.0,--
+2022,1441.0,--
+2023,1441.0,--
+2013,1441.0,9
+2014,1441.0,10
+2015,1441.0,10
+2016,1441.0,14
+2017,1441.0,15
+2018,1441.0,15
+2019,1441.0,15
+2020,1441.0,15
+2021,1441.0,16
+2022,1441.0,17
+2023,1441.0,17
+2013,1441.0,47
+2014,1441.0,43
+2015,1441.0,43
+2016,1441.0,44
+2017,1441.0,44
+2018,1441.0,33
+2019,1441.0,33
+2020,1441.0,33
+2021,1441.0,33
+2022,1441.0,32
+2023,1441.0,31
+2015,2674.0,3043.0
+2016,2674.0,3624.0
+2017,2674.0,4174.0
+2018,2674.0,4667.0
+2019,2674.0,5244.0
+2020,2674.0,5918.0
+2021,2674.0,6579.0
+2022,2674.0,7084.0
+2023,2674.0,7684.0
+2013,2674.0,253.0
+2014,2674.0,272.0
+2015,2674.0,318.0
+2016,2674.0,375.0
+2017,2674.0,417.0
+2018,2674.0,462.0
+2019,2674.0,512.0
+2020,2674.0,586.0
+2021,2674.0,649.0
+2022,2674.0,709.0
+2023,2674.0,782.0
+2013,2674.0,1670.0
+2014,2674.0,2006.0
+2015,2674.0,2309.0
+2016,2674.0,2826.0
+2017,2674.0,3320.0
+2018,2674.0,3749.0
+2019,2674.0,4251.0
+2020,2674.0,4847.0
+2021,2674.0,5429.0
+2022,2674.0,5833.0
+2023,2674.0,6359.0
+2013,2674.0,51.0
+2014,2674.0,54.0
+2015,2674.0,58.0
+2016,2674.0,57.0
+2017,2674.0,56.0
+2018,2674.0,56.0
+2019,2674.0,56.0
+2020,2674.0,56.0
+2021,2674.0,52.0
+2022,2674.0,54.0
+2023,2674.0,52.0
+2013,2674.0,160.0
+2014,2674.0,178.0
+2015,2674.0,186.0
+2016,2674.0,195.0
+2017,2674.0,203.0
+2018,2674.0,220.0
+2019,2674.0,242.0
+2020,2674.0,240.0
+2021,2674.0,255.0
+2022,2674.0,277.0
+2023,2674.0,278.0
+2013,2674.0,165.0
+2014,2674.0,164.0
+2015,2674.0,172.0
+2016,2674.0,171.0
+2017,2674.0,178.0
+2018,2674.0,180.0
+2019,2674.0,183.0
+2020,2674.0,189.0
+2021,2674.0,194.0
+2022,2674.0,211.0
+2023,2674.0,213.0
+2015,41.0,41
+2016,41.0,40
+2017,41.0,40
+2018,41.0,40
+2019,41.0,40
+2020,41.0,40
+2021,41.0,40
+2022,41.0,40
+2023,41.0,40
+2013,41.0,36
+2014,41.0,35
+2015,41.0,35
+2016,41.0,35
+2017,41.0,35
+2018,41.0,35
+2019,41.0,35
+2020,41.0,35
+2021,41.0,34
+2022,41.0,34
+2023,41.0,34
+2013,41.0,5
+2014,41.0,5
+2015,41.0,5
+2016,41.0,5
+2017,41.0,5
+2018,41.0,5
+2019,41.0,5
+2020,41.0,5
+2021,41.0,6
+2022,41.0,6
+2023,41.0,6
+2013,41.0,--
+2014,41.0,--
+2015,41.0,--
+2016,41.0,--
+2017,41.0,--
+2018,41.0,--
+2019,41.0,--
+2020,41.0,--
+2021,41.0,--
+2022,41.0,--
+2023,41.0,--
+2013,41.0,--
+2014,41.0,1
+2015,41.0,1
+2016,41.0,--
+2017,41.0,--
+2018,41.0,--
+2019,41.0,--
+2020,41.0,--
+2021,41.0,--
+2022,41.0,--
+2023,41.0,--
+2013,41.0,--
+2014,41.0,--
+2015,41.0,--
+2016,41.0,--
+2017,41.0,--
+2018,41.0,--
+2019,41.0,--
+2020,41.0,--
+2021,41.0,--
+2022,41.0,--
+2023,41.0,--
+2015,94.0,83.0
+2016,94.0,117.0
+2017,94.0,148.0
+2018,94.0,171.0
+2019,94.0,212.0
+2020,94.0,267.0
+2021,94.0,372.0
+2022,94.0,483.0
+2023,94.0,617.0
+2013,94.0,15.0
+2014,94.0,20.0
+2015,94.0,15.0
+2016,94.0,36.0
+2017,94.0,53.0
+2018,94.0,60.0
+2019,94.0,71.0
+2020,94.0,78.0
+2021,94.0,86.0
+2022,94.0,104.0
+2023,94.0,132.0
+2013,94.0,15.0
+2014,94.0,18.0
+2015,94.0,21.0
+2016,94.0,34.0
+2017,94.0,43.0
+2018,94.0,59.0
+2019,94.0,74.0
+2020,94.0,119.0
+2021,94.0,214.0
+2022,94.0,306.0
+2023,94.0,409.0
+2013,94.0,5.0
+2014,94.0,7.0
+2015,94.0,3.0
+2016,94.0,2.0
+2017,94.0,3.0
+2018,94.0,3.0
+2019,94.0,3.0
+2020,94.0,4.0
+2021,94.0,4.0
+2022,94.0,3.0
+2023,94.0,3.0
+2013,94.0,3.0
+2014,94.0,6.0
+2015,94.0,3.0
+2016,94.0,3.0
+2017,94.0,4.0
+2018,94.0,5.0
+2019,94.0,20.0
+2020,94.0,21.0
+2021,94.0,24.0
+2022,94.0,26.0
+2023,94.0,28.0
+2013,94.0,40.0
+2014,94.0,43.0
+2015,94.0,41.0
+2016,94.0,42.0
+2017,94.0,45.0
+2018,94.0,44.0
+2019,94.0,44.0
+2020,94.0,45.0
+2021,94.0,44.0
+2022,94.0,44.0
+2023,94.0,45.0
+2014,303306.3,299094.2
+2015,303306.3,279719.9
+2016,303306.3,266619.9
+2017,303306.3,256547.3
+2018,303306.3,242785.6
+2019,303306.3,228657.4
+2020,303306.3,215554.2
+2021,303306.3,209825.7
+2022,303306.3,189316.3
+2023,303306.3,178441.7
+2013,303306.3,228478
+2014,303306.3,219837.9
+2015,303306.3,202922.4
+2016,303306.3,193122.6
+2017,303306.3,186623.1
+2018,303306.3,179047.8
+2019,303306.3,171088.7
+2020,303306.3,163886.7
+2021,303306.3,157681
+2022,303306.3,146127.6
+2023,303306.3,139158
+2013,303306.3,67153.5
+2014,303306.3,71994.6
+2015,303306.3,70217.8
+2016,303306.3,67667.7
+2017,303306.3,64419.3
+2018,303306.3,58716.2
+2019,303306.3,53646.5
+2020,303306.3,48069.4
+2021,303306.3,48742.4
+2022,303306.3,40460.6
+2023,303306.3,36615.5
+2013,303306.3,4313.7
+2014,303306.3,4073
+2015,303306.3,3843.6
+2016,303306.3,3552.4
+2017,303306.3,3338
+2018,303306.3,2922
+2019,303306.3,2074.1
+2020,303306.3,1994.2
+2021,303306.3,1902.6
+2022,303306.3,1283.9
+2023,303306.3,1245
+2013,303306.3,341.9
+2014,303306.3,290.1
+2015,303306.3,226.6
+2016,303306.3,202.4
+2017,303306.3,202.4
+2018,303306.3,144.2
+2019,303306.3,123.2
+2020,303306.3,77.6
+2021,303306.3,77.6
+2022,303306.3,47.9
+2023,303306.3,47.9
+2013,303306.3,3019.2
+2014,303306.3,2898.6
+2015,303306.3,2509.5
+2016,303306.3,2074.8
+2017,303306.3,1964.5
+2018,303306.3,1955.4
+2019,303306.3,1724.9
+2020,303306.3,1526.3
+2021,303306.3,1422.1
+2022,303306.3,1396.3
+2023,303306.3,1375.3
+2014,303306.3,--
+2015,303306.3,--
+2016,303306.3,--
+2017,303306.3,--
+2018,303306.3,--
+2019,303306.3,--
+2020,303306.3,--
+2021,303306.3,--
+2022,303306.3,--
+2023,303306.3,--
+2014,43523,41135.4
+2015,43523,36830.3
+2016,43523,34382.4
+2017,43523,33306.7
+2018,43523,32218.2
+2019,43523,31400.3
+2020,43523,27569.3
+2021,43523,28204.5
+2022,43523,30775.3
+2023,43523,29440.7
+2013,43523,24648.8
+2014,43523,24045
+2015,43523,22269.7
+2016,43523,20285.5
+2017,43523,19999.9
+2018,43523,18642.6
+2019,43523,18219.8
+2020,43523,14723.5
+2021,43523,15660.6
+2022,43523,16411.3
+2023,43523,15291.5
+2013,43523,17444.7
+2014,43523,15724.4
+2015,43523,13102.9
+2016,43523,12587.4
+2017,43523,11777
+2018,43523,11733.2
+2019,43523,11514.8
+2020,43523,11007.6
+2021,43523,10672.5
+2022,43523,12386.6
+2023,43523,12249.2
+2013,43523,322.2
+2014,43523,308.2
+2015,43523,307.2
+2016,43523,301.2
+2017,43523,301.2
+2018,43523,458
+2019,43523,298.8
+2020,43523,450.8
+2021,43523,452.2
+2022,43523,449.9
+2023,43523,451.1
+2013,43523,455.7
+2014,43523,463.5
+2015,43523,466.1
+2016,43523,511
+2017,43523,596.5
+2018,43523,823.6
+2019,43523,856.7
+2020,43523,875.1
+2021,43523,912.5
+2022,43523,958.1
+2023,43523,960.5
+2013,43523,651.6
+2014,43523,594.3
+2015,43523,684.4
+2016,43523,697.3
+2017,43523,632.1
+2018,43523,560.8
+2019,43523,510.2
+2020,43523,512.3
+2021,43523,506.7
+2022,43523,569.4
+2023,43523,488.4
+2014,43523,--
+2015,43523,--
+2016,43523,--
+2017,43523,--
+2018,43523,--
+2019,43523,--
+2020,43523,--
+2021,43523,--
+2022,43523,--
+2023,43523,--
+2014,425389.7,432150.3
+2015,425389.7,439425.4
+2016,425389.7,446823.2
+2017,425389.7,456011.6
+2018,425389.7,470236.9
+2019,425389.7,476567.4
+2020,425389.7,485807.2
+2021,425389.7,491870.2
+2022,425389.7,502396.9
+2023,425389.7,507535.8
+2013,425389.7,208485.7
+2014,425389.7,215690.8
+2015,425389.7,223215.6
+2016,425389.7,229677.1
+2017,425389.7,236557.8
+2018,425389.7,241477
+2019,425389.7,247018.9
+2020,425389.7,252902.3
+2021,425389.7,257969.4
+2022,425389.7,266709.4
+2023,425389.7,270951.7
+2013,425389.7,171653.6
+2014,425389.7,172224.5
+2015,425389.7,172519.2
+2016,425389.7,173455.8
+2017,425389.7,176029
+2018,425389.7,186542.1
+2019,425389.7,187715.6
+2020,425389.7,190621.4
+2021,425389.7,190877.6
+2022,425389.7,192400
+2023,425389.7,193777
+2013,425389.7,29081.2
+2014,425389.7,27676.7
+2015,425389.7,27284.1
+2016,425389.7,27222.4
+2017,425389.7,26922.1
+2018,425389.7,25658.1
+2019,425389.7,24782
+2020,425389.7,24635.8
+2021,425389.7,24611.8
+2022,425389.7,24505.3
+2023,425389.7,24172.2
+2013,425389.7,1778.9
+2014,425389.7,1832.6
+2015,425389.7,1932.5
+2016,425389.7,1982.6
+2017,425389.7,2018.7
+2018,425389.7,2157.6
+2019,425389.7,2247.5
+2020,425389.7,2345
+2021,425389.7,2272.7
+2022,425389.7,2378.2
+2023,425389.7,2347.4
+2013,425389.7,14390.3
+2014,425389.7,14725.7
+2015,425389.7,14474
+2016,425389.7,14485.3
+2017,425389.7,14484
+2018,425389.7,14402.1
+2019,425389.7,14803.4
+2020,425389.7,15302.7
+2021,425389.7,16138.7
+2022,425389.7,16404
+2023,425389.7,16287.5
+2014,425389.7,--
+2015,425389.7,--
+2016,425389.7,--
+2017,425389.7,--
+2018,425389.7,--
+2019,425389.7,--
+2020,425389.7,--
+2021,425389.7,--
+2022,425389.7,--
+2023,425389.7,--
+2014,2107.8,1914.3
+2015,2107.8,2500.4
+2016,2107.8,2456.9
+2017,2107.8,2375.8
+2018,2107.8,2543.9
+2019,2107.8,2499.2
+2020,2107.8,2275.2
+2021,2107.8,1888
+2022,2107.8,1728.2
+2023,2107.8,1866.8
+2013,2107.8,12
+2014,2107.8,12
+2015,2107.8,12
+2016,2107.8,12
+2017,2107.8,12
+2018,2107.8,12
+2019,2107.8,12
+2020,2107.8,12
+2021,2107.8,12
+2022,2107.8,12
+2023,2107.8,12
+2013,2107.8,47
+2014,2107.8,47
+2015,2107.8,--
+2016,2107.8,--
+2017,2107.8,--
+2018,2107.8,--
+2019,2107.8,--
+2020,2107.8,--
+2021,2107.8,--
+2022,2107.8,--
+2023,2107.8,--
+2013,2107.8,83
+2014,2107.8,83
+2015,2107.8,350
+2016,2107.8,350
+2017,2107.8,350
+2018,2107.8,350
+2019,2107.8,350
+2020,2107.8,350
+2021,2107.8,350
+2022,2107.8,350
+2023,2107.8,350
+2013,2107.8,--
+2014,2107.8,--
+2015,2107.8,--
+2016,2107.8,--
+2017,2107.8,--
+2018,2107.8,--
+2019,2107.8,--
+2020,2107.8,--
+2021,2107.8,--
+2022,2107.8,--
+2023,2107.8,--
+2013,2107.8,1965.8
+2014,2107.8,1772.3
+2015,2107.8,2138.4
+2016,2107.8,2094.9
+2017,2107.8,2013.8
+2018,2107.8,2181.9
+2019,2107.8,2137.2
+2020,2107.8,1913.2
+2021,2107.8,1526
+2022,2107.8,1366.2
+2023,2107.8,1504.8
+2014,2107.8,--
+2015,2107.8,--
+2016,2107.8,--
+2017,2107.8,--
+2018,2107.8,--
+2019,2107.8,--
+2020,2107.8,--
+2021,2107.8,--
+2022,2107.8,--
+2023,2107.8,--
+2014,99240.3,98569.3
+2015,99240.3,98672
+2016,99240.3,99564.8
+2017,99240.3,99628.9
+2018,99240.3,99432.9
+2019,99240.3,98119
+2020,99240.3,96500.6
+2021,99240.3,95546.4
+2022,99240.3,94658.9
+2023,99240.3,95712.2
+2013,99240.3,52399.1
+2014,99240.3,52390.9
+2015,99240.3,52457.2
+2016,99240.3,53274.1
+2017,99240.3,53343.6
+2018,99240.3,53725.6
+2019,99240.3,53880.6
+2020,99240.3,54002.7
+2021,99240.3,53917.1
+2022,99240.3,53862.9
+2023,99240.3,54917.4
+2013,99240.3,46841.2
+2014,99240.3,46178.4
+2015,99240.3,46214.8
+2016,99240.3,46290.7
+2017,99240.3,46285.3
+2018,99240.3,45707.3
+2019,99240.3,44238.4
+2020,99240.3,42497.9
+2021,99240.3,41629.3
+2022,99240.3,40796
+2023,99240.3,40794.8
+2013,99240.3,--
+2014,99240.3,--
+2015,99240.3,--
+2016,99240.3,--
+2017,99240.3,--
+2018,99240.3,--
+2019,99240.3,--
+2020,99240.3,--
+2021,99240.3,--
+2022,99240.3,--
+2023,99240.3,--
+2013,99240.3,--
+2014,99240.3,--
+2015,99240.3,--
+2016,99240.3,--
+2017,99240.3,--
+2018,99240.3,--
+2019,99240.3,--
+2020,99240.3,--
+2021,99240.3,--
+2022,99240.3,--
+2023,99240.3,--
+2013,99240.3,--
+2014,99240.3,--
+2015,99240.3,--
+2016,99240.3,--
+2017,99240.3,--
+2018,99240.3,--
+2019,99240.3,--
+2020,99240.3,--
+2021,99240.3,--
+2022,99240.3,--
+2023,99240.3,--
+2014,99240.3,--
+2015,99240.3,--
+2016,99240.3,--
+2017,99240.3,--
+2018,99240.3,--
+2019,99240.3,--
+2020,99240.3,--
+2021,99240.3,--
+2022,99240.3,--
+2023,99240.3,--
+2014,79200,79677.3
+2015,79200,79664.2
+2016,79200,79912.9
+2017,79200,79794.5
+2018,79200,79871.8
+2019,79200,79773.1
+2020,79200,79924.3
+2021,79200,79909.7
+2022,79200,80067.6
+2023,79200,79985.3
+2013,79200,72755.2
+2014,79200,73725.4
+2015,79200,73713
+2016,79200,73879.3
+2017,79200,73739.5
+2018,79200,73818.2
+2019,79200,73719.7
+2020,79200,73855.3
+2021,79200,73316.9
+2022,79200,73482.6
+2023,79200,73467.1
+2013,79200,5762.2
+2014,79200,5651.2
+2015,79200,5650.5
+2016,79200,5676.9
+2017,79200,5697.9
+2018,79200,5770
+2019,79200,5764.3
+2020,79200,5780.6
+2021,79200,6293.8
+2022,79200,6288.7
+2023,79200,6224
+2013,79200,4.3
+2014,79200,--
+2015,79200,--
+2016,79200,--
+2017,79200,--
+2018,79200,--
+2019,79200,--
+2020,79200,--
+2021,79200,--
+2022,79200,--
+2023,79200,--
+2013,79200,17.8
+2014,79200,21.4
+2015,79200,21.4
+2016,79200,74.5
+2017,79200,74.9
+2018,79200,74.7
+2019,79200,74.9
+2020,79200,74.2
+2021,79200,84.8
+2022,79200,87.5
+2023,79200,87.5
+2013,79200,660.5
+2014,79200,279.3
+2015,79200,279.3
+2016,79200,282.2
+2017,79200,282.2
+2018,79200,208.9
+2019,79200,214.2
+2020,79200,214.2
+2021,79200,214.2
+2022,79200,208.8
+2023,79200,206.7
+2014,79200,--
+2015,79200,--
+2016,79200,--
+2017,79200,--
+2018,79200,--
+2019,79200,--
+2020,79200,--
+2021,79200,--
+2022,79200,--
+2023,79200,--
+2014,82600.1,90603.7
+2015,82600.1,102871.6
+2016,82600.1,119778.9
+2017,82600.1,131008.1
+2018,82600.1,142473.6
+2019,82600.1,156708.2
+2020,82600.1,181954.5
+2021,82600.1,209292.6
+2022,82600.1,229039.1
+2023,82600.1,253964.6
+2013,82600.1,10118.4
+2014,82600.1,10893.7
+2015,82600.1,12654.3
+2016,82600.1,14236.4
+2017,82600.1,15281.3
+2018,82600.1,18155.9
+2019,82600.1,20745.8
+2020,82600.1,27910.6
+2021,82600.1,33028.9
+2022,82600.1,35629
+2023,82600.1,41569.6
+2013,82600.1,64890.5
+2014,82600.1,72144.4
+2015,82600.1,82014.6
+2016,82600.1,97408.4
+2017,82600.1,107618
+2018,82600.1,116197.3
+2019,82600.1,127964.3
+2020,82600.1,145809.5
+2021,82600.1,168330.4
+2022,82600.1,185017.6
+2023,82600.1,204050.1
+2013,82600.1,945.1
+2014,82600.1,885.9
+2015,82600.1,970.5
+2016,82600.1,1068.3
+2017,82600.1,969.8
+2018,82600.1,884.2
+2019,82600.1,944.9
+2020,82600.1,952
+2021,82600.1,888.1
+2022,82600.1,856.8
+2023,82600.1,770
+2013,82600.1,947.6
+2014,82600.1,1066.8
+2015,82600.1,1126.5
+2016,82600.1,1132
+2017,82600.1,1162
+2018,82600.1,1241.5
+2019,82600.1,1218.6
+2020,82600.1,1217.9
+2021,82600.1,1373
+2022,82600.1,1925.2
+2023,82600.1,1927.1
+2013,82600.1,5698.5
+2014,82600.1,5612.9
+2015,82600.1,6105.7
+2016,82600.1,5933.8
+2017,82600.1,5977
+2018,82600.1,5994.7
+2019,82600.1,5834.6
+2020,82600.1,6064.5
+2021,82600.1,5672.2
+2022,82600.1,5610.5
+2023,82600.1,5647.8
+2014,82600.1,--
+2015,82600.1,--
+2016,82600.1,--
+2017,82600.1,--
+2018,82600.1,--
+2019,82600.1,--
+2020,82600.1,--
+2021,82600.1,--
+2022,82600.1,--
+2023,82600.1,--
+2014,22389.3,22485.1
+2015,22389.3,22575.1
+2016,22389.3,22778.7
+2017,22389.3,22810.4
+2018,22389.3,22830.2
+2019,22389.3,22778.3
+2020,22389.3,23016.2
+2021,22389.3,23007.7
+2022,22389.3,23043.9
+2023,22389.3,23147.4
+2013,22389.3,19114.9
+2014,22389.3,19121.3
+2015,22389.3,19211.3
+2016,22389.3,19398.3
+2017,22389.3,19430
+2018,22389.3,19449.8
+2019,22389.3,19428.9
+2020,22389.3,19666.8
+2021,22389.3,19235.3
+2022,22389.3,19279.1
+2023,22389.3,19377.1
+2013,22389.3,3274.4
+2014,22389.3,3358.4
+2015,22389.3,3358.4
+2016,22389.3,3380.4
+2017,22389.3,3380.4
+2018,22389.3,3380.4
+2019,22389.3,3349.4
+2020,22389.3,3349.4
+2021,22389.3,3772.4
+2022,22389.3,3764.8
+2023,22389.3,3770.3
+2013,22389.3,--
+2014,22389.3,--
+2015,22389.3,--
+2016,22389.3,--
+2017,22389.3,--
+2018,22389.3,--
+2019,22389.3,--
+2020,22389.3,--
+2021,22389.3,--
+2022,22389.3,--
+2023,22389.3,--
+2013,22389.3,--
+2014,22389.3,5.4
+2015,22389.3,5.4
+2016,22389.3,--
+2017,22389.3,--
+2018,22389.3,--
+2019,22389.3,--
+2020,22389.3,--
+2021,22389.3,--
+2022,22389.3,--
+2023,22389.3,--
+2013,22389.3,--
+2014,22389.3,--
+2015,22389.3,--
+2016,22389.3,--
+2017,22389.3,--
+2018,22389.3,--
+2019,22389.3,--
+2020,22389.3,--
+2021,22389.3,--
+2022,22389.3,--
+2023,22389.3,--
+2014,22389.3,--
+2015,22389.3,--
+2016,22389.3,--
+2017,22389.3,--
+2018,22389.3,--
+2019,22389.3,--
+2020,22389.3,--
+2021,22389.3,--
+2022,22389.3,--
+2023,22389.3,--
+2014,2307,2792.6
+2015,2307,1795.6
+2016,2307,2015.1
+2017,2307,2886.3
+2018,2307,2346.7
+2019,2307,2606.4
+2020,2307,3079.3
+2021,2307,6311.3
+2022,2307,10405.6
+2023,2307,17450.9
+2013,2307,787.3
+2014,2307,914.5
+2015,2307,87.5
+2016,2307,236.1
+2017,2307,519.3
+2018,2307,341.8
+2019,2307,418.3
+2020,2307,438.3
+2021,2307,958.5
+2022,2307,1298.5
+2023,2307,1917.6
+2013,2307,231.2
+2014,2307,238.7
+2015,2307,354.3
+2016,2307,487.5
+2017,2307,989.3
+2018,2307,670.1
+2019,2307,760.7
+2020,2307,1204.4
+2021,2307,3891.7
+2022,2307,7811
+2023,2307,14192.5
+2013,2307,121.8
+2014,2307,335.8
+2015,2307,126
+2016,2307,19
+2017,2307,21
+2018,2307,21
+2019,2307,112
+2020,2307,113
+2021,2307,113
+2022,2307,17
+2023,2307,31
+2013,2307,9.1
+2014,2307,15.6
+2015,2307,6.7
+2016,2307,6.7
+2017,2307,11.6
+2018,2307,13
+2019,2307,49.1
+2020,2307,51.8
+2021,2307,51.1
+2022,2307,53.1
+2023,2307,55.1
+2013,2307,1157.6
+2014,2307,1288
+2015,2307,1221.1
+2016,2307,1265.8
+2017,2307,1345.1
+2018,2307,1300.8
+2019,2307,1266.3
+2020,2307,1271.8
+2021,2307,1297
+2022,2307,1226
+2023,2307,1254.7
+2014,2307,--
+2015,2307,--
+2016,2307,--
+2017,2307,--
+2018,2307,--
+2019,2307,--
+2020,2307,--
+2021,2307,--
+2022,2307,--
+2023,2307,--
+2014,1060063.5,1068422.2
+2015,1060063.5,1064054.5
+2016,1060063.5,1074332.8
+2017,1060063.5,1084369.6
+2018,1060063.5,1094739.8
+2019,1060063.5,1099109.3
+2020,1060063.5,1115680.8
+2021,1060063.5,1145856.1
+2022,1060063.5,1161431.8
+2023,1060063.5,1187545.4
+2013,1060063.5,616799.4
+2014,1060063.5,616631.5
+2015,1060063.5,606543
+2016,1060063.5,604121.4
+2017,1060063.5,605506.5
+2018,1060063.5,604670.7
+2019,1060063.5,604532.7
+2020,1060063.5,607398.2
+2021,1060063.5,611779.7
+2022,1060063.5,612812.4
+2023,1060063.5,616662
+2013,1060063.5,377298.3
+2014,1060063.5,387561.6
+2015,1060063.5,393432.5
+2016,1060063.5,406954.8
+2017,1060063.5,416196.2
+2018,1060063.5,428716.6
+2019,1060063.5,434954
+2020,1060063.5,448340.2
+2021,1060063.5,474210.1
+2022,1060063.5,488925.3
+2023,1060063.5,511673.4
+2013,1060063.5,34871.3
+2014,1060063.5,33362.6
+2015,1060063.5,32881.4
+2016,1060063.5,32513.3
+2017,1060063.5,31902.1
+2018,1060063.5,30293.3
+2019,1060063.5,28561.8
+2020,1060063.5,28495.8
+2021,1060063.5,28317.7
+2022,1060063.5,27462.9
+2023,1060063.5,27019.3
+2013,1060063.5,3551
+2014,1060063.5,3695.4
+2015,1060063.5,3785.2
+2016,1060063.5,3909.2
+2017,1060063.5,4066.1
+2018,1060063.5,4454.6
+2019,1060063.5,4570
+2020,1060063.5,4641.6
+2021,1060063.5,4771.7
+2022,1060063.5,5450
+2023,1060063.5,5425.5
+2013,1060063.5,27543.5
+2014,1060063.5,27171.1
+2015,1060063.5,27412.4
+2016,1060063.5,26834.1
+2017,1060063.5,26698.7
+2018,1060063.5,26604.6
+2019,1060063.5,26490.8
+2020,1060063.5,26805
+2021,1060063.5,26776.9
+2022,1060063.5,26781.2
+2023,1060063.5,26765.2
+2014,1060063.5,--
+2015,1060063.5,--
+2016,1060063.5,--
+2017,1060063.5,--
+2018,1060063.5,--
+2019,1060063.5,--
+2020,1060063.5,--
+2021,1060063.5,--
+2022,1060063.5,--
+2023,1060063.5,--
+2014,--,7326.6
+2015,--,9778.5
+2016,--,12765.1
+2017,--,16147.8
+2018,--,19547.1
+2019,--,23213.6
+2020,--,27584.8
+2021,--,33081
+2022,--,39828
+2023,--,47774.7
+2013,--,--
+2014,--,--
+2015,--,--
+2016,--,--
+2017,--,--
+2018,--,--
+2019,--,--
+2020,--,--
+2021,--,--
+2022,--,--
+2023,--,--
+2013,--,--
+2014,--,--
+2015,--,--
+2016,--,--
+2017,--,--
+2018,--,--
+2019,--,--
+2020,--,--
+2021,--,--
+2022,--,--
+2023,--,--
+2013,--,--
+2014,--,--
+2015,--,--
+2016,--,--
+2017,--,--
+2018,--,--
+2019,--,--
+2020,--,--
+2021,--,--
+2022,--,--
+2023,--,--
+2013,--,--
+2014,--,3279.7
+2015,--,3706.7
+2016,--,4022.8
+2017,--,5155.8
+2018,--,6271.4
+2019,--,7167.9
+2020,--,8376.1
+2021,--,9752
+2022,--,11212.3
+2023,--,12605.1
+2013,--,--
+2014,--,700.6
+2015,--,880.3
+2016,--,1215.3
+2017,--,1365.1
+2018,--,1555.4
+2019,--,1796.6
+2020,--,2045.3
+2021,--,2212.7
+2022,--,2321.7
+2023,--,2558.3
+2014,--,3346.3
+2015,--,5191.5
+2016,--,7527
+2017,--,9626.8
+2018,--,11720.4
+2019,--,14249
+2020,--,17163.3
+2021,--,21116.2
+2022,--,26294
+2023,--,32611.3
+2013,Wind,59973.4
+2014,Wind,64231.5
+2015,Wind,72573.4
+2016,Wind,81286.6
+2017,Wind,87597.5
+2018,Wind,94417.7
+2019,Wind,103571.2
+2020,Wind,118378.7
+2021,Wind,132753.4
+2022,Wind,141402.2
+2023,Wind,147444.7
+2013,Wind,8424.7
+2014,Wind,9022.6
+2015,Wind,10580.9
+2016,Wind,11552.6
+2017,Wind,12150.8
+2018,Wind,14031.7
+2019,Wind,15715
+2020,Wind,20788.5
+2021,Wind,23991.7
+2022,Wind,24445.7
+2023,Wind,26855.3
+2013,Wind,51497.8
+2014,Wind,55133
+2015,Wind,61905.4
+2016,Wind,69645.4
+2017,Wind,75346.6
+2018,Wind,80267.6
+2019,Wind,87737.8
+2020,Wind,97242.6
+2021,Wind,108637.2
+2022,Wind,116829.6
+2023,Wind,120466.5
+2013,Wind,--
+2014,Wind,--
+2015,Wind,--
+2016,Wind,--
+2017,Wind,--
+2018,Wind,--
+2019,Wind,--
+2020,Wind,--
+2021,Wind,--
+2022,Wind,--
+2023,Wind,--
+2013,Wind,33.2
+2014,Wind,51.6
+2015,Wind,55.3
+2016,Wind,56.8
+2017,Wind,60.8
+2018,Wind,73.4
+2019,Wind,73.4
+2020,Wind,67.6
+2021,Wind,67.8
+2022,Wind,70.2
+2023,Wind,69.2
+2013,Wind,17.7
+2014,Wind,24.3
+2015,Wind,31.8
+2016,Wind,31.8
+2017,Wind,39.3
+2018,Wind,45
+2019,Wind,45
+2020,Wind,280
+2021,Wind,56.7
+2022,Wind,56.7
+2023,Wind,53.7
+2014,Wind,--
+2015,Wind,--
+2016,Wind,--
+2017,Wind,--
+2018,Wind,--
+2019,Wind,--
+2020,Wind,--
+2021,Wind,--
+2022,Wind,--
+2023,Wind,--
+2013,Solar Photovoltaic,5336.1
+2014,Solar Photovoltaic,8656.6
+2015,Solar Photovoltaic,11905.4
+2016,Solar Photovoltaic,20192.9
+2017,Solar Photovoltaic,25209
+2018,Solar Photovoltaic,30120.5
+2019,Solar Photovoltaic,35710.2
+2020,Solar Photovoltaic,46306.2
+2021,Solar Photovoltaic,60070.1
+2022,Solar Photovoltaic,71381.5
+2023,Solar Photovoltaic,90517.8
+2013,Solar Photovoltaic,487.9
+2014,Solar Photovoltaic,568.5
+2015,Solar Photovoltaic,842.9
+2016,Solar Photovoltaic,1388.4
+2017,Solar Photovoltaic,1724.5
+2018,Solar Photovoltaic,2683.5
+2019,Solar Photovoltaic,3851.4
+2020,Solar Photovoltaic,5965.4
+2021,Solar Photovoltaic,7979.1
+2022,Solar Photovoltaic,10141.2
+2023,Solar Photovoltaic,13691.6
+2013,Solar Photovoltaic,4647.6
+2014,Solar Photovoltaic,7857
+2015,Solar Photovoltaic,10768.2
+2016,Solar Photovoltaic,18483.3
+2017,Solar Photovoltaic,23127
+2018,Solar Photovoltaic,27055.8
+2019,Solar Photovoltaic,31416.4
+2020,Solar Photovoltaic,39868.8
+2021,Solar Photovoltaic,51546.2
+2022,Solar Photovoltaic,60617.7
+2023,Solar Photovoltaic,76128.3
+2013,Solar Photovoltaic,--
+2014,Solar Photovoltaic,--
+2015,Solar Photovoltaic,--
+2016,Solar Photovoltaic,1
+2017,Solar Photovoltaic,2.5
+2018,Solar Photovoltaic,3.3
+2019,Solar Photovoltaic,3.3
+2020,Solar Photovoltaic,3.9
+2021,Solar Photovoltaic,3.9
+2022,Solar Photovoltaic,4.1
+2023,Solar Photovoltaic,3.9
+2013,Solar Photovoltaic,192.9
+2014,Solar Photovoltaic,223.4
+2015,Solar Photovoltaic,282.1
+2016,Solar Photovoltaic,300.8
+2017,Solar Photovoltaic,311.6
+2018,Solar Photovoltaic,330.6
+2019,Solar Photovoltaic,381.1
+2020,Solar Photovoltaic,385.1
+2021,Solar Photovoltaic,412.9
+2022,Solar Photovoltaic,444.3
+2023,Solar Photovoltaic,448.6
+2013,Solar Photovoltaic,7.7
+2014,Solar Photovoltaic,7.7
+2015,Solar Photovoltaic,12.2
+2016,Solar Photovoltaic,19.4
+2017,Solar Photovoltaic,43.4
+2018,Solar Photovoltaic,47.3
+2019,Solar Photovoltaic,58
+2020,Solar Photovoltaic,83
+2021,Solar Photovoltaic,128
+2022,Solar Photovoltaic,174.2
+2023,Solar Photovoltaic,245.4
+2014,Solar Photovoltaic,--
+2015,Solar Photovoltaic,--
+2016,Solar Photovoltaic,--
+2017,Solar Photovoltaic,--
+2018,Solar Photovoltaic,--
+2019,Solar Photovoltaic,--
+2020,Solar Photovoltaic,--
+2021,Solar Photovoltaic,--
+2022,Solar Photovoltaic,--
+2023,Solar Photovoltaic,--
+2013,Solar Thermal,1286.4
+2014,Solar Thermal,1666.7
+2015,Solar Thermal,1757.9
+2016,Solar Thermal,1757.9
+2017,Solar Thermal,1757.9
+2018,Solar Thermal,1757.9
+2019,Solar Thermal,1758.1
+2020,Solar Thermal,1747.9
+2021,Solar Thermal,1480
+2022,Solar Thermal,1480
+2023,Solar Thermal,1480
+2013,Solar Thermal,--
+2014,Solar Thermal,--
+2015,Solar Thermal,--
+2016,Solar Thermal,--
+2017,Solar Thermal,--
+2018,Solar Thermal,--
+2019,Solar Thermal,--
+2020,Solar Thermal,--
+2021,Solar Thermal,--
+2022,Solar Thermal,--
+2023,Solar Thermal,--
+2013,Solar Thermal,1286.4
+2014,Solar Thermal,1666.7
+2015,Solar Thermal,1757.9
+2016,Solar Thermal,1757.9
+2017,Solar Thermal,1757.9
+2018,Solar Thermal,1757.9
+2019,Solar Thermal,1758.1
+2020,Solar Thermal,1747.9
+2021,Solar Thermal,1480
+2022,Solar Thermal,1480
+2023,Solar Thermal,1480
+2013,Solar Thermal,--
+2014,Solar Thermal,--
+2015,Solar Thermal,--
+2016,Solar Thermal,--
+2017,Solar Thermal,--
+2018,Solar Thermal,--
+2019,Solar Thermal,--
+2020,Solar Thermal,--
+2021,Solar Thermal,--
+2022,Solar Thermal,--
+2023,Solar Thermal,--
+2013,Solar Thermal,--
+2014,Solar Thermal,--
+2015,Solar Thermal,--
+2016,Solar Thermal,--
+2017,Solar Thermal,--
+2018,Solar Thermal,--
+2019,Solar Thermal,--
+2020,Solar Thermal,--
+2021,Solar Thermal,--
+2022,Solar Thermal,--
+2023,Solar Thermal,--
+2013,Solar Thermal,--
+2014,Solar Thermal,--
+2015,Solar Thermal,--
+2016,Solar Thermal,--
+2017,Solar Thermal,--
+2018,Solar Thermal,--
+2019,Solar Thermal,--
+2020,Solar Thermal,--
+2021,Solar Thermal,--
+2022,Solar Thermal,--
+2023,Solar Thermal,--
+2014,Solar Thermal,--
+2015,Solar Thermal,--
+2016,Solar Thermal,--
+2017,Solar Thermal,--
+2018,Solar Thermal,--
+2019,Solar Thermal,--
+2020,Solar Thermal,--
+2021,Solar Thermal,--
+2022,Solar Thermal,--
+2023,Solar Thermal,--
+2013,Wood and Wood-Derived Fuels,8354.2
+2014,Wood and Wood-Derived Fuels,8368.1
+2015,Wood and Wood-Derived Fuels,8968.9
+2016,Wood and Wood-Derived Fuels,8936.1
+2017,Wood and Wood-Derived Fuels,8830.9
+2018,Wood and Wood-Derived Fuels,8694.6
+2019,Wood and Wood-Derived Fuels,8374.5
+2020,Wood and Wood-Derived Fuels,8326.5
+2021,Wood and Wood-Derived Fuels,7923.2
+2022,Wood and Wood-Derived Fuels,7804.5
+2023,Wood and Wood-Derived Fuels,7693.1
+2013,Wood and Wood-Derived Fuels,564.3
+2014,Wood and Wood-Derived Fuels,654.8
+2015,Wood and Wood-Derived Fuels,623.8
+2016,Wood and Wood-Derived Fuels,708.8
+2017,Wood and Wood-Derived Fuels,811.3
+2018,Wood and Wood-Derived Fuels,807
+2019,Wood and Wood-Derived Fuels,696.2
+2020,Wood and Wood-Derived Fuels,670.8
+2021,Wood and Wood-Derived Fuels,627.7
+2022,Wood and Wood-Derived Fuels,628.6
+2023,Wood and Wood-Derived Fuels,628.6
+2013,Wood and Wood-Derived Fuels,1845.4
+2014,Wood and Wood-Derived Fuels,1816.6
+2015,Wood and Wood-Derived Fuels,1873.3
+2016,Wood and Wood-Derived Fuels,1789.6
+2017,Wood and Wood-Derived Fuels,1649.1
+2018,Wood and Wood-Derived Fuels,1576.2
+2019,Wood and Wood-Derived Fuels,1475.7
+2020,Wood and Wood-Derived Fuels,1463.3
+2021,Wood and Wood-Derived Fuels,1339.8
+2022,Wood and Wood-Derived Fuels,1318.3
+2023,Wood and Wood-Derived Fuels,1320
+2013,Wood and Wood-Derived Fuels,469.2
+2014,Wood and Wood-Derived Fuels,465.5
+2015,Wood and Wood-Derived Fuels,568.2
+2016,Wood and Wood-Derived Fuels,667.2
+2017,Wood and Wood-Derived Fuels,582
+2018,Wood and Wood-Derived Fuels,492.7
+2019,Wood and Wood-Derived Fuels,554.7
+2020,Wood and Wood-Derived Fuels,563.2
+2021,Wood and Wood-Derived Fuels,467.2
+2022,Wood and Wood-Derived Fuels,467.2
+2023,Wood and Wood-Derived Fuels,382.2
+2013,Wood and Wood-Derived Fuels,8.4
+2014,Wood and Wood-Derived Fuels,65.4
+2015,Wood and Wood-Derived Fuels,65.3
+2016,Wood and Wood-Derived Fuels,67.1
+2017,Wood and Wood-Derived Fuels,63.1
+2018,Wood and Wood-Derived Fuels,63.1
+2019,Wood and Wood-Derived Fuels,63.1
+2020,Wood and Wood-Derived Fuels,63.3
+2021,Wood and Wood-Derived Fuels,137.3
+2022,Wood and Wood-Derived Fuels,137.3
+2023,Wood and Wood-Derived Fuels,137.3
+2013,Wood and Wood-Derived Fuels,5466.9
+2014,Wood and Wood-Derived Fuels,5365.8
+2015,Wood and Wood-Derived Fuels,5838.3
+2016,Wood and Wood-Derived Fuels,5703.4
+2017,Wood and Wood-Derived Fuels,5725.4
+2018,Wood and Wood-Derived Fuels,5755.6
+2019,Wood and Wood-Derived Fuels,5584.8
+2020,Wood and Wood-Derived Fuels,5565.9
+2021,Wood and Wood-Derived Fuels,5351.2
+2022,Wood and Wood-Derived Fuels,5253.1
+2023,Wood and Wood-Derived Fuels,5225
+2014,Wood and Wood-Derived Fuels,--
+2015,Wood and Wood-Derived Fuels,--
+2016,Wood and Wood-Derived Fuels,--
+2017,Wood and Wood-Derived Fuels,--
+2018,Wood and Wood-Derived Fuels,--
+2019,Wood and Wood-Derived Fuels,--
+2020,Wood and Wood-Derived Fuels,--
+2021,Wood and Wood-Derived Fuels,--
+2022,Wood and Wood-Derived Fuels,--
+2023,Wood and Wood-Derived Fuels,--
+2013,Geothermal,2607
+2014,Geothermal,2514.3
+2015,Geothermal,2541.5
+2016,Geothermal,2516.6
+2017,Geothermal,2483.3
+2018,Geothermal,2444.3
+2019,Geothermal,2555.4
+2020,Geothermal,2571.9
+2021,Geothermal,2596.7
+2022,Geothermal,2648.6
+2023,Geothermal,2695.8
+2013,Geothermal,164.1
+2014,Geothermal,164.1
+2015,Geothermal,165.9
+2016,Geothermal,167.9
+2017,Geothermal,161.9
+2018,Geothermal,148.8
+2019,Geothermal,146.5
+2020,Geothermal,149.5
+2021,Geothermal,149.5
+2022,Geothermal,149.5
+2023,Geothermal,158.5
+2013,Geothermal,2401.1
+2014,Geothermal,2308.8
+2015,Geothermal,2375.6
+2016,Geothermal,2348.7
+2017,Geothermal,2321.4
+2018,Geothermal,2246.1
+2019,Geothermal,2359.5
+2020,Geothermal,2373
+2021,Geothermal,2373
+2022,Geothermal,2499.1
+2023,Geothermal,2537.3
+2013,Geothermal,41.8
+2014,Geothermal,41.4
+2015,Geothermal,--
+2016,Geothermal,--
+2017,Geothermal,--
+2018,Geothermal,--
+2019,Geothermal,--
+2020,Geothermal,--
+2021,Geothermal,--
+2022,Geothermal,--
+2023,Geothermal,--
+2013,Geothermal,--
+2014,Geothermal,--
+2015,Geothermal,--
+2016,Geothermal,--
+2017,Geothermal,--
+2018,Geothermal,49.4
+2019,Geothermal,49.4
+2020,Geothermal,49.4
+2021,Geothermal,74.2
+2022,Geothermal,--
+2023,Geothermal,--
+2013,Geothermal,--
+2014,Geothermal,--
+2015,Geothermal,--
+2016,Geothermal,--
+2017,Geothermal,--
+2018,Geothermal,--
+2019,Geothermal,--
+2020,Geothermal,--
+2021,Geothermal,--
+2022,Geothermal,--
+2023,Geothermal,--
+2014,Geothermal,--
+2015,Geothermal,--
+2016,Geothermal,--
+2017,Geothermal,--
+2018,Geothermal,--
+2019,Geothermal,--
+2020,Geothermal,--
+2021,Geothermal,--
+2022,Geothermal,--
+2023,Geothermal,--
+2013,Other Biomass,5043
+2014,Other Biomass,5166.5
+2015,Other Biomass,5124.5
+2016,Other Biomass,5088.8
+2017,Other Biomass,5129.5
+2018,Other Biomass,5038.6
+2019,Other Biomass,4738.8
+2020,Other Biomass,4623.3
+2021,Other Biomass,4469.2
+2022,Other Biomass,4322.3
+2023,Other Biomass,4133.2
+2013,Other Biomass,477.4
+2014,Other Biomass,483.7
+2015,Other Biomass,440.8
+2016,Other Biomass,418.7
+2017,Other Biomass,432.8
+2018,Other Biomass,484.9
+2019,Other Biomass,336.7
+2020,Other Biomass,336.4
+2021,Other Biomass,280.9
+2022,Other Biomass,264
+2023,Other Biomass,235.6
+2013,Other Biomass,3212.2
+2014,Other Biomass,3362.3
+2015,Other Biomass,3334.2
+2016,Other Biomass,3383.5
+2017,Other Biomass,3416
+2018,Other Biomass,3293.7
+2019,Other Biomass,3216.8
+2020,Other Biomass,3113.9
+2021,Other Biomass,2954.2
+2022,Other Biomass,2272.9
+2023,Other Biomass,2118
+2013,Other Biomass,434.1
+2014,Other Biomass,379
+2015,Other Biomass,402.3
+2016,Other Biomass,400.1
+2017,Other Biomass,385.3
+2018,Other Biomass,388.2
+2019,Other Biomass,386.9
+2020,Other Biomass,384.9
+2021,Other Biomass,417
+2022,Other Biomass,385.5
+2023,Other Biomass,383.9
+2013,Other Biomass,713.1
+2014,Other Biomass,726.4
+2015,Other Biomass,723.8
+2016,Other Biomass,707.3
+2017,Other Biomass,726.5
+2018,Other Biomass,725
+2019,Other Biomass,651.6
+2020,Other Biomass,652.5
+2021,Other Biomass,680.8
+2022,Other Biomass,1273.4
+2023,Other Biomass,1272
+2013,Other Biomass,206.2
+2014,Other Biomass,215.1
+2015,Other Biomass,223.4
+2016,Other Biomass,179.2
+2017,Other Biomass,168.9
+2018,Other Biomass,146.8
+2019,Other Biomass,146.8
+2020,Other Biomass,135.6
+2021,Other Biomass,136.3
+2022,Other Biomass,126.5
+2023,Other Biomass,123.7
+2014,Other Biomass,--
+2015,Other Biomass,--
+2016,Other Biomass,--
+2017,Other Biomass,--
+2018,Other Biomass,--
+2019,Other Biomass,--
+2020,Other Biomass,--
+2021,Other Biomass,--
+2022,Other Biomass,--
+2023,Other Biomass,--
+2013,"
+Total Utility (Other Renewable Sources)",82600.1
+2014,"
+Total Utility (Other Renewable Sources)",90603.7
+2015,"
+Total Utility (Other Renewable Sources)",102871.6
+2016,"
+Total Utility (Other Renewable Sources)",119778.9
+2017,"
+Total Utility (Other Renewable Sources)",131008.1
+2018,"
+Total Utility (Other Renewable Sources)",142473.6
+2019,"
+Total Utility (Other Renewable Sources)",156708.2
+2020,"
+Total Utility (Other Renewable Sources)",181954.5
+2021,"
+Total Utility (Other Renewable Sources)",209292.6
+2022,"
+Total Utility (Other Renewable Sources)",229039.1
+2023,"
+Total Utility (Other Renewable Sources)",253964.6
+2013,"
+Total Utility (Other Renewable Sources)",10118.4
+2014,"
+Total Utility (Other Renewable Sources)",10893.7
+2015,"
+Total Utility (Other Renewable Sources)",12654.3
+2016,"
+Total Utility (Other Renewable Sources)",14236.4
+2017,"
+Total Utility (Other Renewable Sources)",15281.3
+2018,"
+Total Utility (Other Renewable Sources)",18155.9
+2019,"
+Total Utility (Other Renewable Sources)",20745.8
+2020,"
+Total Utility (Other Renewable Sources)",27910.6
+2021,"
+Total Utility (Other Renewable Sources)",33028.9
+2022,"
+Total Utility (Other Renewable Sources)",35629
+2023,"
+Total Utility (Other Renewable Sources)",41569.6
+2013,"
+Total Utility (Other Renewable Sources)",64890.5
+2014,"
+Total Utility (Other Renewable Sources)",72144.4
+2015,"
+Total Utility (Other Renewable Sources)",82014.6
+2016,"
+Total Utility (Other Renewable Sources)",97408.4
+2017,"
+Total Utility (Other Renewable Sources)",107618
+2018,"
+Total Utility (Other Renewable Sources)",116197.3
+2019,"
+Total Utility (Other Renewable Sources)",127964.3
+2020,"
+Total Utility (Other Renewable Sources)",145809.5
+2021,"
+Total Utility (Other Renewable Sources)",168330.4
+2022,"
+Total Utility (Other Renewable Sources)",185017.6
+2023,"
+Total Utility (Other Renewable Sources)",204050.1
+2013,"
+Total Utility (Other Renewable Sources)",945.1
+2014,"
+Total Utility (Other Renewable Sources)",885.9
+2015,"
+Total Utility (Other Renewable Sources)",970.5
+2016,"
+Total Utility (Other Renewable Sources)",1068.3
+2017,"
+Total Utility (Other Renewable Sources)",969.8
+2018,"
+Total Utility (Other Renewable Sources)",884.2
+2019,"
+Total Utility (Other Renewable Sources)",944.9
+2020,"
+Total Utility (Other Renewable Sources)",952
+2021,"
+Total Utility (Other Renewable Sources)",888.1
+2022,"
+Total Utility (Other Renewable Sources)",856.8
+2023,"
+Total Utility (Other Renewable Sources)",770
+2013,"
+Total Utility (Other Renewable Sources)",947.6
+2014,"
+Total Utility (Other Renewable Sources)",1066.8
+2015,"
+Total Utility (Other Renewable Sources)",1126.5
+2016,"
+Total Utility (Other Renewable Sources)",1132
+2017,"
+Total Utility (Other Renewable Sources)",1162
+2018,"
+Total Utility (Other Renewable Sources)",1241.5
+2019,"
+Total Utility (Other Renewable Sources)",1218.6
+2020,"
+Total Utility (Other Renewable Sources)",1217.9
+2021,"
+Total Utility (Other Renewable Sources)",1373
+2022,"
+Total Utility (Other Renewable Sources)",1925.2
+2023,"
+Total Utility (Other Renewable Sources)",1927.1
+2013,"
+Total Utility (Other Renewable Sources)",5698.5
+2014,"
+Total Utility (Other Renewable Sources)",5612.9
+2015,"
+Total Utility (Other Renewable Sources)",6105.7
+2016,"
+Total Utility (Other Renewable Sources)",5933.8
+2017,"
+Total Utility (Other Renewable Sources)",5977
+2018,"
+Total Utility (Other Renewable Sources)",5994.7
+2019,"
+Total Utility (Other Renewable Sources)",5834.6
+2020,"
+Total Utility (Other Renewable Sources)",6064.5
+2021,"
+Total Utility (Other Renewable Sources)",5672.2
+2022,"
+Total Utility (Other Renewable Sources)",5610.5
+2023,"
+Total Utility (Other Renewable Sources)",5647.8
+2014,"
+Total Utility (Other Renewable Sources)",--
+2015,"
+Total Utility (Other Renewable Sources)",--
+2016,"
+Total Utility (Other Renewable Sources)",--
+2017,"
+Total Utility (Other Renewable Sources)",--
+2018,"
+Total Utility (Other Renewable Sources)",--
+2019,"
+Total Utility (Other Renewable Sources)",--
+2020,"
+Total Utility (Other Renewable Sources)",--
+2021,"
+Total Utility (Other Renewable Sources)",--
+2022,"
+Total Utility (Other Renewable Sources)",--
+2023,"
+Total Utility (Other Renewable Sources)",--
+2013,Estimated Small Scale Photovoltaic,--
+2014,Estimated Small Scale Photovoltaic,7326.6
+2015,Estimated Small Scale Photovoltaic,9778.5
+2016,Estimated Small Scale Photovoltaic,12765.1
+2017,Estimated Small Scale Photovoltaic,16147.8
+2018,Estimated Small Scale Photovoltaic,19547.1
+2019,Estimated Small Scale Photovoltaic,23213.6
+2020,Estimated Small Scale Photovoltaic,27584.8
+2021,Estimated Small Scale Photovoltaic,33081
+2022,Estimated Small Scale Photovoltaic,39828
+2023,Estimated Small Scale Photovoltaic,47774.7
+2013,Estimated Small Scale Photovoltaic,--
+2014,Estimated Small Scale Photovoltaic,--
+2015,Estimated Small Scale Photovoltaic,--
+2016,Estimated Small Scale Photovoltaic,--
+2017,Estimated Small Scale Photovoltaic,--
+2018,Estimated Small Scale Photovoltaic,--
+2019,Estimated Small Scale Photovoltaic,--
+2020,Estimated Small Scale Photovoltaic,--
+2021,Estimated Small Scale Photovoltaic,--
+2022,Estimated Small Scale Photovoltaic,--
+2023,Estimated Small Scale Photovoltaic,--
+2013,Estimated Small Scale Photovoltaic,--
+2014,Estimated Small Scale Photovoltaic,--
+2015,Estimated Small Scale Photovoltaic,--
+2016,Estimated Small Scale Photovoltaic,--
+2017,Estimated Small Scale Photovoltaic,--
+2018,Estimated Small Scale Photovoltaic,--
+2019,Estimated Small Scale Photovoltaic,--
+2020,Estimated Small Scale Photovoltaic,--
+2021,Estimated Small Scale Photovoltaic,--
+2022,Estimated Small Scale Photovoltaic,--
+2023,Estimated Small Scale Photovoltaic,--
+2013,Estimated Small Scale Photovoltaic,--
+2014,Estimated Small Scale Photovoltaic,--
+2015,Estimated Small Scale Photovoltaic,--
+2016,Estimated Small Scale Photovoltaic,--
+2017,Estimated Small Scale Photovoltaic,--
+2018,Estimated Small Scale Photovoltaic,--
+2019,Estimated Small Scale Photovoltaic,--
+2020,Estimated Small Scale Photovoltaic,--
+2021,Estimated Small Scale Photovoltaic,--
+2022,Estimated Small Scale Photovoltaic,--
+2023,Estimated Small Scale Photovoltaic,--
+2013,Estimated Small Scale Photovoltaic,--
+2014,Estimated Small Scale Photovoltaic,3279.7
+2015,Estimated Small Scale Photovoltaic,3706.7
+2016,Estimated Small Scale Photovoltaic,4022.8
+2017,Estimated Small Scale Photovoltaic,5155.8
+2018,Estimated Small Scale Photovoltaic,6271.4
+2019,Estimated Small Scale Photovoltaic,7167.9
+2020,Estimated Small Scale Photovoltaic,8376.1
+2021,Estimated Small Scale Photovoltaic,9752
+2022,Estimated Small Scale Photovoltaic,11212.3
+2023,Estimated Small Scale Photovoltaic,12605.1
+2013,Estimated Small Scale Photovoltaic,--
+2014,Estimated Small Scale Photovoltaic,700.6
+2015,Estimated Small Scale Photovoltaic,880.3
+2016,Estimated Small Scale Photovoltaic,1215.3
+2017,Estimated Small Scale Photovoltaic,1365.1
+2018,Estimated Small Scale Photovoltaic,1555.4
+2019,Estimated Small Scale Photovoltaic,1796.6
+2020,Estimated Small Scale Photovoltaic,2045.3
+2021,Estimated Small Scale Photovoltaic,2212.7
+2022,Estimated Small Scale Photovoltaic,2321.7
+2023,Estimated Small Scale Photovoltaic,2558.3
+2014,Estimated Small Scale Photovoltaic,3346.3
+2015,Estimated Small Scale Photovoltaic,5191.5
+2016,Estimated Small Scale Photovoltaic,7527
+2017,Estimated Small Scale Photovoltaic,9626.8
+2018,Estimated Small Scale Photovoltaic,11720.4
+2019,Estimated Small Scale Photovoltaic,14249
+2020,Estimated Small Scale Photovoltaic,17163.3
+2021,Estimated Small Scale Photovoltaic,21116.2
+2022,Estimated Small Scale Photovoltaic,26294
+2023,Estimated Small Scale Photovoltaic,32611.3
+2013,Total Solar Photovoltaic,5336.1
+2014,Total Solar Photovoltaic,15983.2
+2015,Total Solar Photovoltaic,21683.9
+2016,Total Solar Photovoltaic,32958
+2017,Total Solar Photovoltaic,41356.8
+2018,Total Solar Photovoltaic,49667.6
+2019,Total Solar Photovoltaic,58923.8
+2020,Total Solar Photovoltaic,73891
+2021,Total Solar Photovoltaic,93151.1
+2022,Total Solar Photovoltaic,111209.5
+2023,Total Solar Photovoltaic,138292.5
+2013,Total Solar Photovoltaic,487.9
+2014,Total Solar Photovoltaic,568.5
+2015,Total Solar Photovoltaic,842.9
+2016,Total Solar Photovoltaic,1388.4
+2017,Total Solar Photovoltaic,1724.5
+2018,Total Solar Photovoltaic,2683.5
+2019,Total Solar Photovoltaic,3851.4
+2020,Total Solar Photovoltaic,5965.4
+2021,Total Solar Photovoltaic,7979.1
+2022,Total Solar Photovoltaic,10141.2
+2023,Total Solar Photovoltaic,13691.6
+2013,Total Solar Photovoltaic,4647.6
+2014,Total Solar Photovoltaic,7857
+2015,Total Solar Photovoltaic,10768.2
+2016,Total Solar Photovoltaic,18483.3
+2017,Total Solar Photovoltaic,23127
+2018,Total Solar Photovoltaic,27055.8
+2019,Total Solar Photovoltaic,31416.4
+2020,Total Solar Photovoltaic,39868.8
+2021,Total Solar Photovoltaic,51546.2
+2022,Total Solar Photovoltaic,60617.7
+2023,Total Solar Photovoltaic,76128.3
+2013,Total Solar Photovoltaic,--
+2014,Total Solar Photovoltaic,--
+2015,Total Solar Photovoltaic,--
+2016,Total Solar Photovoltaic,1
+2017,Total Solar Photovoltaic,2.5
+2018,Total Solar Photovoltaic,3.3
+2019,Total Solar Photovoltaic,3.3
+2020,Total Solar Photovoltaic,3.9
+2021,Total Solar Photovoltaic,3.9
+2022,Total Solar Photovoltaic,4.1
+2023,Total Solar Photovoltaic,3.9
+2013,Total Solar Photovoltaic,192.9
+2014,Total Solar Photovoltaic,3503.1
+2015,Total Solar Photovoltaic,3988.8
+2016,Total Solar Photovoltaic,4323.6
+2017,Total Solar Photovoltaic,5467.4
+2018,Total Solar Photovoltaic,6602
+2019,Total Solar Photovoltaic,7549
+2020,Total Solar Photovoltaic,8761.2
+2021,Total Solar Photovoltaic,10164.9
+2022,Total Solar Photovoltaic,11656.6
+2023,Total Solar Photovoltaic,13053.7
+2013,Total Solar Photovoltaic,7.7
+2014,Total Solar Photovoltaic,708.3
+2015,Total Solar Photovoltaic,892.5
+2016,Total Solar Photovoltaic,1234.7
+2017,Total Solar Photovoltaic,1408.5
+2018,Total Solar Photovoltaic,1602.7
+2019,Total Solar Photovoltaic,1854.6
+2020,Total Solar Photovoltaic,2128.3
+2021,Total Solar Photovoltaic,2340.7
+2022,Total Solar Photovoltaic,2495.9
+2023,Total Solar Photovoltaic,2803.7
+2014,Total Solar Photovoltaic,3346.3
+2015,Total Solar Photovoltaic,5191.5
+2016,Total Solar Photovoltaic,7527
+2017,Total Solar Photovoltaic,9626.8
+2018,Total Solar Photovoltaic,11720.4
+2019,Total Solar Photovoltaic,14249
+2020,Total Solar Photovoltaic,17163.3
+2021,Total Solar Photovoltaic,21116.2
+2022,Total Solar Photovoltaic,26294
+2023,Total Solar Photovoltaic,32611.3
+2013,Total Solar,6622.5
+2014,Total Solar,17649.9
+2015,Total Solar,23441.8
+2016,Total Solar,34715.9
+2017,Total Solar,43114.7
+2018,Total Solar,51425.5
+2019,Total Solar,60681.9
+2020,Total Solar,75638.9
+2021,Total Solar,94631.1
+2022,Total Solar,112689.5
+2023,Total Solar,139772.5
+2013,Total Solar,487.9
+2014,Total Solar,568.5
+2015,Total Solar,842.9
+2016,Total Solar,1388.4
+2017,Total Solar,1724.5
+2018,Total Solar,2683.5
+2019,Total Solar,3851.4
+2020,Total Solar,5965.4
+2021,Total Solar,7979.1
+2022,Total Solar,10141.2
+2023,Total Solar,13691.6
+2013,Total Solar,5934
+2014,Total Solar,9523.7
+2015,Total Solar,12526.1
+2016,Total Solar,20241.2
+2017,Total Solar,24884.9
+2018,Total Solar,28813.7
+2019,Total Solar,33174.5
+2020,Total Solar,41616.7
+2021,Total Solar,53026.2
+2022,Total Solar,62097.7
+2023,Total Solar,77608.3
+2013,Total Solar,--
+2014,Total Solar,--
+2015,Total Solar,--
+2016,Total Solar,1
+2017,Total Solar,2.5
+2018,Total Solar,3.3
+2019,Total Solar,3.3
+2020,Total Solar,3.9
+2021,Total Solar,3.9
+2022,Total Solar,4.1
+2023,Total Solar,3.9
+2013,Total Solar,192.9
+2014,Total Solar,3503.1
+2015,Total Solar,3988.8
+2016,Total Solar,4323.6
+2017,Total Solar,5467.4
+2018,Total Solar,6602
+2019,Total Solar,7549
+2020,Total Solar,8761.2
+2021,Total Solar,10164.9
+2022,Total Solar,11656.6
+2023,Total Solar,13053.7
+2013,Total Solar,7.7
+2014,Total Solar,708.3
+2015,Total Solar,892.5
+2016,Total Solar,1234.7
+2017,Total Solar,1408.5
+2018,Total Solar,1602.7
+2019,Total Solar,1854.6
+2020,Total Solar,2128.3
+2021,Total Solar,2340.7
+2022,Total Solar,2495.9
+2023,Total Solar,2803.7
+2014,Total Solar,3346.3
+2015,Total Solar,5191.5
+2016,Total Solar,7527
+2017,Total Solar,9626.8
+2018,Total Solar,11720.4
+2019,Total Solar,14249
+2020,Total Solar,17163.3
+2021,Total Solar,21116.2
+2022,Total Solar,26294
+2023,Total Solar,32611.3

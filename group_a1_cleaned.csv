@@ -1,0 +1,1037 @@
+Fuel,Facility Type,Percentage Change,Value,Sector,Year
+Net Generation (Thousand Megawatthours),,,,,Year 2023
+Coal,Utility Scale Facilities,-0.188,675115,,Year 2023
+Petroleum Liquids,Utility Scale Facilities,-0.279,11397,,Year 2023
+Petroleum Coke,Utility Scale Facilities,-0.321,4836,,Year 2023
+Natural Gas,Utility Scale Facilities,0.071,1806063,,Year 2023
+Other Fossil Gas,Utility Scale Facilities,0.005,11778,,Year 2023
+Nuclear,Utility Scale Facilities,0.004,774873,,Year 2023
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,245002,,Year 2023
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,650239,,Year 2023
+... Wind,Utility Scale Facilities,-0.03,421141,,Year 2023
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,165530,,Year 2023
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,31615,,Year 2023
+... Other Biomass,Utility Scale Facilities,-0.049,15585,,Year 2023
+... Geothermal,Utility Scale Facilities,0.017,16367,,Year 2023
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,-5990,,Year 2023
+Other Energy Sources,Utility Scale Facilities,-0.104,9957,,Year 2023
+All Energy Sources,Utility Scale Facilities,-0.011,4183271,,Year 2023
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,73406,,Year 2023
+Estimated Total Solar Photovoltaic,All Facilities,0.168,236090,,Year 2023
+Estimated Total Solar,All Facilities,0.165,238937,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,386626,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,21336,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,2028,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,13244813,,Year 2023
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.175,9363,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,3133,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,622,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,1210187,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,395989,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,24468,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,2649,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,14455000,,Year 2023
+ ,,,,,Year 2023
+ ,,,,,Year 2023
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2023
+Sector,Year 2023,Year 2023,Year 2022,,Year 2023
+Residential,1450025,231993,1509233,,Year 2023
+Commercial,1408109,177342,1390873,,Year 2023
+Industrial,1009256,81159,1020464,,Year 2023
+Transportation,6864,877,6599,,Year 2023
+All Sectors,3874253,491370,3927169,,Year 2023
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2023
+Net Generation (Thousand Megawatthours),,,,,Year 2022
+Coal,Utility Scale Facilities,-0.188,831512,,Year 2022
+Petroleum Liquids,Utility Scale Facilities,-0.279,15805,,Year 2022
+Petroleum Coke,Utility Scale Facilities,-0.321,7126,,Year 2022
+Natural Gas,Utility Scale Facilities,0.071,1687065,,Year 2022
+Other Fossil Gas,Utility Scale Facilities,0.005,11722,,Year 2022
+Nuclear,Utility Scale Facilities,0.004,771537,,Year 2022
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,254789,,Year 2022
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,646025,,Year 2022
+... Wind,Utility Scale Facilities,-0.03,434297,,Year 2022
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,143792,,Year 2022
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,35466,,Year 2022
+... Other Biomass,Utility Scale Facilities,-0.049,16383,,Year 2022
+... Geothermal,Utility Scale Facilities,0.017,16087,,Year 2022
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,-6028,,Year 2022
+Other Energy Sources,Utility Scale Facilities,-0.104,11114,,Year 2022
+All Energy Sources,Utility Scale Facilities,-0.011,4230668,,Year 2022
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,61282,,Year 2022
+Estimated Total Solar Photovoltaic,All Facilities,0.168,202075,,Year 2022
+Estimated Total Solar,All Facilities,0.165,205074,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,471576,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,28760,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,2985,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,12384086,,Year 2022
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.175,11356,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,4181,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,718,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,1206250,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,482931,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,32940,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,3702,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,13590336,,Year 2022
+ ,,,,,Year 2022
+ ,,,,,Year 2022
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2022
+Sector,Year 2023,Year 2023,Percentage Change,,Year 2022
+Residential,1450025,231993,-0.039,,Year 2022
+Commercial,1408109,177342,0.012,,Year 2022
+Industrial,1009256,81159,-0.011,,Year 2022
+Transportation,6864,877,0.04,,Year 2022
+All Sectors,3874253,491370,-0.013,,Year 2022
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2022
+Net Generation (Thousand Megawatthours),,,,,Year 2023
+Coal,Utility Scale Facilities,-0.188,518330,,Year 2023
+Petroleum Liquids,Utility Scale Facilities,-0.279,8254,,Year 2023
+Petroleum Coke,Utility Scale Facilities,-0.321,3146,,Year 2023
+Natural Gas,Utility Scale Facilities,0.071,895910,,Year 2023
+Other Fossil Gas,Utility Scale Facilities,0.005,0,,Year 2023
+Nuclear,Utility Scale Facilities,0.004,441391,,Year 2023
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,220003,,Year 2023
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,106543,,Year 2023
+... Wind,Utility Scale Facilities,-0.03,80120,,Year 2023
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,22230,,Year 2023
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,2549,,Year 2023
+... Other Biomass,Utility Scale Facilities,-0.049,862,,Year 2023
+... Geothermal,Utility Scale Facilities,0.017,782,,Year 2023
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,-4545,,Year 2023
+Other Energy Sources,Utility Scale Facilities,-0.104,580,,Year 2023
+All Energy Sources,Utility Scale Facilities,-0.011,2189615,,Year 2023
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,0,,Year 2023
+Estimated Total Solar Photovoltaic,All Facilities,0.168,22230,,Year 2023
+Estimated Total Solar,All Facilities,0.165,22230,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,291034,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,16366,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,1328,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,6820807,,Year 2023
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.175,1580,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,65,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,8,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,46531,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,292615,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,16431,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,1336,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,6867338,,Year 2023
+ ,,,,,Year 2023
+ ,,,,,Year 2023
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2023
+Sector,Year 2023,Year 2023,Year 2022,,Year 2023
+Residential,1450025,231993,226990,,Year 2023
+Commercial,1408109,177342,172600,,Year 2023
+Industrial,1009256,81159,84895,,Year 2023
+Transportation,6864,877,765,,Year 2023
+All Sectors,3874253,491370,485249,,Year 2023
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2023
+Net Generation (Thousand Megawatthours),,,,,Year 2022
+Coal,Utility Scale Facilities,-0.188,621853,,Year 2022
+Petroleum Liquids,Utility Scale Facilities,-0.279,9356,,Year 2022
+Petroleum Coke,Utility Scale Facilities,-0.321,5383,,Year 2022
+Natural Gas,Utility Scale Facilities,0.071,832421,,Year 2022
+Other Fossil Gas,Utility Scale Facilities,0.005,0,,Year 2022
+Nuclear,Utility Scale Facilities,0.004,427933,,Year 2022
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,232953,,Year 2022
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,103925,,Year 2022
+... Wind,Utility Scale Facilities,-0.03,80962,,Year 2022
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,17692,,Year 2022
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,3263,,Year 2022
+... Other Biomass,Utility Scale Facilities,-0.049,982,,Year 2022
+... Geothermal,Utility Scale Facilities,0.017,1026,,Year 2022
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,-4752,,Year 2022
+Other Energy Sources,Utility Scale Facilities,-0.104,534,,Year 2022
+All Energy Sources,Utility Scale Facilities,-0.011,2229605,,Year 2022
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,0,,Year 2022
+Estimated Total Solar Photovoltaic,All Facilities,0.168,17664,,Year 2022
+Estimated Total Solar,All Facilities,0.165,17692,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,349320,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,18375,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,2271,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,6376041,,Year 2022
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.175,2269,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,106,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,23,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,46329,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,351589,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,18480,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,2294,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,6422369,,Year 2022
+ ,,,,,Year 2022
+ ,,,,,Year 2022
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2022
+Sector,Year 2023,Year 2023,Percentage Change,,Year 2022
+Residential,1450025,231993,0.022,,Year 2022
+Commercial,1408109,177342,0.027,,Year 2022
+Industrial,1009256,81159,-0.044,,Year 2022
+Transportation,6864,877,0.146,,Year 2022
+All Sectors,3874253,491370,0.013,,Year 2022
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2022
+Net Generation (Thousand Megawatthours),,,,,Year 2023
+Coal,Utility Scale Facilities,-0.188,152238,,Year 2023
+Petroleum Liquids,Utility Scale Facilities,-0.279,2573,,Year 2023
+Petroleum Coke,Utility Scale Facilities,-0.321,1415,,Year 2023
+Natural Gas,Utility Scale Facilities,0.071,803945,,Year 2023
+Other Fossil Gas,Utility Scale Facilities,0.005,3340,,Year 2023
+Nuclear,Utility Scale Facilities,0.004,333482,,Year 2023
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,23862,,Year 2023
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,516695,,Year 2023
+... Wind,Utility Scale Facilities,-0.03,340780,,Year 2023
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,142360,,Year 2023
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,7637,,Year 2023
+... Other Biomass,Utility Scale Facilities,-0.049,10332,,Year 2023
+... Geothermal,Utility Scale Facilities,0.017,15586,,Year 2023
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,-1445,,Year 2023
+Other Energy Sources,Utility Scale Facilities,-0.104,2823,,Year 2023
+All Energy Sources,Utility Scale Facilities,-0.011,1838927,,Year 2023
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,0,,Year 2023
+Estimated Total Solar Photovoltaic,All Facilities,0.168,139513,,Year 2023
+Estimated Total Solar,All Facilities,0.165,142360,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,94063,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,4253,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,594,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,5766811,,Year 2023
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.175,527,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,330,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,115,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,306058,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,94591,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,4583,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,709,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,6072869,,Year 2023
+ ,,,,,Year 2023
+ ,,,,,Year 2023
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2023
+Sector,Year 2023,Year 2023,Year 2023,,Year 2023
+Residential,1450025,231993,16,,Year 2023
+Commercial,1408109,177342,12.59,,Year 2023
+Industrial,1009256,81159,8.04,,Year 2023
+Transportation,6864,877,12.77,,Year 2023
+All Sectors,3874253,491370,12.68,,Year 2023
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2023
+Net Generation (Thousand Megawatthours),,,,,Year 2022
+Coal,Utility Scale Facilities,-0.188,204243,,Year 2022
+Petroleum Liquids,Utility Scale Facilities,-0.279,5734,,Year 2022
+Petroleum Coke,Utility Scale Facilities,-0.321,1354,,Year 2022
+Natural Gas,Utility Scale Facilities,0.071,750266,,Year 2022
+Other Fossil Gas,Utility Scale Facilities,0.005,3451,,Year 2022
+Nuclear,Utility Scale Facilities,0.004,343604,,Year 2022
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,20673,,Year 2022
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,512744,,Year 2022
+... Wind,Utility Scale Facilities,-0.03,353032,,Year 2022
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,125155,,Year 2022
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,8739,,Year 2022
+... Other Biomass,Utility Scale Facilities,-0.049,10757,,Year 2022
+... Geothermal,Utility Scale Facilities,0.017,15061,,Year 2022
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,-1276,,Year 2022
+Other Energy Sources,Utility Scale Facilities,-0.104,3487,,Year 2022
+All Energy Sources,Utility Scale Facilities,-0.011,1844282,,Year 2022
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,0,,Year 2022
+Estimated Total Solar Photovoltaic,All Facilities,0.168,122184,,Year 2022
+Estimated Total Solar,All Facilities,0.165,125155,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,120514,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,9474,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,578,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,5364050,,Year 2022
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.175,731,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,403,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,92,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,305125,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,121245,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,9877,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,671,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,5669175,,Year 2022
+ ,,,,,Year 2022
+ ,,,,,Year 2022
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2022
+Sector,Year 2023,Year 2023,Year 2022,,Year 2022
+Residential,1450025,231993,15.04,,Year 2022
+Commercial,1408109,177342,12.41,,Year 2022
+Industrial,1009256,81159,8.32,,Year 2022
+Transportation,6864,877,11.59,,Year 2022
+All Sectors,3874253,491370,12.36,,Year 2022
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2022
+Net Generation (Thousand Megawatthours),,,,,Year 2023
+Coal,Utility Scale Facilities,-0.188,220,,Year 2023
+Petroleum Liquids,Utility Scale Facilities,-0.279,76,,Year 2023
+Petroleum Coke,Utility Scale Facilities,-0.321,2,,Year 2023
+Natural Gas,Utility Scale Facilities,0.071,7744,,Year 2023
+Other Fossil Gas,Utility Scale Facilities,0.005,0,,Year 2023
+Nuclear,Utility Scale Facilities,0.004,0,,Year 2023
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,293,,Year 2023
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,4545,,Year 2023
+... Wind,Utility Scale Facilities,-0.03,130,,Year 2023
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,615,,Year 2023
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,107,,Year 2023
+... Other Biomass,Utility Scale Facilities,-0.049,3693,,Year 2023
+... Geothermal,Utility Scale Facilities,0.017,0,,Year 2023
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,0,,Year 2023
+Other Energy Sources,Utility Scale Facilities,-0.104,3185,,Year 2023
+All Energy Sources,Utility Scale Facilities,-0.011,16066,,Year 2023
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,19751,,Year 2023
+Estimated Total Solar Photovoltaic,All Facilities,0.168,20366,,Year 2023
+Estimated Total Solar,All Facilities,0.165,20366,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,69,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,200,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,1,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,49069,,Year 2023
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.175,331,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,363,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,3,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,69832,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,400,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,563,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,4,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,118901,,Year 2023
+ ,,,,,Year 2023
+ ,,,,,Year 2023
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2023
+Sector,Year 2023,Year 2023,Percentage Change,,Year 2023
+Residential,1450025,231993,0.064,,Year 2023
+Commercial,1408109,177342,0.015,,Year 2023
+Industrial,1009256,81159,-0.034,,Year 2023
+Transportation,6864,877,0.102,,Year 2023
+All Sectors,3874253,491370,0.026,,Year 2023
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2023
+Net Generation (Thousand Megawatthours),,,,,Year 2022
+Coal,Utility Scale Facilities,-0.188,287,,Year 2022
+Petroleum Liquids,Utility Scale Facilities,-0.279,101,,Year 2022
+Petroleum Coke,Utility Scale Facilities,-0.321,10,,Year 2022
+Natural Gas,Utility Scale Facilities,0.071,7830,,Year 2022
+Other Fossil Gas,Utility Scale Facilities,0.005,0,,Year 2022
+Nuclear,Utility Scale Facilities,0.004,0,,Year 2022
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,263,,Year 2022
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,4854,,Year 2022
+... Wind,Utility Scale Facilities,-0.03,173,,Year 2022
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,669,,Year 2022
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,175,,Year 2022
+... Other Biomass,Utility Scale Facilities,-0.049,3838,,Year 2022
+... Geothermal,Utility Scale Facilities,0.017,0,,Year 2022
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,0,,Year 2022
+Other Energy Sources,Utility Scale Facilities,-0.104,3391,,Year 2022
+All Energy Sources,Utility Scale Facilities,-0.011,16737,,Year 2022
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,17724,,Year 2022
+Estimated Total Solar Photovoltaic,All Facilities,0.168,18393,,Year 2022
+Estimated Total Solar,All Facilities,0.165,18393,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,87,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,254,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,3,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,48658,,Year 2022
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.175,448,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,495,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,13,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,74683,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,535,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,749,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,16,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,123342,,Year 2022
+ ,,,,,Year 2022
+ ,,,,,Year 2022
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2022
+Sector,Year 2023,Year 2023,,,Year 2022
+Residential,1450025,231993,,,Year 2022
+Commercial,1408109,177342,,,Year 2022
+Industrial,1009256,81159,,,Year 2022
+Transportation,6864,877,,,Year 2022
+All Sectors,3874253,491370,,,Year 2022
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2022
+Net Generation (Thousand Megawatthours),,,,,Year 2023
+Coal,Utility Scale Facilities,-0.188,4327,,Year 2023
+Petroleum Liquids,Utility Scale Facilities,-0.279,494,,Year 2023
+Petroleum Coke,Utility Scale Facilities,-0.321,273,,Year 2023
+Natural Gas,Utility Scale Facilities,0.071,98463,,Year 2023
+Other Fossil Gas,Utility Scale Facilities,0.005,8438,,Year 2023
+Nuclear,Utility Scale Facilities,0.004,0,,Year 2023
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,844,,Year 2023
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,22456,,Year 2023
+... Wind,Utility Scale Facilities,-0.03,112,,Year 2023
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,326,,Year 2023
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,21320,,Year 2023
+... Other Biomass,Utility Scale Facilities,-0.049,698,,Year 2023
+... Geothermal,Utility Scale Facilities,0.017,0,,Year 2023
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,0,,Year 2023
+Other Energy Sources,Utility Scale Facilities,-0.104,3369,,Year 2023
+All Energy Sources,Utility Scale Facilities,-0.011,138664,,Year 2023
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,4382,,Year 2023
+Estimated Total Solar Photovoltaic,All Facilities,0.168,4708,,Year 2023
+Estimated Total Solar,All Facilities,0.165,4708,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,1460,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,517,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,105,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,608127,,Year 2023
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.175,6925,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,2374,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,495,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,787766,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,8384,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,2891,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,600,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,1395893,,Year 2023
+ ,,,,,Year 2023
+ ,,,,,Year 2023
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2023
+Sector,Year 2023,Year 2023,,,Year 2023
+Residential,1450025,231993,,,Year 2023
+Commercial,1408109,177342,,,Year 2023
+Industrial,1009256,81159,,,Year 2023
+Transportation,6864,877,,,Year 2023
+All Sectors,3874253,491370,,,Year 2023
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2023
+Net Generation (Thousand Megawatthours),,,,,Year 2022
+Coal,Utility Scale Facilities,-0.188,5128,,Year 2022
+Petroleum Liquids,Utility Scale Facilities,-0.279,614,,Year 2022
+Petroleum Coke,Utility Scale Facilities,-0.321,379,,Year 2022
+Natural Gas,Utility Scale Facilities,0.071,96548,,Year 2022
+Other Fossil Gas,Utility Scale Facilities,0.005,8271,,Year 2022
+Nuclear,Utility Scale Facilities,0.004,0,,Year 2022
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,899,,Year 2022
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,24502,,Year 2022
+... Wind,Utility Scale Facilities,-0.03,130,,Year 2022
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,276,,Year 2022
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,23289,,Year 2022
+... Other Biomass,Utility Scale Facilities,-0.049,806,,Year 2022
+... Geothermal,Utility Scale Facilities,0.017,0,,Year 2022
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,0,,Year 2022
+Other Energy Sources,Utility Scale Facilities,-0.104,3702,,Year 2022
+All Energy Sources,Utility Scale Facilities,-0.011,140043,,Year 2022
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,4048,,Year 2022
+Estimated Total Solar Photovoltaic,All Facilities,0.168,4324,,Year 2022
+Estimated Total Solar,All Facilities,0.165,4324,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,1655,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,657,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,132,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,595337,,Year 2022
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.175,7908,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,3177,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,589,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,780113,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,9563,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,3835,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,721,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,1375449,,Year 2022
+ ,,,,,Year 2022
+ ,,,,,Year 2022
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2022
+Sector,Year 2023,Year 2023,,,Year 2022
+Residential,1450025,231993,,,Year 2022
+Commercial,1408109,177342,,,Year 2022
+Industrial,1009256,81159,,,Year 2022
+Transportation,6864,877,,,Year 2022
+All Sectors,3874253,491370,,,Year 2022
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2022
+Net Generation (Thousand Megawatthours),,,,,Year 2023
+Coal,Utility Scale Facilities,-0.188,0,,Year 2023
+Petroleum Liquids,Utility Scale Facilities,-0.279,0,,Year 2023
+Petroleum Coke,Utility Scale Facilities,-0.321,0,,Year 2023
+Natural Gas,Utility Scale Facilities,0.071,0,,Year 2023
+Other Fossil Gas,Utility Scale Facilities,0.005,0,,Year 2023
+Nuclear,Utility Scale Facilities,0.004,0,,Year 2023
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,0,,Year 2023
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,0,,Year 2023
+... Wind,Utility Scale Facilities,-0.03,0,,Year 2023
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,0,,Year 2023
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,0,,Year 2023
+... Other Biomass,Utility Scale Facilities,-0.049,0,,Year 2023
+... Geothermal,Utility Scale Facilities,0.017,0,,Year 2023
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,0,,Year 2023
+Other Energy Sources,Utility Scale Facilities,-0.104,0,,Year 2023
+All Energy Sources,Utility Scale Facilities,-0.011,0,,Year 2023
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,49273,,Year 2023
+Estimated Total Solar Photovoltaic,All Facilities,0.168,49273,,Year 2023
+Estimated Total Solar,All Facilities,0.165,49273,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,0,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,0,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,0,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,0,,Year 2023
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.175,0,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,0,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,0,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,0,,Year 2023
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2023
+Coal (1000 tons),Utility Scale Facilities,-0.18,0,,Year 2023
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,0,,Year 2023
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,0,,Year 2023
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,0,,Year 2023
+ ,,,,,Year 2023
+ ,,,,,Year 2023
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2023
+Sector,Year 2023,Year 2023,,,Year 2023
+Residential,1450025,231993,,,Year 2023
+Commercial,1408109,177342,,,Year 2023
+Industrial,1009256,81159,,,Year 2023
+Transportation,6864,877,,,Year 2023
+All Sectors,3874253,491370,,,Year 2023
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2023
+Net Generation (Thousand Megawatthours),,,,,Year 2022
+Coal,Utility Scale Facilities,-0.188,0,,Year 2022
+Petroleum Liquids,Utility Scale Facilities,-0.279,0,,Year 2022
+Petroleum Coke,Utility Scale Facilities,-0.321,0,,Year 2022
+Natural Gas,Utility Scale Facilities,0.071,0,,Year 2022
+Other Fossil Gas,Utility Scale Facilities,0.005,0,,Year 2022
+Nuclear,Utility Scale Facilities,0.004,0,,Year 2022
+Hydroelectric Conventional,Utility Scale Facilities,-0.038,0,,Year 2022
+Renewable Sources Excluding Hydroelectric,Utility Scale Facilities,0.007,0,,Year 2022
+... Wind,Utility Scale Facilities,-0.03,0,,Year 2022
+... Solar Thermal and Photovoltaic,Utility Scale Facilities,0.151,0,,Year 2022
+... Wood and Wood-Derived Fuels,Utility Scale Facilities,-0.109,0,,Year 2022
+... Other Biomass,Utility Scale Facilities,-0.049,0,,Year 2022
+... Geothermal,Utility Scale Facilities,0.017,0,,Year 2022
+Hydroelectric Pumped Storage,Utility Scale Facilities,-0.006,0,,Year 2022
+Other Energy Sources,Utility Scale Facilities,-0.104,0,,Year 2022
+All Energy Sources,Utility Scale Facilities,-0.011,0,,Year 2022
+Estimated Small Scale Solar Photovoltaic,Small Scale Facilities,0.198,39510,,Year 2022
+Estimated Total Solar Photovoltaic,All Facilities,0.168,39510,,Year 2022
+Estimated Total Solar,All Facilities,0.165,39510,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,0,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.258,0,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.321,0,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.07,0,,Year 2022
+Consumption of Fossil Fuels for Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.175,0,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.251,0,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.134,0,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.003,0,,Year 2022
+Consumption of Fossil Fuels for Electricity Generation and Useful Thermal Output,,,,,Year 2022
+Coal (1000 tons),Utility Scale Facilities,-0.18,0,,Year 2022
+Petroleum Liquids (1000 barrels),Utility Scale Facilities,-0.257,0,,Year 2022
+Petroleum Coke (1000 tons),Utility Scale Facilities,-0.284,0,,Year 2022
+Natural Gas (1000 Mcf),Utility Scale Facilities,0.064,0,,Year 2022
+ ,,,,,Year 2022
+ ,,,,,Year 2022
+"Sales, Revenue, and Average Price of Electricity to Ultimate Customers for January through December",,,,,Year 2022
+Sector,Year 2023,Year 2023,,,Year 2022
+Residential,1450025,231993,,,Year 2022
+Commercial,1408109,177342,,,Year 2022
+Industrial,1009256,81159,,,Year 2022
+Transportation,6864,877,,,Year 2022
+All Sectors,3874253,491370,,,Year 2022
+"
+NM = Not meaningful due to large relative standard error.
+W = Withheld to avoid disclosure of individual company data.
+Displayed values of zero may represent small values that round to zero.  The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Coal generation and consumption includes anthracite, bituminous, subbituminous, lignite, waste coal, refined coal, synthetic coal, and coal-derived synthesis gas.
+Petroleum Liquids includes distillate fuel oil, residual fuel oil, jet fuel, kerosene, propane, and waste oil.
+Petroleum Coke includes petroleum coke and synthesis gas derived from petroleum coke. 
+Natural gas includes a small amount of supplemental gaseous fuels that cannot be identified separately.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Wood and Wood-Derived Fuels include wood, black liquor, and other wood waste.
+Other Biomass includes biogenic municipal solid waste, landfill gas, sludge waste, agricultural byproducts, and other biomass.
+Other Energy Sources includes hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Coal stocks include anthracite, bituminous, subbituminous, lignite, refined coal, and synthetic coal; waste coal is excluded.
+Sales of electricity to ultimate customers and net generation may not correspond exactly for a particular month for a variety of reasons (e.g., sales data may include imported electricity).
+Net generation is presented for the calendar month while sales of electricity to ultimate customers and associated revenue accumulate from bills collected for periods of time that vary depending
+upon customer class and consumption occurring during and outside the calendar month.
+Note: Values are final. Percentage change is calculated before rounding.
+See technical notes for additional information including more on the Commercial, Industrial, and Transportation sectors.
+Sources: U.S. Energy Information Administration, Form EIA-861M, 'Monthly Electric Sales and Revenue With State Distributions Report.'
+         U.S. Energy Information Administration, Form EIA-923, 'Power Plant Operations Report.'
+",,,,,Year 2022
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,2013
+,,,,,2014
+,,,,,2015
+,,,,,2016
+,,,,,2017
+,,,,,2018
+,,,,,2019
+,,,,,2020
+,,,,,2021
+,,,,,2022
+,,,,,2023
+,,,,, 
+,,,,,(From Chapter 2.) Disposition (Thousand Megawatthours)
+,,,,,
+,,,,,Year
+,,,,,2013
+,,,,,2014
+,,,,,2015
+,,,,,2016
+,,,,,2017
+,,,,,2018
+,,,,,2019
+,,,,,2020
+,,,,,2021
+,,,,,2022
+,,,,,2023
+,,,,,"N/A = Not Available.
+Facility Direct Sales to ultimate customers typically represent bilateral electric power sales between industrial and commercial generating facilities.
+Direct Use represents commercial and industrial facility use of onsite net electricity generation; electricity sales or transfers to adjacent or co-located facilities; and barter transactions. Losses and Unaccounted For includes: (1) reporting by utilities and power marketers that represent losses incurred in transmission and distribution, as well as volumes unaccounted for in their own energy balance; and (2) discrepancies among the differing categories upon balancing the table.
+Totals may not equal sum of components because of independent rounding.
+Sources: U.S. Energy Information Administration, Form EIA-923, ""Power Plant Operations Report"" and predecessor form(s) including U.S. Energy Information Administration, Form EIA-906, ""Power Plant Report;"" and Form EIA-920, ""Combined Heat and Power Plant Report;"" Form EIA-861, ""Annual Electric Power Industry Report;"" and predecessor forms. Imports and Exports: Mexico data - DOE, Fossil Fuels, Office of Fuels Programs, Form OE-781R, ""Annual Report of International Electrical Export/Import Data:"" Canada data - National Energy Board of Canada (metered energy firm and interruptible)."
