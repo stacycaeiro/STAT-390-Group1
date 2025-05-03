@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from collections import defaultdict
 import json
 import warnings
@@ -10,6 +11,82 @@ def load_data(file_path):
 def remove_duplicates(df):
     print(f"🔄 Removing duplicates: {df.duplicated().sum()} duplicates found.")
     return df.drop_duplicates()
+
+def detect_mixed_dtypes(df, sample_frac=0.3, verbose=True):
+    """
+    Report object columns with >1 underlying Python type.
+    Great for catching hidden numbers stored as strings, etc.
+    """
+    mixed_cols = {}
+    for col in df.select_dtypes(include='object').columns:
+        # Sample to avoid scanning huge columns
+        sample = df[col].dropna().sample(frac=sample_frac, random_state=42) if len(df) > 10_000 else df[col].dropna()
+        types = sample.map(type).unique()
+        if len(types) > 1:
+            mixed_cols[col] = [t.__name__ for t in types[:5]]  # keep it readable
+            if verbose:
+                print(f"⚠️ Mixed types in '{col}': {mixed_cols[col]}")
+    if not mixed_cols and verbose:
+        print("✅ No mixed‑dtype object columns detected.")
+    return mixed_cols
+
+def fix_mixed_dtypes(df, mixed_cols_report, numeric_cutoff=0.90, datetime_cutoff=0.90):
+    """
+    For every column flagged by detect_mixed_dtypes:
+      1. Try numeric coercion.  Accept if ≥ numeric_cutoff non‑null.
+      2. Else try datetime coercion.  Accept if ≥ datetime_cutoff non‑null.
+      3. Else force string dtype (or drop if everything became NaN).
+    Returns the cleaned DataFrame.
+    """
+    for col in mixed_cols_report:
+        col_series = df[col]
+
+        # 1️⃣ numeric attempt
+        num = pd.to_numeric(col_series.astype(str).str.replace(",", "").str.strip(),
+                            errors="coerce")
+        if num.notna().mean() >= numeric_cutoff:
+            df[col] = num
+            print(f"🔢  Fixed '{col}' ➜ numeric ({num.notna().sum()} valid rows)")
+            continue
+
+        # 2️⃣ datetime attempt
+        dt = pd.to_datetime(col_series, errors="coerce")
+        if dt.notna().mean() >= datetime_cutoff:
+            df[col] = dt
+            print(f"📅  Fixed '{col}' ➜ datetime ({dt.notna().sum()} valid rows)")
+            continue
+
+        # 3️⃣ fallback: string or drop
+        if col_series.notna().any():
+            df[col] = col_series.astype(str)
+            print(f"🔤  Normalised '{col}' ➜ all strings")
+        else:
+            df.drop(columns=[col], inplace=True)
+            print(f"🗑️  Dropped '{col}' (all values became NaN)")
+
+    return df
+
+def downcast_numeric(df, verbose=True):
+    """Losslessly down‑cast numeric columns to the smallest dtype."""
+    for col in df.select_dtypes(include=['int', 'float']).columns:
+        old_dtype = df[col].dtype
+        df[col] = pd.to_numeric(df[col], downcast='integer' if 'int' in str(old_dtype) else 'float')
+        if verbose and df[col].dtype != old_dtype:
+            print(f"🔻 Down‑cast {col}: {old_dtype} ➜ {df[col].dtype}")
+    return df
+
+def categorify_low_cardinality(df, threshold=100, verbose=True):
+    """
+    Convert object columns with ≤ `threshold` unique values to pandas 'category' dtype.
+    This saves memory and speeds up many operations.
+    """
+    for col in df.select_dtypes(include='object').columns:
+        nunique = df[col].nunique(dropna=False)
+        if nunique <= threshold:
+            df[col] = df[col].astype('category')
+            if verbose:
+                print(f"🏷️  Categorified '{col}' ({nunique} unique values)")
+    return df
 
 def drop_unnamed_columns(df):
     print("✂️ Dropping 'Unnamed:' columns...")
@@ -145,6 +222,16 @@ def clean_dataset(file_path, save_cleaned=True):
     df = replace_empty_strings(df)
     df = convert_year_to_numeric(df)
     df = convert_object_columns(df, verbose=True)
+    
+    mixed_cols_report = detect_mixed_dtypes(df, verbose=True)
+    df = fix_mixed_dtypes(df, mixed_cols_report)
+    
+    for col in mixed_cols_report:               # auto‑coerce flagged cols
+        df[col] = pd.to_numeric(
+            df[col].astype(str).str.replace(",", "").str.strip(),
+            errors="coerce"
+        )
+        
     df = drop_metadata_columns(df)
 
     # Drop all-NaN columns
@@ -162,6 +249,10 @@ def clean_dataset(file_path, save_cleaned=True):
         df.drop(columns=low_var_cols, inplace=True)
     else:
         print("✅ No low-variance columns to drop.")
+
+    # Optimize memory usage
+    df = downcast_numeric(df)
+    df = categorify_low_cardinality(df, threshold=100)
 
     # Generate column summary of cleaned DataFrame
     summary_df = create_summary(df)
