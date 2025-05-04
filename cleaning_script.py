@@ -4,6 +4,10 @@ from collections import defaultdict
 import json
 import warnings
 
+# ---------------------------
+# Cleaning helper functions
+# ---------------------------
+
 def load_data(file_path):
     print("✨ Loading data...")
     return pd.read_parquet(file_path)
@@ -13,264 +17,237 @@ def remove_duplicates(df):
     return df.drop_duplicates()
 
 def detect_mixed_dtypes(df, sample_frac=0.3, verbose=True):
-    """
-    Report object columns with >1 underlying Python type.
-    Great for catching hidden numbers stored as strings, etc.
-    """
     mixed_cols = {}
     for col in df.select_dtypes(include='object').columns:
-        # Sample to avoid scanning huge columns
-        sample = df[col].dropna().sample(frac=sample_frac, random_state=42) if len(df) > 10_000 else df[col].dropna()
+        sample = (
+            df[col].dropna()
+                 .sample(frac=sample_frac, random_state=42)
+            if len(df) > 10_000 else
+            df[col].dropna()
+        )
         types = sample.map(type).unique()
         if len(types) > 1:
-            mixed_cols[col] = [t.__name__ for t in types[:5]]  # keep it readable
+            mixed_cols[col] = [t.__name__ for t in types[:5]]
             if verbose:
                 print(f"⚠️ Mixed types in '{col}': {mixed_cols[col]}")
     if not mixed_cols and verbose:
-        print("✅ No mixed‑dtype object columns detected.")
+        print("✅ No mixed-dtype object columns detected.")
     return mixed_cols
 
 def fix_mixed_dtypes(df, mixed_cols_report, numeric_cutoff=0.90, datetime_cutoff=0.90):
-    """
-    For every column flagged by detect_mixed_dtypes:
-      1. Try numeric coercion.  Accept if ≥ numeric_cutoff non‑null.
-      2. Else try datetime coercion.  Accept if ≥ datetime_cutoff non‑null.
-      3. Else force string dtype (or drop if everything became NaN).
-    Returns the cleaned DataFrame.
-    """
     for col in mixed_cols_report:
-        col_series = df[col]
-
-        # 1️⃣ numeric attempt
-        num = pd.to_numeric(col_series.astype(str).str.replace(",", "").str.strip(),
-                            errors="coerce")
+        s = df[col]
+        num = pd.to_numeric(
+            s.astype(str).str.replace(",", "").str.strip(),
+            errors="coerce"
+        )
         if num.notna().mean() >= numeric_cutoff:
             df[col] = num
-            print(f"🔢  Fixed '{col}' ➜ numeric ({num.notna().sum()} valid rows)")
+            print(f"🔢 Fixed '{col}' ➜ numeric")
             continue
-
-        # 2️⃣ datetime attempt
-        dt = pd.to_datetime(col_series, errors="coerce")
+        dt = pd.to_datetime(s, errors="coerce")
         if dt.notna().mean() >= datetime_cutoff:
             df[col] = dt
-            print(f"📅  Fixed '{col}' ➜ datetime ({dt.notna().sum()} valid rows)")
+            print(f"📅 Fixed '{col}' ➜ datetime")
             continue
-
-        # 3️⃣ fallback: string or drop
-        if col_series.notna().any():
-            df[col] = col_series.astype(str)
-            print(f"🔤  Normalised '{col}' ➜ all strings")
+        if s.notna().any():
+            df[col] = s.astype(str)
+            print(f"🔤 Normalised '{col}' ➜ strings")
         else:
             df.drop(columns=[col], inplace=True)
-            print(f"🗑️  Dropped '{col}' (all values became NaN)")
-
+            print(f"🗑️ Dropped '{col}' (all NaN)")
     return df
 
 def downcast_numeric(df, verbose=True):
-    """Losslessly down‑cast numeric columns to the smallest dtype."""
     for col in df.select_dtypes(include=['int', 'float']).columns:
-        old_dtype = df[col].dtype
-        df[col] = pd.to_numeric(df[col], downcast='integer' if 'int' in str(old_dtype) else 'float')
-        if verbose and df[col].dtype != old_dtype:
-            print(f"🔻 Down‑cast {col}: {old_dtype} ➜ {df[col].dtype}")
+        old = df[col].dtype
+        df[col] = pd.to_numeric(
+            df[col],
+            downcast='integer' if 'int' in str(old) else 'float'
+        )
+        if verbose and df[col].dtype != old:
+            print(f"🔻 Down-cast {col}: {old} → {df[col].dtype}")
     return df
 
 def categorify_low_cardinality(df, threshold=100, verbose=True):
-    """
-    Convert object columns with ≤ `threshold` unique values to pandas 'category' dtype.
-    This saves memory and speeds up many operations.
-    """
     for col in df.select_dtypes(include='object').columns:
-        nunique = df[col].nunique(dropna=False)
-        if nunique <= threshold:
+        nu = df[col].nunique(dropna=False)
+        if nu <= threshold:
             df[col] = df[col].astype('category')
             if verbose:
-                print(f"🏷️  Categorified '{col}' ({nunique} unique values)")
+                print(f"🏷️ Categorified '{col}' ({nu} values)")
     return df
 
 def drop_unnamed_columns(df):
-    print("✂️ Dropping 'Unnamed:' columns...")
-    return df.loc[:, ~df.columns.str.contains('^Unnamed')]
+    print("✂️ Dropping unnamed columns...")
+    return df.loc[:, ~df.columns.str.contains(r'^Unnamed')]
 
 def clean_column_names(df):
     print("✨ Cleaning column names...")
     df.columns = (
         df.columns
-        .str.strip()
-        .str.replace('%20', '_', regex=False)
-        .str.replace(r'\s+', '_', regex=True)
-        .str.replace('[^0-9a-zA-Z_]', '', regex=True)
+          .str.strip()
+          .str.replace('%20', '_', regex=False)
+          .str.replace(r'\s+', '_', regex=True)
+          .str.replace('[^0-9a-zA-Z_]', '', regex=True)
     )
     return df
 
 def drop_high_null_columns(df, threshold=0.99):
-    print(f"🔢 Dropping columns with >{int(threshold*100)}% null values...")
+    print("🔢 Dropping mostly-null columns...")
     null_ratios = df.isnull().mean()
     to_drop = null_ratios[null_ratios > threshold].index
-    print(f"❌ Columns to drop: {len(to_drop)}")
+    print(f"❌ Columns dropped: {len(to_drop)}")
     return df.drop(columns=to_drop)
 
 def replace_empty_strings(df):
-    print("🫗 Replacing empty strings and 'nan' strings with NaN...")
-    return df.replace(['', 'nan'], pd.NA)
+    print("🫗 Converting blank and 'None' to NA...")
+    return df.replace(r'^(?:\s*|nan|none)$', pd.NA, regex=True)
 
 def convert_year_to_numeric(df):
-    print("⏳ Converting 'year'-related columns to numeric...")
-    year_cols = [col for col in df.columns if 'year' in col.lower()]
-    for col in year_cols:
-        df[col] = pd.to_numeric(df[col], errors='coerce')
-        print(f"🔢 Forced numeric conversion: {col}")
+    print("⏳ Converting year columns to numeric...")
+    for col in df.columns:
+        if 'year' in col.lower():
+            df[col] = pd.to_numeric(df[col], errors="coerce")
     return df
 
 def convert_object_columns(df, verbose=True):
-    print("🔧 Attempting to convert object columns to appropriate types...")
-    object_cols = df.select_dtypes(include='object').columns
-
-    for col in object_cols:
+    print("🔧 Converting remaining object columns where possible...")
+    for col in df.select_dtypes(include='object').columns:
         if verbose:
-            print(f"🧪 Column '{col}': sample values (up to 5 unique) = {df[col].dropna().astype(str).unique()[:5]}")
-
+            sample = df[col].dropna().astype(str).unique()[:5]
+            print(f"🧪 '{col}': {sample}")
         try:
-            # Suppress datetime conversion warnings
             with warnings.catch_warnings():
-                warnings.simplefilter(action='ignore', category=UserWarning)
-
-                # Attempt numeric conversion
-                converted_numeric = pd.to_numeric(df[col].str.replace(",", "").str.strip(), errors='coerce')
-                numeric_valid = converted_numeric.notna().sum() / len(df)
-                if numeric_valid > 0.5:
-                    df[col] = converted_numeric
-                    print(f"✅ Converted to numeric ({numeric_valid:.0%} valid): {col}")
+                warnings.simplefilter('ignore', UserWarning)
+                num = pd.to_numeric(df[col].str.replace(",", "").str.strip(), errors='coerce')
+                if num.notna().mean() > 0.5:
+                    df[col] = num
+                    print(f"✅ Converted '{col}' to numeric")
                     continue
-
-                # Attempt datetime check but do NOT convert
-                converted_date = pd.to_datetime(df[col], errors='coerce')
-                datetime_valid = converted_date.notna().sum() / len(df)
-                if datetime_valid > 0.5:
-                    print(f"📅 Detected datetime-like column ({datetime_valid:.0%} valid): {col}")
-                    continue
-
-        except Exception as e:
-            print(f"⚠️ Skipped column {col} due to error: {e}")
-
-    print("🔍 Object column conversion complete.")
+                dt = pd.to_datetime(df[col], errors='coerce')
+                if dt.notna().mean() > 0.5:
+                    print(f"📅 Detected datetime-like '{col}'")
+        except Exception:
+            pass
     return df
 
 def drop_metadata_columns(df, keywords=None):
     if keywords is None:
         keywords = [
-            'note', 'description', 'about', 'info', 'metadata', 'comment', 'remarks', 'source',
-            'unit', 'type', 'flag', 'category', 'code', 'status', 'reference', 'definition'
+            'note','description','info','metadata','comment',
+            'source','unit','type','flag','category','status'
         ]
-
-    name_based_cols = [
-        col for col in df.columns
-        if any(kw in col.lower() for kw in keywords)
-    ]
-
-    if name_based_cols:
-        print(f"❌ Dropping metadata columns: {name_based_cols}")
-        return df.drop(columns=name_based_cols)
-    else:
-        print("✅ No metadata columns detected.")
-        return df
+    to_drop = [c for c in df.columns if any(kw in c.lower() for kw in keywords)]
+    if to_drop:
+        print(f"❌ Dropping metadata columns: {len(to_drop)}")
+        return df.drop(columns=to_drop)
+    return df
 
 def generate_nested_column_groups(df):
-    nested_groups = defaultdict(lambda: defaultdict(list))
-
+    nested = defaultdict(lambda: defaultdict(list))
     for col in df.columns:
         parts = col.split('_')
-        if len(parts) >= 3 and parts[0] in {"EPA", "EIA"}:
+        if len(parts) >= 3 and parts[0] in {"EPA","EIA"}:
             top = f"{parts[0]}_{parts[1]}"
-            sub = '_'.join(parts[2:4])  # sub-sub
+            sub = '_'.join(parts[2:4])
         elif len(parts) >= 2:
-            top = parts[0]
-            sub = parts[1]
+            top, sub = parts[0], parts[1]
         else:
-            top = parts[0]
-            sub = "misc"
-        nested_groups[top][sub].append(col)
-
-    with open("nested_column_groups.json", "w") as f:
-        json.dump(nested_groups, f, indent=2)
-
-    print("🗂️ Group structure saved to nested_column_groups.json")
-    return nested_groups
+            top, sub = parts[0], 'misc'
+        nested[top][sub].append(col)
+    with open("nested_column_groups.json","w") as f:
+        json.dump(nested, f, indent=2)
+    return nested
 
 def create_summary(df):
-    print("📊 Creating summary DataFrame...")
+    print("📊 Saving column summary...")
     summary = pd.DataFrame({
-        'Column': df.columns,
+        'Column':    df.columns,
         'Missing %': df.isna().mean().round(3),
-        'Unique Values': df.nunique(),
-        'Dtype': df.dtypes.astype(str),
-        'Low Variance': [df[col].nunique(dropna=False) <= 1 for col in df.columns]
+        'Unique':    df.nunique(),
+        'Dtype':     df.dtypes.astype(str),
+        'LowVar':    [df[c].nunique(dropna=False)<=1 for c in df.columns]
     })
-
     summary.to_csv("column_summary.csv", index=False)
-    print("📁 Summary saved to column_summary.csv")
     return summary
 
-def clean_dataset(file_path, save_cleaned=True):
-    df_original = load_data(file_path)
-    original_shape = df_original.shape
+# ---------------------------
+# Main cleaning function
+# ---------------------------
 
-    df = remove_duplicates(df_original)
+def clean_dataset(raw_path, save_cleaned=True):
+    df = load_data(raw_path)
+    orig_shape = df.shape
+
+    df = remove_duplicates(df)
     df = drop_unnamed_columns(df)
     df = clean_column_names(df)
     df = drop_high_null_columns(df)
     df = replace_empty_strings(df)
     df = convert_year_to_numeric(df)
-    df = convert_object_columns(df, verbose=True)
-    
-    mixed_cols_report = detect_mixed_dtypes(df, verbose=True)
-    df = fix_mixed_dtypes(df, mixed_cols_report)
-    
-    for col in mixed_cols_report:               # auto‑coerce flagged cols
-        df[col] = pd.to_numeric(
-            df[col].astype(str).str.replace(",", "").str.strip(),
-            errors="coerce"
-        )
-        
+    df = convert_object_columns(df)
+
+    mixed = detect_mixed_dtypes(df)
+    df = fix_mixed_dtypes(df, mixed)
+
     df = drop_metadata_columns(df)
 
-    # Drop all-NaN columns
-    all_nan_cols = df.columns[df.isna().all()]
-    if len(all_nan_cols) > 0:
-        print(f"❌ Dropping all-NaN columns: {list(all_nan_cols)}")
-        df.drop(columns=all_nan_cols, inplace=True)
-    else:
-        print("✅ No all-NaN columns to drop.")
+    # remove fully empty or single-value columns
+    all_na  = [c for c in df.columns if df[c].isna().all()]
+    low_var = [c for c in df.columns if df[c].nunique(dropna=False) <= 1]
+    for c in set(all_na + low_var):
+        df.drop(columns=[c], inplace=True)
 
-    # Drop low-variance columns
-    low_var_cols = [col for col in df.columns if df[col].nunique(dropna=False) <= 1]
-    if low_var_cols:
-        print(f"⚠️ Dropping low-variance columns (nunique ≤ 1): {low_var_cols}")
-        df.drop(columns=low_var_cols, inplace=True)
-    else:
-        print("✅ No low-variance columns to drop.")
-
-    # Optimize memory usage
     df = downcast_numeric(df)
-    df = categorify_low_cardinality(df, threshold=100)
+    df = categorify_low_cardinality(df)
 
-    # Generate column summary of cleaned DataFrame
-    summary_df = create_summary(df)
-
-    # Generate and save nested groups
-    nested_groups = generate_nested_column_groups(df)
+    summary = create_summary(df)
+    nested  = generate_nested_column_groups(df)
 
     if save_cleaned:
-        print(f"📂 Saving cleaned data to {file_path}")
-        df.to_parquet(file_path, index=False)
+        df.to_parquet(raw_path, index=False)
 
-    print("✅ Cleaning complete!")
-    return df, original_shape, nested_groups, summary_df
+    print(f"✅ Cleaning complete: {orig_shape} → {df.shape}")
+    return df
+
+# ---------------------------
+# Validation function
+# ---------------------------
+
+def validate_and_finalize(df, raw_path):
+    # replace any leftover placeholders
+    df = df.replace(r'(?i)^(?:none|\s*)$', pd.NA, regex=True)
+
+    # drop columns now entirely NA
+    placeholder_only = [c for c in df.columns if df[c].isna().all()]
+    if placeholder_only:
+        df.drop(columns=placeholder_only, inplace=True)
+
+    orig      = pd.read_parquet(raw_path)
+    orig_n    = orig.shape[0] - orig.duplicated().sum()
+    clean_n   = df.shape[0]
+    before_o  = orig.select_dtypes("object").shape[1]
+    after_o   = df.select_dtypes("object").shape[1]
+
+    assert clean_n == orig_n, "Row count mismatch"
+    assert after_o < before_o, "Object columns not reduced"
+    bad_cols = [
+        c for c in df.select_dtypes("object")
+        if df[c].dropna().astype(str).str.strip().str.lower().isin({"none",""}).any()
+    ]
+    assert not bad_cols, f"Placeholders remain: {bad_cols}"
+    assert not any(df[c].isna().all() for c in df.columns), "Empty columns remain"
+
+    print("🎉 Validation succeeded!")
+    return df
+
+# ---------------------------
+# Script entrypoint
+# ---------------------------
 
 if __name__ == "__main__":
-    input_path = "cleaned_data.parquet"
-
-    df, original_shape, nested_groups, summary_df = clean_dataset(
-        input_path,
-        save_cleaned=True
-    )
+    RAW = "cleaned_data.parquet"
+    cleaned = clean_dataset(RAW, save_cleaned=False)
+    cleaned = validate_and_finalize(cleaned, RAW)
+    cleaned.to_parquet(RAW, index=False)
