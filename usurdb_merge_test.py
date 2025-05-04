@@ -11,63 +11,58 @@ import os
 
 # #### the code below combines all of the data in each folder into one file by state
 
-# list_of_folders = ['weekend_schedule', 'weekday_schedule',
-#                     'energyratestructure', 'demandratestructure']
+list_of_folders = ['weekend_schedule', 'weekday_schedule',
+                     'energyratestructure', 'demandratestructure']
 
-# for i in range(len(list_of_folders)):
-    
+for i in range(len(list_of_folders)):
+    # Path where your 50 files are stored
+    folder_path = 'usurdb_flattened/'+list_of_folders[i]+'/' # <-- CHANGE THIS
+    # Find all CSV files in the folder
+    all_files = glob.glob(os.path.join(folder_path, '*.csv'))
+    # Read and concatenate
+    df_list = []
+    for file in all_files:
+        df = pd.read_csv(file)
+        df_list.append(df)
+    # Combine all into one DataFrame
+    combined_df = pd.concat(df_list, ignore_index=True)
 
-#     # Path where your 50 files are stored
-#     folder_path = 'usurdb_flattened/'+list_of_folders[i]+'/' # <-- CHANGE THIS
+    # (Optional) Check combined size
+    print(combined_df.shape)
 
-#     # Find all CSV files in the folder
-#     all_files = glob.glob(os.path.join(folder_path, '*.csv'))
-
-#     # Read and concatenate
-#     df_list = []
-#     for file in all_files:
-#         df = pd.read_csv(file)
-#         df_list.append(df)
-
-#     # Combine all into one DataFrame
-#     combined_df = pd.concat(df_list, ignore_index=True)
-
-#     # (Optional) Check combined size
-#     print(combined_df.shape)
-
-#     # (Optional) Save to one CSV
-#     combined_df.to_csv('usurdb_flattened/final_'+list_of_folders[i]+'.csv', index=False)
+    # (Optional) Save to one CSV
+    combined_df.to_csv('usurdb_flattened/final_'+list_of_folders[i]+'.csv', index=False)
 
 # ########
 # ### combine all 4 datasets into one dataset to add to the parquet file l8r
 
 
 # # 1. Load everything
-# weekday = pd.read_csv('usurdb_flattened/final_weekday_schedule.csv')
-# weekend = pd.read_csv('usurdb_flattened/final_weekend_schedule.csv')
-# energy = pd.read_csv('usurdb_flattened/final_energyratestructure.csv')
-# demand = pd.read_csv('usurdb_flattened/final_demandratestructure.csv')
+weekday = pd.read_csv('usurdb_flattened/final_weekday_schedule.csv')
+weekend = pd.read_csv('usurdb_flattened/final_weekend_schedule.csv')
+energy = pd.read_csv('usurdb_flattened/final_energyratestructure.csv')
+demand = pd.read_csv('usurdb_flattened/final_demandratestructure.csv')
 
-# # 3. Rename columns before merging to avoid conflicts
-# energy = energy.rename(columns={'rate': 'energy_rate', 'unit': 'energy_unit', 'max': 'energy_max', 'min': 'energy_min', 'adjustment': 'energy_adjustment', 'sell': 'energy_sell'})
-# demand = demand.rename(columns={'rate': 'demand_rate', 'unit': 'demand_unit', 'max': 'demand_max', 'min': 'demand_min', 'adjustment': 'demand_adjustment'})
+# 3. Rename columns before merging to avoid conflicts
+energy = energy.rename(columns={'rate': 'energy_rate', 'unit': 'energy_unit', 'max': 'energy_max', 'min': 'energy_min', 'adjustment': 'energy_adjustment', 'sell': 'energy_sell'})
+demand = demand.rename(columns={'rate': 'demand_rate', 'unit': 'demand_unit', 'max': 'demand_max', 'min': 'demand_min', 'adjustment': 'demand_adjustment'})
 
-# weekday = weekday.rename(columns={'period': 'weekday_period'})
-# weekend = weekend.rename(columns={'period': 'weekend_period'})
+weekday = weekday.rename(columns={'period': 'weekday_period'})
+weekend = weekend.rename(columns={'period': 'weekend_period'})
 
-# # 4. Merge: Energy and Demand
-# merged = pd.merge(energy, demand, on=['utility_name', 'rate_name', 'sector', 'startdate', 'enddate', 'state', 'eiaid', 'rate_id', 'tier_index'], how='outer')
+# 4. Merge: Energy and Demand
+merged = pd.merge(energy, demand, on=['utility_name', 'rate_name', 'sector', 'startdate', 'enddate', 'state', 'eiaid', 'rate_id', 'tier_index'], how='outer')
 
-# # 5. Merge: Add Weekday
-# merged = pd.merge(merged, weekday[['utility_name', 'rate_name', 'sector', 'startdate', 'enddate', 'state', 'eiaid', 'rate_id', 'tier_index', 'hour', 'weekday_period']], 
-#                   on=['utility_name', 'rate_name', 'sector', 'startdate', 'enddate', 'state', 'eiaid', 'rate_id', 'tier_index'], how='outer')
+# 5. Merge: Add Weekday
+merged = pd.merge(merged, weekday[['utility_name', 'rate_name', 'sector', 'startdate', 'enddate', 'state', 'eiaid', 'rate_id', 'tier_index', 'hour', 'weekday_period']], 
+                  on=['utility_name', 'rate_name', 'sector', 'startdate', 'enddate', 'state', 'eiaid', 'rate_id', 'tier_index'], how='outer')
 
-# # 6. Merge: Add Weekend
-# merged = pd.merge(merged, weekend[['utility_name', 'rate_name', 'sector', 'startdate', 'enddate', 'state', 'eiaid', 'rate_id', 'tier_index', 'hour', 'weekend_period']], 
-#                   on=['utility_name', 'rate_name', 'sector', 'startdate', 'enddate', 'state', 'eiaid', 'rate_id', 'tier_index', 'hour'], how='outer')
+# 6. Merge: Add Weekend
+merged = pd.merge(merged, weekend[['utility_name', 'rate_name', 'sector', 'startdate', 'enddate', 'state', 'eiaid', 'rate_id', 'tier_index', 'hour', 'weekend_period']], 
+                  on=['utility_name', 'rate_name', 'sector', 'startdate', 'enddate', 'state', 'eiaid', 'rate_id', 'tier_index', 'hour'], how='outer')
 
 # # # 7. Save it
-# merged.to_csv('usurdb_flattened/final_merged_dataset.csv', index=False)
+merged.to_csv('usurdb_flattened/final_merged_dataset.csv', index=False)
 
 ######
 ##combine the final dataset made with the parquet file
