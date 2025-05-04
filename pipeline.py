@@ -23,6 +23,7 @@ scripts = [
     "merge_eia923_w_main.py",
     "usurdb_merge_test.py",
     "merge_CAMP_facilities_w_main.py",
+    "cleaning_script.py"
 ]
 print("\n🚀 Running selected merging scripts...\n")
 
