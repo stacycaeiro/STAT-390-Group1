@@ -104,12 +104,28 @@ def clean_column_names(df):
     return df
 
 def drop_high_null_columns(df, threshold=0.99):
-    print(f"🔢 Dropping columns with >{int(threshold*100)}% null values...")
-    null_ratios = df.isnull().mean()
-    to_drop = null_ratios[null_ratios > threshold].index
-    print(f"❌ Columns to drop: {len(to_drop)}")
-    return df.drop(columns=to_drop)
+    print(f"🔢 Dropping columns with >{int(threshold * 100)}% null values or single unique value...")
 
+    # Replace string "None" with proper NA
+    df.replace("None", pd.NA, inplace=True)
+
+    # Drop columns with too many nulls
+    null_ratios = df.isnull().mean()
+    high_null_cols = null_ratios[null_ratios > threshold].index.tolist()
+
+    # Drop single-category (low-information) columns
+    single_cat_cols = [col for col in df.columns if df[col].nunique(dropna=True) == 1]
+
+    # Combine both sets of columns to drop
+    to_drop = list(set(high_null_cols + single_cat_cols))
+
+    if to_drop:
+        print(f"❌ Columns to drop: {len(to_drop)} – {to_drop}")
+        return df.drop(columns=to_drop)
+    else:
+        print("✅ No high-null or low-info columns to drop.")
+        return df
+        
 def replace_empty_strings(df):
     print("🫗 Replacing empty strings and 'nan' strings with NaN...")
     return df.replace(['', 'nan'], pd.NA)
