@@ -247,7 +247,7 @@ def validate_and_finalize(df, raw_path):
 # ---------------------------
 
 if __name__ == "__main__":
-    RAW = "cleaned_data.parquet"
+    RAW = "merged_main_camp.parquet"
     cleaned = clean_dataset(RAW, save_cleaned=False)
     cleaned = validate_and_finalize(cleaned, RAW)
     cleaned.to_parquet(RAW, index=False)
