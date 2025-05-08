@@ -4,6 +4,54 @@ from collections import defaultdict
 import json
 import warnings
 
+
+# ---------------------------
+# NEW: Numeric conversion prefixes
+# ---------------------------
+NUMERIC_PREFIXES = [
+    "EIA_SEDS_pr_US_19",
+    "EIA_SEDS_pr_US_20",
+    "EIA_SEDS_use_US_19",
+    "EIA_SEDS_use_US_20"
+]
+
+NUMERIC_EXACT_COLUMNS = [
+    'EPA_FLIGHT_GHGRP_ghgp_data_parent_company_PARENT_CO_PERCENT_OWNERSHIP',
+    'EPA_NEEDS_needsrev06062024_Capacity_MW',
+    'EPA_NEEDS_needsrev06062024_Heat_Rate_BtukWh',
+    'EPA_NEEDS_needsrev06062024_SO2_Permit_Rate_lbsmmBtu',
+    'EPA_NEEDS_needsrev06062024_Mode_1_NOx_Rate_lbsmmBtu',
+    'EPA_NEEDS_needsrev06062024_Mode_2_NOx_Rate_lbsmmBtu',
+    'EPA_NEEDS_needsrev06062024_Mode_3_NOx_Rate_lbsmmBtu',
+    'EPA_NEEDS_needsrev06062024_Mode_4_NOx_Rate_lbsmmBtu',
+    'EPA_NEEDS_needsrev06062024_Owner_Percent',
+    'EPA_NEEDS_needsrev06062024_Holding_Company_Percent'
+]
+
+def force_numeric_conversion(df, prefixes=None, exact_columns=None):
+    print("🔧 Forcing numeric conversion...")
+    matched_cols = set()
+
+    if prefixes:
+        prefix_matches = [col for col in df.columns if any(col.startswith(p) for p in prefixes)]
+        print(f"📌 Matched {len(prefix_matches)} columns by prefix")
+        matched_cols.update(prefix_matches)
+
+    if exact_columns:
+        exact_matches = [col for col in exact_columns if col in df.columns]
+        print(f"📌 Matched {len(exact_matches)} columns by exact name")
+        matched_cols.update(exact_matches)
+
+    for col in matched_cols:
+        df[col] = pd.to_numeric(
+            df[col].astype(str).str.replace(",", "").str.strip(),
+            errors='coerce'
+        )
+        print(f"🔢 Converted '{col}' to numeric")
+
+    return df
+
+
 # ---------------------------
 # Cleaning helper functions
 # ---------------------------
@@ -183,6 +231,7 @@ def clean_dataset(raw_path, save_cleaned=True):
     df = remove_duplicates(df)
     df = drop_unnamed_columns(df)
     df = clean_column_names(df)
+    df = force_numeric_conversion(df, prefixes = NUMERIC_PREFIXES, exact_columns = NUMERIC_EXACT_COLUMNS)
     df = drop_high_null_columns(df)
     df = replace_empty_strings(df)
     df = convert_year_to_numeric(df)
