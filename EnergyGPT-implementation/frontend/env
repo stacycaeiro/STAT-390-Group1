@@ -1,0 +1,11 @@
+# Created by Vercel CLI
+SCISCIGPT_URL="http://localhost:8080/sciscigpt"
+
+AUTH_SECRET="sciscigpt"
+KV_REST_API_READ_ONLY_TOKEN="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxx"
+KV_REST_API_TOKEN="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+KV_REST_API_URL="https://xxxxx-xxxxxx-12345.upstash.io"
+KV_URL="redis://default:yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy@xxxxx-xxxxxx-12345.upstash.io:1234"
+
+OPENAI_API_KEY="sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ANTHROPIC_API_KEY="sk-ant-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"

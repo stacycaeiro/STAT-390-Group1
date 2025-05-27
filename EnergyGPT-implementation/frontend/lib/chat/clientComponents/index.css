@@ -1,0 +1,54 @@
+.download-btn {
+    height: 60px;
+}
+
+.download-btn .anticon {
+    padding: 10px;
+    background: #4aa181;
+    border-radius: 10px;
+    color: white;
+    margin: 10px 0;
+}
+
+.download-btn svg {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.collapse-container .ant-collapse-header {
+    padding: 5px 16px !important;
+}
+
+.collapse-container .shimmer {
+    display: inline;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(to right, #000 0%, #ddd 50%, #000 100%);
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 155px 200%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+}
+
+@keyframes shimmer {
+    0% {
+            background-position: top right;
+    }
+    100% {
+            background-position: top left;
+    }
+}
