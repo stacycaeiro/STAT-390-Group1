@@ -46,7 +46,6 @@ yarn-error.log*
 *.jar
 *.war
 *.ear
-*.zip
 *.tar.gz
 *.rar
 
